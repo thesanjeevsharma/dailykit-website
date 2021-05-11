@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+.green_heading {
+  max-width: 65vw;
+  font-size: 7.7vh;
+  color: #8ac03b;
+  font-family: "Chivo", sans-serif;
+  font-weight: 100;
+  margin-bottom: 11.5vh;
+  margin-top: 22.5vh;
+  line-height: 5.5rem;
+}
+.black_heading {
+  max-width: 60vw;
+  font-size: 12.5vh;
+  font-family: "Chivo", sans-serif;
+  font-weight: 1000;
+  color: #1d2b44;
+  margin-bottom: 33vh;
+  line-height: 5.5rem;
+}
+.sidebar_heading {
+  font-size: 30px;
+  width:30vh;
+  font-family: "Nunito", sans-serif;
+  color: #073763;
+}
+.para_heading {
+  font-size: 22px;
+  font-weight: bold;
+  color: #073763;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 15vh;
+}
+ul.link_container{
+  padding-left:0px;
+  list-style-type:none;
+}
+
+.sidebar_link{
+  color:black;
+  list-style-type:none !important;
+  text-decoration: none;
+  font-size: 18px;
+  transition: opacity 0.5s;
+}
+.sidebar_link:hover{
+ opacity:0.5;
+  color:black
+}
+small {
+  color: grey;
+}
+.head {
+  margin: 0vh 0vh 0vh 15vh;
+}
+.para_first{
+  color: #494d4e;
+  font-size: 18px;
+  font-family: chivo,sans-serif;
+}
+.para2_heading{
+  font-size: 30px;
+  font-family: "Nunito", sans-serif;
+  color: #073763;
+}

@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-
+/* bakery */
 .green_heading {
   max-width: 65vw;
   font-size: 7.7vh;
@@ -54,13 +54,12 @@ ul.link_container {
   color: black;
   list-style-type: none !important;
   text-decoration: none;
-  font-size: 18px;
   transition: all 0.4s ease-in-out;
   font-family: "Chivo", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 18px;
+  line-height: 2.5;
   padding: 10px;
-  font-weight: 400;
+  font-weight: normal;
   margin-bottom: 2px;
 }
 
@@ -87,7 +86,9 @@ small {
   font-size: 30px;
   font-family: "Nunito", sans-serif;
   color: #073763;
+  font-weight: bold;
 }
+/* blog-section */
 .Blog_heading {
   font-size: 1.625rem;
   text-align: center;
@@ -106,4 +107,51 @@ small {
 .ReadMore:hover {
   color: orange;
   text-decoration: underline;
+}
+/* footer-styling */
+.copyright {
+  font-family: chivo, sans-serif;
+  font-weight: 200;
+  line-height: 1.5;
+  background: black;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  word-wrap: break-word;
+  font-size: 17px;
+}
+.flex-container {
+  background: #f7f7f7;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content:center ;
+  justify-content:center ;
+  
+}
+
+.flex-container > div {
+  font-family:"chivo",sans-serif;
+  width: 18rem;
+  margin: 10px;
+  font-size: 17px;
+  line-height: 1.8rem;
+  
+}
+.flex-container > div> ul{
+list-style:none}
+.flex-container > div> ul>li{
+  line-height:2.5rem;
+  cursor: pointer;
+}
+.flex-container > div> ul>li:hover{
+  color:orange
+}
+.footer_section{
+  color: #113d63;
+  font-weight:700;
+}
+.footer_section h3{
+  color: #113d63;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
 }

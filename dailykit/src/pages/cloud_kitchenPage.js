@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react'
-import cloud_kitchen from "../components/cloud_kitchen";
 import Navbar from "../Navbar";
 import Footer from "../Footer.js";
+import Cloud_kitchen from '../components/Cloud_kitchen';
 
 
 export default class cloud_kitchen_Page extends PureComponent {
@@ -9,7 +9,7 @@ export default class cloud_kitchen_Page extends PureComponent {
         return (
             <div>
             <Navbar />
-            <cloud_kitchen />
+                <Cloud_kitchen/>
             <Footer />
             </div>
         )

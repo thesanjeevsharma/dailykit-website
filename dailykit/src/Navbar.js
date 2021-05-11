@@ -43,9 +43,9 @@ export default class Navbar extends PureComponent {
                                     <li><a className="dropdown-item" href="#">What is a Meal Kit?</a></li>
                                     <li><a className="dropdown-item" href="#">How to start a Meal kit service</a></li>
                                     <li><a className="dropdown-item" href="#">For Enterprise</a></li>
-                                    <li><a className="dropdown-item" href="#">For Restaurants</a></li>      
+                                    <li><a className="dropdown-item" href="/restaurants">For Restaurants</a></li>      
                                     <li><a className="dropdown-item" href="/cloud_kitchen">Cloud Kitchen</a></li>
-                                    <li><a className="dropdown-item" href="#">Bakery</a></li>
+                                    <li><a className="dropdown-item" href="/bakerypage">Bakery</a></li>
                                       
                                 </ul>
                             </li>

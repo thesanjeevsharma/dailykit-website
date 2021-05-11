@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./../style.css";
- export class cloud_kitchen extends Component {
+export class Cloud_kitchen extends Component {
   render() {
     return (
       <div>
@@ -297,4 +297,4 @@ import "./../style.css";
   }
 }
 
-
+export default Cloud_kitchen;

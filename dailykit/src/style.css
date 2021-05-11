@@ -43,10 +43,19 @@ ul.link_container{
   list-style-type:none !important;
   text-decoration: none;
   font-size: 18px;
-  transition: opacity 0.5s;
+  transition: all 0.4s ease-in-out;
+  font-family: "Chivo", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 10px;
+  font-weight: 400;
+  margin-bottom: 2px;
+  position: relative;
+  
 }
+
 .sidebar_link:hover{
- opacity:0.5;
+ opacity:0.1;
   color:black
 }
 small {
@@ -64,4 +73,21 @@ small {
   font-size: 30px;
   font-family: "Nunito", sans-serif;
   color: #073763;
+}
+.Blog_heading{
+  font-size: 1.625rem;
+  text-align: center;
+  font-weight: 900;
+  color: #113D63;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 12vh;
+}
+.ReadMore{
+text-decoration: none;
+color:#113D63;
+transition: all 0.4s ease-in-out;
+}
+.ReadMore:hover{
+  color:orange;
+  text-decoration:underline;
 }

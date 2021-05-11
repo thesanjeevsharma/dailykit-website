@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 .green_heading {
   max-width: 65vw;
   font-size: 7.7vh;
@@ -11,6 +12,7 @@
   margin-top: 22.5vh;
   line-height: 5.5rem;
 }
+
 .black_heading {
   max-width: 60vw;
   font-size: 12.5vh;
@@ -20,27 +22,37 @@
   margin-bottom: 33vh;
   line-height: 5.5rem;
 }
+
 .sidebar_heading {
   font-size: 30px;
-  width:30vh;
+  width: 30vh;
   font-family: "Nunito", sans-serif;
   color: #073763;
 }
+
 .para_heading {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
   color: #073763;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "chivo", sans-serif;
   margin-bottom: 15vh;
 }
-ul.link_container{
-  padding-left:0px;
-  list-style-type:none;
+.container {
+  margin-bottom: 10vh;
+}
+ul.link_container {
+  padding-left: 0px;
+  list-style-type: none;
 }
 
-.sidebar_link{
-  color:black;
-  list-style-type:none !important;
+.sticky-top {
+  top: 20vh;
+  z-index: 0;
+}
+
+.sidebar_link {
+  color: black;
+  list-style-type: none !important;
   text-decoration: none;
   font-size: 18px;
   transition: all 0.4s ease-in-out;
@@ -50,44 +62,48 @@ ul.link_container{
   padding: 10px;
   font-weight: 400;
   margin-bottom: 2px;
-  position: relative;
-  
 }
 
-.sidebar_link:hover{
- opacity:0.1;
-  color:black
+.sidebar_link:hover {
+  opacity: 0.1;
+  color: black;
 }
+
 small {
   color: grey;
 }
+
 .head {
   margin: 0vh 0vh 0vh 15vh;
 }
-.para_first{
+
+.para_first,
+.para_second {
   color: #494d4e;
   font-size: 18px;
-  font-family: chivo,sans-serif;
+  font-family: "chivo", sans-serif;
 }
-.para2_heading{
+.para2_heading {
   font-size: 30px;
   font-family: "Nunito", sans-serif;
   color: #073763;
 }
-.Blog_heading{
+.Blog_heading {
   font-size: 1.625rem;
   text-align: center;
   font-weight: 900;
-  color: #113D63;
-  font-family: 'Nunito', sans-serif;
+  color: #113d63;
+  font-family: "Nunito", sans-serif;
   margin-top: 12vh;
 }
-.ReadMore{
-text-decoration: none;
-color:#113D63;
-transition: all 0.4s ease-in-out;
+
+.ReadMore {
+  text-decoration: none;
+  color: #113d63;
+  transition: all 0.4s ease-in-out;
 }
-.ReadMore:hover{
-  color:orange;
-  text-decoration:underline;
+
+.ReadMore:hover {
+  color: orange;
+  text-decoration: underline;
 }

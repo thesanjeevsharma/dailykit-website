@@ -4,7 +4,8 @@ import './style.css';
 export default class Navbar extends PureComponent {
     render() {
         return (
-        <div style={{"position":"fixed","top": "0","width":"100%"}}>
+        <div style={{"position":"fixed","top": "0","width":"100%",
+        "z-index": "1"}}>
             <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{"border":"0px solid black", "boxShadow":"5px 5px 5px #888888"}}>
                     <div className="container-fluid mt-2 mb-2">
                     <a className="navbar-brand" href="/" style={{"marginLeft":"1.5rem","marginRight":"15rem"}}>

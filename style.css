@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+.subheading {
+  font-size: 7vh;
+  max-width: 50vw;
+  color: #8ac03b;
+  font-family: "Chivo", sans-serif;
+  font-weight: 300;
+  margin-bottom: 5vh;
+}
+.heading {
+  max-width: 50vw;
+  font-size: 10vh;
+  font-family: "Chivo", sans-serif;
+  font-weight: 1000;
+  color: #1d2b44;
+  margin-bottom: 5vh;
+}
+.sidebar_heading {
+  font-family: "Nunito", sans-serif;
+  color: #1d2b44;
+  font-family: "Chivo", sans-serif;
+}
+.para_heading {
+  color: #1d2b44;
+  font-family: "Chivo", sans-serif;
+  display: inline;
+  font-weight: 300;
+  margin-bottom: 15vh;
+}
+li {
+  list-style: none;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 2px;
+  font-weight: 200;
+  padding: 10px;
+}
+small {
+  color: grey;
+}
+.head {
+  margin: 0vh 0vh 0vh 20vh;
+}

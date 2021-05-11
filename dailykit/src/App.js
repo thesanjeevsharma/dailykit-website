@@ -1,16 +1,28 @@
+import React, { Component } from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
 
-import Bakeries from './components/Bakeries.js';
-import Navbar from './Navbar';
-import Footer from './Footer.js';
-function App() {
-  return (
-    <div className="App">
-      <Navbar />
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-      <Bakeries />
-      <Footer/>
-    </div>
-  );
+} from "react-router-dom";
+
+import BakeryPage from "./pages/bakery";
+import cloud_kitchenPage from "./pages/cloud_kitchenPage";
+
+class App extends Component {
+ 
+  render() {
+    return (
+      <div className="App">
+        <Router>
+          <Switch>
+            <Route path="/" component={BakeryPage} />
+            <Route path="/cloud_kitchen" component={cloud_kitchenPage} />
+          </Switch>
+        </Router>
+      </div>
+    );
+  }
 }
 
 export default App;

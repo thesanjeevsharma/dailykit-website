@@ -2,23 +2,23 @@ import React, { PureComponent } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer.js";
 import "./../style.css";
-import BlackHeading from "./../components/BlackHeading";
-import BlogSection from "./../components/BlogSection";
-import GreenHeading from "./../components/GreenHeading";
-import Sidebar from "./../components/Sidebar";
-export default class BakeryPage extends PureComponent {
+import BlackHeading from "../components/BlackHeading";
+import BlogSection from "../components/BlogSection";
+import GreenHeading from "../components/GreenHeading";
+import Sidebar from "../components/Sidebar";
+export default class How_to_start_a_meal_kit_service extends PureComponent {
   render() {
     return (
       <div>
         <Navbar />
-        <Bakeries />
+        <StartMealKit />
         <Footer />
       </div>
     );
   }
 }
 
-export class Bakeries extends PureComponent {
+export class StartMealKit extends PureComponent {
   render() {
     return (
       <div>

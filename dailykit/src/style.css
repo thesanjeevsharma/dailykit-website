@@ -124,33 +124,32 @@ small {
   background: #f7f7f7;
   display: flex;
   flex-wrap: nowrap;
-  align-content:center ;
-  justify-content:center ;
-  
+  align-content: center;
+  justify-content: center;
 }
 
 .flex-container > div {
-  font-family:"chivo",sans-serif;
+  font-family: "chivo", sans-serif;
   width: 18rem;
   margin: 10px;
   font-size: 17px;
   line-height: 1.8rem;
-  
 }
-.flex-container > div> ul{
-list-style:none}
-.flex-container > div> ul>li{
-  line-height:2.5rem;
+.flex-container > div > ul {
+  list-style: none;
+}
+.flex-container > div > ul > li {
+  line-height: 2.5rem;
   cursor: pointer;
 }
-.flex-container > div> ul>li:hover{
-  color:orange
+.flex-container > div > ul > li:hover {
+  color: orange;
 }
-.footer_section{
+.footer_section {
   color: #113d63;
-  font-weight:700;
+  font-weight: 700;
 }
-.footer_section h3{
+.footer_section h3 {
   color: #113d63;
   font-family: "Nunito", sans-serif;
   font-weight: bold;

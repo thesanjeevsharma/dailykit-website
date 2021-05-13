@@ -99,17 +99,26 @@ export default class Navbar extends PureComponent {
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a
+                        className="dropdown-item"
+                        href="/AboutUs/OurPhilosophy"
+                      >
                         About Us{" "}
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a
+                        className="dropdown-item"
+                        href="/Tools/Revenue_Calculator"
+                      >
                         Tools
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a
+                        className="dropdown-item"
+                        href="/Meal_Kit_Guides/Meal_Kit_Packaging"
+                      >
                         Meal Kit Guides
                       </a>
                     </li>
@@ -198,22 +207,22 @@ export default class Navbar extends PureComponent {
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="Recipe_Provider">
                         Recipe Provider
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="Co_packer">
                         Co-packer
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="Co_seller">
                         Co-Seller
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="Delivery_Partner">
                         Delivery Partner
                       </a>
                     </li>

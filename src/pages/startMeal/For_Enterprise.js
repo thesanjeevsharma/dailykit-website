@@ -1,24 +1,24 @@
 import React, { PureComponent } from "react";
-import Navbar from "../Navbar";
-import Footer from "../Footer.js";
-import "./../style.css";
-import BlackHeading from "../components/BlackHeading";
-import BlogSection from "../components/BlogSection";
-import GreenHeading from "../components/GreenHeading";
-import Sidebar from "../components/Sidebar";
-export default class For_Restaurants extends PureComponent {
+import Navbar from "../../Navbar";
+import Footer from "../../Footer";
+import "../../style.css";
+import BlackHeading from "../../components/BlackHeading";
+import BlogSection from "../../components/BlogSection";
+import GreenHeading from "../../components/GreenHeading";
+import Sidebar from "../../components/Sidebar";
+export default class For_Enterprise extends PureComponent {
   render() {
     return (
       <div>
         <Navbar />
-        <Restaurants />
+        <Enterprise />
         <Footer />
       </div>
     );
   }
 }
 
-export class Restaurants extends PureComponent {
+export class Enterprise extends PureComponent {
   render() {
     return (
       <div>

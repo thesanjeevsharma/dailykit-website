@@ -1,24 +1,24 @@
 import React, { PureComponent } from "react";
-import Navbar from "../Navbar";
-import Footer from "../Footer.js";
-import "./../style.css";
-import BlackHeading from "../components/BlackHeading";
-import BlogSection from "../components/BlogSection";
-import GreenHeading from "../components/GreenHeading";
-import Sidebar from "../components/Sidebar";
-export default class How_to_start_a_meal_kit_service extends PureComponent {
+import Navbar from "../../Navbar";
+import Footer from "../../Footer.js";
+import "../../style.css";
+import BlackHeading from "../../components/BlackHeading";
+import BlogSection from "../../components/BlogSection";
+import GreenHeading from "../../components/GreenHeading";
+import Sidebar from "../../components/Sidebar";
+export default class Meal_Kit_PackagingPage extends PureComponent {
   render() {
     return (
       <div>
         <Navbar />
-        <StartMealKit />
+        <Bakeries />
         <Footer />
       </div>
     );
   }
 }
 
-export class StartMealKit extends PureComponent {
+export class Bakeries extends PureComponent {
   render() {
     return (
       <div>

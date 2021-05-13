@@ -1,13 +1,13 @@
 import React, { PureComponent } from "react";
-import Navbar from "../Navbar";
-import Footer from "../Footer.js";
-import "./../style.css";
-import BlackHeading from "./../components/BlackHeading";
-import BlogSection from "./../components/BlogSection";
-import GreenHeading from "./../components/GreenHeading";
-import Sidebar from "./../components/Sidebar";
+import Navbar from "../../Navbar";
+import Footer from "../../Footer.js";
+import "../../style.css";
+import BlackHeading from "../../components/BlackHeading";
+import BlogSection from "../../components/BlogSection";
+import GreenHeading from "../../components/GreenHeading";
+import Sidebar from "../../components/Sidebar";
 
-export default class cloud_kitchen extends PureComponent {
+export default class Cloud_kitchen extends PureComponent {
   render() {
     return (
       <div>

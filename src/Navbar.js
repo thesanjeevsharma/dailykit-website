@@ -26,7 +26,7 @@ export default class Navbar extends PureComponent {
               />
             </a>
 
-            <button
+            {/* <button
               className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
@@ -36,7 +36,7 @@ export default class Navbar extends PureComponent {
               aria-label="Toggle navigation"
             >
               <span className="navbar-toggler-icon"></span>
-            </button>
+            </button> */}
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
               <ul className="navbar-nav">
                 <li className="nav-item dropdown">
@@ -54,25 +54,52 @@ export default class Navbar extends PureComponent {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Platform
+                    Sell
                   </a>
                   <ul
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <li>
-                      <a className="dropdown-item" href="#">
-                        Sell
+                      <a
+                        style={{
+                          color: "#113D63",
+                          fontWeight: "600",
+                          marginTop: "0.5rem",
+                          fontSize: "17px",
+                        }}
+                        className="dropdown-item"
+                        href="#"
+                      >
+                        onDemand Store
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
-                        Market
+                      <a
+                        style={{
+                          color: "#113D63",
+                          fontWeight: "600",
+                          marginTop: "0.5rem",
+                          fontSize: "17px",
+                        }}
+                        className="dropdown-item"
+                        href="#"
+                      >
+                        Subscription Store
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
-                        Operate
+                      <a
+                        style={{
+                          color: "#113D63",
+                          fontWeight: "600",
+                          marginTop: "0.5rem",
+                          fontSize: "17px",
+                        }}
+                        className="dropdown-item"
+                        href="#"
+                      >
+                        Menu Management
                       </a>
                     </li>
                   </ul>
@@ -92,7 +119,7 @@ export default class Navbar extends PureComponent {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Resources
+                    Operate
                   </a>
                   <ul
                     className="dropdown-menu"
@@ -100,87 +127,237 @@ export default class Navbar extends PureComponent {
                   >
                     <li>
                       <a
+                        style={{
+                          color: "#113D63",
+                          fontWeight: "600",
+                          marginTop: "0.5rem",
+                          fontSize: "17px",
+                        }}
                         className="dropdown-item"
                         href="/AboutUs/OurPhilosophy"
                       >
-                        About Us{" "}
+                        Centralized Order Dashboard
                       </a>
                     </li>
                     <li>
                       <a
+                        style={{
+                          color: "#113D63",
+                          fontWeight: "600",
+                          marginTop: "0.5rem",
+                          fontSize: "17px",
+                        }}
                         className="dropdown-item"
                         href="/Tools/Revenue_Calculator"
                       >
-                        Tools
+                        Order Routing & KDS
                       </a>
                     </li>
                     <li>
                       <a
+                        style={{
+                          color: "#113D63",
+                          fontWeight: "600",
+                          marginTop: "0.5rem",
+                          fontSize: "17px",
+                        }}
                         className="dropdown-item"
                         href="/Meal_Kit_Guides/Meal_Kit_Packaging"
+                      >
+                        Order Fulfillment Management
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        style={{
+                          color: "#113D63",
+                          fontWeight: "600",
+                          marginTop: "0.5rem",
+                          fontSize: "17px",
+                        }}
+                        className="dropdown-item"
+                        href="/Tools/Revenue_Calculator"
+                      >
+                        Packaging Management
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        style={{
+                          color: "#113D63",
+                          fontWeight: "600",
+                          marginTop: "0.5rem",
+                          fontSize: "17px",
+                        }}
+                        className="dropdown-item"
+                        href="/Meal_Kit_Guides/Meal_Kit_Packaging"
+                      >
+                        Portion Control
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link"
+                    style={{
+                      color: "#113D63",
+                      fontWeight: "600",
+                      marginLeft: "2rem",
+                      fontSize: "19px",
+                    }}
+                    href="#"
+                  >
+                    Market
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link"
+                    style={{
+                      color: "#113D63",
+                      fontWeight: "600",
+                      marginLeft: "2rem",
+                      fontSize: "19px",
+                    }}
+                    href="#"
+                  >
+                    We Serve
+                  </a>
+                </li>
+                <li className="nav-item dropdown">
+                  <a
+                    className="nav-link dropdown-toggle"
+                    style={{
+                      color: "#113D63",
+                      fontWeight: "600",
+                      marginLeft: "2rem",
+                      fontSize: "19px",
+                    }}
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Start a Meal Kit Brand
+                  </a>
+                  <ul
+                    className="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li>
+                      <a
+                        style={{
+                          color: "#113D63",
+                          fontWeight: "600",
+                          marginTop: "0.5rem",
+                          fontSize: "17px",
+                        }}
+                        className="dropdown-item"
+                        href="/For_Restaurants"
+                      >
+                        For Restaurants
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        style={{
+                          color: "#113D63",
+                          fontWeight: "600",
+                          marginTop: "0.5rem",
+                          fontSize: "17px",
+                        }}
+                        className="dropdown-item"
+                        href="For_Enterprise"
+                      >
+                        For Enterprise
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        style={{
+                          color: "#113D63",
+                          fontWeight: "600",
+                          marginTop: "0.5rem",
+                          fontSize: "17px",
+                        }}
+                        className="dropdown-item"
+                        href="/cloud_kitchen"
+                      >
+                        Cloud Kitchen
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        style={{
+                          color: "#113D63",
+                          fontWeight: "600",
+                          marginTop: "0.5rem",
+                          fontSize: "17px",
+                        }}
+                        className="dropdown-item"
+                        href="/bakerypage"
+                      >
+                        Bakery
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        style={{
+                          color: "#113D63",
+                          fontWeight: "600",
+                          marginTop: "0.5rem",
+                          fontSize: "17px",
+                        }}
+                        className="dropdown-item"
+                        href="How_to_start_a_meal_kit_service"
                       >
                         Meal Kit Guides
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
-                        Case study
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <li className="nav-item dropdown">
-                  <a
-                    className="nav-link dropdown-toggle"
-                    style={{
-                      color: "#113D63",
-                      fontWeight: "600",
-                      marginLeft: "2rem",
-                      fontSize: "19px",
-                    }}
-                    href="#"
-                    id="navbarDropdownMenuLink"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Start Meal Kit Brand
-                  </a>
-                  <ul
-                    className="dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink"
-                  >
-                    <li>
-                      <a className="dropdown-item" href="What_is_a_mealkit">
-                        What is a Meal Kit?
+                      <a
+                        style={{
+                          color: "#113D63",
+                          fontWeight: "600",
+                          marginTop: "0.5rem",
+                          fontSize: "17px",
+                        }}
+                        className="dropdown-item"
+                        href="How_to_start_a_meal_kit_service"
+                      >
+                        Start Meal Kit Brand
                       </a>
                     </li>
                     <li>
                       <a
+                        style={{
+                          color: "#113D63",
+                          fontWeight: "600",
+                          marginTop: "0.5rem",
+                          fontSize: "17px",
+                        }}
                         className="dropdown-item"
                         href="How_to_start_a_meal_kit_service"
                       >
-                        How to start a Meal kit service
+                        Case study
                       </a>
                     </li>
-                    <li>
-                      <a className="dropdown-item" href="For_Enterprise">
-                        For Enterprise
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="/For_Restaurants">
-                        For Restaurants
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="/cloud_kitchen">
-                        Cloud Kitchen
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="/bakerypage">
-                        Bakery
+                    <li className="nav-item dropdown">
+                      <a
+                        style={{
+                          color: "#113D63",
+                          fontWeight: "600",
+                          marginTop: "0.5rem",
+                          fontSize: "17px",
+                        }}
+                        className="dropdown-item"
+                        href="Recipe_Provider"
+                      >
+                        Do more
                       </a>
                     </li>
                   </ul>
@@ -200,34 +377,49 @@ export default class Navbar extends PureComponent {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Do more
+                    About Us
                   </a>
                   <ul
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <li>
-                      <a className="dropdown-item" href="Recipe_Provider">
-                        Recipe Provider
+                      <a
+                        style={{
+                          color: "#113D63",
+                          fontWeight: "600",
+                          marginTop: "0.5rem",
+                          fontSize: "17px",
+                        }}
+                        style={{
+                          color: "#113D63",
+                          fontWeight: "600",
+                          marginTop: "0.5rem",
+                          fontSize: "17px",
+                        }}
+                        className="dropdown-item"
+                        href="/AboutUs/OurPhilosophy"
+                      >
+                        Our Philosophy
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="Co_packer">
-                        Co-packer
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="Co_seller">
-                        Co-Seller
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="Delivery_Partner">
-                        Delivery Partner
+                      <a
+                        style={{
+                          color: "#113D63",
+                          fontWeight: "600",
+                          marginTop: "0.5rem",
+                          fontSize: "17px",
+                        }}
+                        className="dropdown-item"
+                        href="/AboutUs/Blog"
+                      >
+                        Blog
                       </a>
                     </li>
                   </ul>
                 </li>
+
                 <li className="nav-item">
                   <a
                     className="nav-link"

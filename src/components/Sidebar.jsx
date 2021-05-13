@@ -11,9 +11,10 @@ const Sidebar = (props) => {
             <h3 className="sidebar_heading">{props.rest[0].sidebar_heading}</h3>
             <ul className="link_container">
               {props.rest[0].sidebar_link.map((link) => {
+                let links = "#" + link;
                 return (
                   <li>
-                    <a href={link} className="sidebar_link">
+                    <a href={links} className="sidebar_link">
                       {link}
                     </a>
                   </li>
@@ -25,7 +26,9 @@ const Sidebar = (props) => {
         {/* <--initial Para--> */}
         <div className="col-6">
           <p className="para_first">
-            <span className="para_heading">{props.rest[0].para_heading} </span>
+            <span className="para_heading" id={props.rest[0].para_heading}>
+              {props.rest[0].para_heading}{" "}
+            </span>
             {props.rest[0].para.map((para) => {
               return (
                 <>

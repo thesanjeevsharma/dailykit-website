@@ -28,6 +28,7 @@ import Revenue_CalculatorPage from "./pages/resources/Revenue_Calculator";
 import Groctorant_study_centerPage from "./pages/resources/Groctorant_study_center";
 import Meal_Kit_PackagingPage from "./pages/resources/Meal_Kit_Packaging";
 import Meal_Kit_Marketing_guidePage from "./pages/resources/Meal_Kit_Marketing_guide";
+import Homepage from "./pages/homepage";
 
 // routing
 
@@ -37,7 +38,7 @@ class App extends Component {
       <div className="App">
         <Router>
           <Switch>
-            <Route exact path="/" component={Navbar} />
+            <Route exact path="/" component={Homepage} />
 
             {/* start meal kit brand */}
 

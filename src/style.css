@@ -204,3 +204,19 @@ small {
   font-family: "Nunito", sans-serif;
   font-weight: bold;
 }
+/* homepage */
+.imagebox1 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/Serve-restaurant@2x.png");
+}
+.imagebox2 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/Serve-supermarket@2x.png");
+}
+.accompaniments_image {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/accompaniments.gif");
+}
+.onDemandCategories {
+  list-style-type: "✔ ";
+}
+.onDemandCategories li {
+  margin-bottom: 2rem;
+}

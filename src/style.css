@@ -223,3 +223,6 @@ small {
 .nunito {
   font-family: "Nunito", sans-serif;
 }
+.margin {
+  margin: 0px 0px 0px 60px !important;
+}

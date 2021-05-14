@@ -17,6 +17,9 @@ import GamifyYourMarketing from "../components/homepage/GamifyYourMarketing";
 import DeliverExcellence from "../components/homepage/DeliverExcellence";
 import List from "../components/homepage/List";
 import StartRunGrow from "../components/homepage/StartRunGrow";
+import OurPricing from "../components/homepage/OurPricing";
+import PartnerWithDailyKIT from "../components/homepage/PartnerWithDailyKIT";
+import ScheduleMeeting from "../components/homepage/ScheduleMeeting";
 export default class Homepage extends PureComponent {
   render() {
     return (
@@ -33,6 +36,9 @@ export default class Homepage extends PureComponent {
         <DeliverExcellence />
         <List />
         <StartRunGrow />
+        <OurPricing />
+        <PartnerWithDailyKIT />
+        <ScheduleMeeting />
         <Footer />
       </div>
     );

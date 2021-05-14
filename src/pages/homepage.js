@@ -16,6 +16,7 @@ import CustomAdvancedCoupons from "../components/homepage/CustomAdvancedCoupons"
 import GamifyYourMarketing from "../components/homepage/GamifyYourMarketing";
 import DeliverExcellence from "../components/homepage/DeliverExcellence";
 import List from "../components/homepage/List";
+import StartRunGrow from "../components/homepage/StartRunGrow";
 export default class Homepage extends PureComponent {
   render() {
     return (
@@ -31,6 +32,7 @@ export default class Homepage extends PureComponent {
         <CustomAdvancedCoupons />
         <DeliverExcellence />
         <List />
+        <StartRunGrow />
         <Footer />
       </div>
     );

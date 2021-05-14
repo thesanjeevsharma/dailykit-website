@@ -14,6 +14,8 @@ import SellEverythingWithEveryWARE from "../components/homepage/SellEverythingWi
 import OnDemandCategories from "../components/homepage/OnDemandCategories";
 import CustomAdvancedCoupons from "../components/homepage/CustomAdvancedCoupons";
 import GamifyYourMarketing from "../components/homepage/GamifyYourMarketing";
+import DeliverExcellence from "../components/homepage/DeliverExcellence";
+import List from "../components/homepage/List";
 export default class Homepage extends PureComponent {
   render() {
     return (
@@ -25,8 +27,10 @@ export default class Homepage extends PureComponent {
         <ImageBox />
         <SellEverythingWithEveryWARE />
         <OnDemandCategories />
-        <CustomAdvancedCoupons />
         <GamifyYourMarketing />
+        <CustomAdvancedCoupons />
+        <DeliverExcellence />
+        <List />
         <Footer />
       </div>
     );

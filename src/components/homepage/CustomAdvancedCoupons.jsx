@@ -24,13 +24,16 @@ export default class CustomAdvancedCoupons extends PureComponent {
             <ul class="onDemandCategories">
               <li>Signup Offer Campaigns</li>
               <li>Referral Marketing Campaigns</li>
-              <li>Post-Order Loyalty Points</li>
-              <li>Wallet Cashback</li>
+              <li>Post-Order Loyalty Points Wallet Cashback</li>
             </ul>
           </div>
           <div class="col-4">
             <ul class="onDemandCategories">
-              <li>Automated Social Media Collateral (Coming Soon)</li>
+              <li>
+                Automated Social Media Collateral
+                <br />
+                (Coming Soon)
+              </li>
               <li>Automated Recipe Cards</li>
               <li>SEO-Friendly Product Pages</li>
             </ul>

@@ -220,3 +220,6 @@ small {
 .onDemandCategories li {
   margin-bottom: 2rem;
 }
+.nunito {
+  font-family: "Nunito", sans-serif;
+}

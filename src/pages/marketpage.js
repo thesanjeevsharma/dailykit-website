@@ -2,23 +2,26 @@ import React, { PureComponent } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer.js";
 import "../style.css";
+import MarketingMadeEasy from "../components/marketpage/MarketingMadeEasy";
+import BuildSmarterCampaigns from "../components/marketpage/BuildSmarterCampaigns";
+import InspireCustomers from "../components/marketpage/InspireCustomers";
+import CreateRewardingExperiences from "../components/marketpage/CreateRewardingExperiences";
+import Yourtryst from "../components/marketpage/Yourtryst";
+import KeepthemLoyal from "../components/marketpage/KeepthemLoyal";
+import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
 import ScheduleMeeting from "../components/homepage/ScheduleMeeting";
-// import StoreThatSells from "../components/onDemardStorePage/StoreThatSells";
-// import PopularOrderingExperiences from "../components/onDemardStorePage/PopularOrderingExperiences";
-// import IdealProduct from "../components/onDemardStorePage/IdealProduct";
-import RealTimeOrderTracking from "../components/onDemardStorePage/RealTimeOrderTracking";
-import OwnYourOnline from "../components/onDemardStorePage/OwnYourOnline";
-import Showcase from "../components/onDemardStorePage/Showcase";
-import WhyChoose from "../components/onDemardStorePage/WhyChoose";
 export default class Marketpage extends PureComponent {
   render() {
     return (
       <div style={{ marginTop: "12rem" }}>
         <Navbar />
-        <RealTimeOrderTracking />
-        <Showcase />
-        <OwnYourOnline />
-        <WhyChoose />
+        <MarketingMadeEasy />
+        <BuildSmarterCampaigns />
+        <InspireCustomers />
+        <CreateRewardingExperiences />
+        <Yourtryst />
+        <KeepthemLoyal />
+        <EndToEndFoodBusiness />
         <ScheduleMeeting />
         <Footer />
       </div>

@@ -226,3 +226,10 @@ small {
 .margin {
   margin: 0px 0px 0px 60px !important;
 }
+/* vertical line */
+.vl {
+  border-left: 6px solid #8ac03b;
+  height: 50px;
+  display: inline-block;
+  margin-right: 20px;
+}

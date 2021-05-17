@@ -68,7 +68,7 @@ export default class Navbar extends PureComponent {
                           fontSize: "12px",
                         }}
                         className="dropdown-item"
-                        href="#"
+                        href="/sells/on-demand-online-store"
                       >
                         onDemand Store
                       </a>

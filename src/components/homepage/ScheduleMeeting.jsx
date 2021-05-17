@@ -81,12 +81,31 @@ export default class ScheduleMeeting extends PureComponent {
               business strategy.
             </p>
           </div>
-          <div class="col-7">
-            <img
-              src="https://static.hsappstatic.net/ui-images/static-2.377/optimized/errors/map.svg"
-              alt="map"
-              style={{ width: "45vw" }}
-            />
+          <div class="col-7 nunito">
+            <div class="row justify-content-center text-center">
+              <div class="col-3"></div>
+              <div class="col-8">
+                {" "}
+                <img
+                  src="https://static.hsappstatic.net/ui-images/static-2.377/optimized/errors/map.svg"
+                  alt="map"
+                  style={{ width: "15vw" }}
+                />
+                <br />
+                <h5>
+                  <strong>The booking page is no longer active</strong>
+                </h5>
+                <small>
+                  Please contact whoever sent you this booking page link. Or
+                  email
+                  <br /> <br />
+                  Rishi Singhal directly at{" "}
+                  <a href="rishi@dailykit.org" alt="mail">
+                    rishi@dailykit.org
+                  </a>
+                </small>
+              </div>
+            </div>
           </div>
         </div>
       </div>

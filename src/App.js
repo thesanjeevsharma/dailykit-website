@@ -29,6 +29,7 @@ import Groctorant_study_centerPage from "./pages/resources/Groctorant_study_cent
 import Meal_Kit_PackagingPage from "./pages/resources/Meal_Kit_Packaging";
 import Meal_Kit_Marketing_guidePage from "./pages/resources/Meal_Kit_Marketing_guide";
 import Homepage from "./pages/homepage";
+import OnDemandStorepage from "./pages/ondemandstorepage";
 
 // routing
 
@@ -51,7 +52,10 @@ class App extends Component {
               path="/How_to_start_a_meal_kit_service"
               component={How_to_start_a_meal_kit_service}
             />
-
+            <Route
+              path="/sells/on-demand-online-store"
+              component={OnDemandStorepage}
+            />
             {/* Do more */}
 
             <Route path="/Recipe_Provider" component={RecipeProviderPage} />

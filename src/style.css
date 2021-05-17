@@ -226,10 +226,29 @@ small {
 .margin {
   margin: 0px 0px 0px 60px !important;
 }
+/* videoheader */
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+}
+.videoTag_text {
+  position: absolute;
+  text-align: center;
+}
+.videoTag_btn {
+  padding: 10px 10px 10px 10px;
+}
 /* vertical line */
 .vl {
   border-left: 6px solid #8ac03b;
   height: 50px;
   display: inline-block;
   margin-right: 20px;
+}
+.column:hover {
+  background: #f8f8f7;
+  box-shadow: 2px 2px 3px 3px #e7e7e6;
 }

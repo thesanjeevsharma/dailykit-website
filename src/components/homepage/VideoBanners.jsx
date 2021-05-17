@@ -15,6 +15,30 @@ const VideoBanner = () => {
           type="video/mp4"
         />
       </video>
+      <div className="videoTag_text">
+        <h2 style={{ color: "lightblue" }}>Time to EVOLVE with</h2>
+        <h2 style={{ color: "white" }}>DailyKIT</h2>
+        <br />
+        <h5 style={{ color: "white" }}>
+          The only Trend-Responsive Food-tech solution You'll Ever Need
+        </h5>
+        <br />
+        <h4 style={{ color: "lightgreen" }}>Multiple Your Brand Awareness</h4>
+        <br />
+        <br />
+        <button type="button" className="btn btn-light btn-lg">
+          Schedule Demo
+        </button>
+        &ensp;
+        <button type="button" className="btn btn-primary btn-lg">
+          Start Now With A 3-Month Trail
+        </button>
+        <br />
+        <br />
+        <h6 style={{ color: "lightblue" }}>
+          Available for a Limited time Only
+        </h6>
+      </div>
     </div>
   );
 };

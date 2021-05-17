@@ -38,7 +38,9 @@ export default class Homepage extends PureComponent {
         <StartRunGrow />
         <OurPricing />
         <PartnerWithDailyKIT />
+
         <ScheduleMeeting />
+
         <Footer />
       </div>
     );

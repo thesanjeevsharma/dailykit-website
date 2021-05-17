@@ -198,7 +198,7 @@ export default class Navbar extends PureComponent {
                       marginLeft: "0.7rem",
                       fontSize: "14px",
                     }}
-                    href="#"
+                    href="/market"
                   >
                     Market
                   </a>
@@ -410,7 +410,7 @@ export default class Navbar extends PureComponent {
                       marginLeft: "0.7rem",
                       fontSize: "14px",
                     }}
-                    href="#"
+                    href="/ScheduleDemo"
                   >
                     Schedule Demo
                   </a>

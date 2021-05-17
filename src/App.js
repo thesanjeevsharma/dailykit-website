@@ -30,6 +30,8 @@ import Meal_Kit_PackagingPage from "./pages/resources/Meal_Kit_Packaging";
 import Meal_Kit_Marketing_guidePage from "./pages/resources/Meal_Kit_Marketing_guide";
 import Homepage from "./pages/homepage";
 import OnDemandStorepage from "./pages/ondemandstorepage";
+import ScheduleMeeting from "./components/homepage/ScheduleMeeting";
+import Marketpage from "./pages/marketpage";
 
 // routing
 
@@ -40,7 +42,7 @@ class App extends Component {
         <Router>
           <Switch>
             <Route exact path="/" component={Homepage} />
-
+            <Route exact path="/ScheduleDemo" component={ScheduleMeeting} />
             {/* start meal kit brand */}
 
             <Route path="/bakerypage" component={BakeryPage} />
@@ -56,6 +58,7 @@ class App extends Component {
               path="/sells/on-demand-online-store"
               component={OnDemandStorepage}
             />
+            <Route path="/market" component={Marketpage} />
             {/* Do more */}
 
             <Route path="/Recipe_Provider" component={RecipeProviderPage} />

@@ -46,7 +46,14 @@ export default class OwnYourOnline extends PureComponent {
                     <li>Themes & Brand Colors</li>
                     <li>Custom Brand Pages</li>
                   </ul>
-                </div>
+                </div>{" "}
+                <button
+                  type="button"
+                  style={{ fontSize: "14px", width: "150px" }}
+                  class="btn btn-dark btn-lg p-3 pl-4 pr-4"
+                >
+                  TELL ME MORE
+                </button>
               </p>
             </div>
           </div>

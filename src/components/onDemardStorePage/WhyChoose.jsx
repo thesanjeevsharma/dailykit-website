@@ -141,7 +141,7 @@ export default class WhyChoose extends PureComponent {
 
         <div
           style={{
-            background: "#111B2B",
+            background: "#111b2b",
             color: "white",
             marginTop: "6rem",
           }}
@@ -155,7 +155,7 @@ export default class WhyChoose extends PureComponent {
             }}
           >
             <div class="row justify-content-evenly">
-              <div class="col-3 p-4">
+              <div class="col-3 p-4 column2">
                 <img
                   alt="icon"
                   src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/Advance%20Scheduling.svg"
@@ -168,7 +168,7 @@ export default class WhyChoose extends PureComponent {
                   Menus.
                 </small>
               </div>
-              <div class="col-3 p-4">
+              <div class="col-3 p-4 column2">
                 <img
                   alt="icon"
                   src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/Margins.svg"
@@ -180,7 +180,7 @@ export default class WhyChoose extends PureComponent {
                   Control your food cost with Sales Price Recommendations.
                 </small>
               </div>
-              <div class="col-3 p-4">
+              <div class="col-3 p-4 column2">
                 <img
                   alt="icon"
                   src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/Precise%20Configuration.svg"
@@ -193,7 +193,7 @@ export default class WhyChoose extends PureComponent {
                 </small>
               </div>
               <div class="row justify-content-evenly">
-                <div class="col-3 p-4">
+                <div class="col-3 p-4 column2">
                   <img
                     alt="icon"
                     src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/Smart%20Insights.svg"
@@ -205,7 +205,7 @@ export default class WhyChoose extends PureComponent {
                     Automated Sales Reports with conversion details.
                   </small>
                 </div>
-                <div class="col-3 p-4">
+                <div class="col-3 p-4 column2">
                   <img
                     alt="icon"
                     src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/Discounts%20%26%20Coupons.svg"
@@ -217,7 +217,7 @@ export default class WhyChoose extends PureComponent {
                     Create Smart Rewards, Vouchers and more from CRM
                   </small>
                 </div>
-                <div class="col-3 p-4">
+                <div class="col-3 p-4 column2">
                   <img
                     alt="icon"
                     src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/Delivery%20Integrations.svg"

@@ -259,3 +259,11 @@ small {
   background: #f8f8f7;
   box-shadow: 2px 2px 3px 3px #e7e7e6;
 }
+.column2 {
+  border-radius: 7px;
+  background: linear-gradient(135deg, #121c2d 0%, #101a29 100%);
+  box-shadow: 10px -10px 20px rgb(7 11 17 / 20%),
+    -10px 10px 20px rgb(7 11 17 / 20%), 10px 10px 20px rgb(27 43 69 / 90%),
+    -10px -10px 25px rgb(7 11 17 / 90%), inset -1px -1px 2px rgb(27 43 69 / 30%),
+    inset 1px 1px 2px rgb(7 11 17 / 50%);
+}

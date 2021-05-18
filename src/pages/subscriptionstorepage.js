@@ -8,7 +8,8 @@ import PopularOrderingExperiences from "../components/onDemardStorePage/PopularO
 import OwnYourOnline from "../components/onDemardStorePage/OwnYourOnline";
 import WhyChoose from "../components/onDemardStorePage/WhyChoose";
 import TakingYourStore from "../components/subscription/TakingYourStore";
-export default class OnDemandStorepage extends PureComponent {
+import BlueBox from "../components/subscription/BlueBox";
+export default class SubscriptionStorepage extends PureComponent {
   render() {
     return (
       <div style={{ marginTop: "12rem" }}>
@@ -33,6 +34,7 @@ export default class OnDemandStorepage extends PureComponent {
             "https://www.dailykit.org/hubfs/dailykit-assets/marketStandardSubscriptionFlows@2x-1.png"
           }
         />
+        <BlueBox />
         <TakingYourStore />
         <OwnYourOnline />
         <WhyChoose />

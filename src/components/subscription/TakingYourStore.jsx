@@ -44,7 +44,7 @@ export default class CreateRewardingExperiences extends PureComponent {
                     width="40px"
                     alt="icon"
                   />
-                  <h5 style={{ display: "inline" }}>About Pages</h5>
+                  <h5 style={{ display: "inline" }}> About Pages</h5>
                   <p style={{ marginTop: "2rem" }}>
                     Showcase as much Information you want eg: Chef, Sourcing,
                     etc.
@@ -59,7 +59,7 @@ export default class CreateRewardingExperiences extends PureComponent {
                     width="40px"
                     alt="icon"
                   />
-                  <h5 style={{ display: "inline" }}>FAQ Pages</h5>
+                  <h5 style={{ display: "inline" }}> FAQ Pages</h5>
                   <p style={{ marginTop: "2rem" }}>
                     Easily Highlight FAQs and How it Work Pages to Your
                     Customers.

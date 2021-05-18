@@ -18,7 +18,7 @@ export default class Heading extends PureComponent {
             letterSpacing: "1.5px",
           }}
         >
-          Built For Food Businesses
+          {this.props.text ? this.props.text : "Built For Food Businesses"}
         </h1>
       </div>
     );

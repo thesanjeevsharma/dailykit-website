@@ -211,6 +211,12 @@ small {
 .imagebox2 {
   background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/Serve-supermarket@2x.png");
 }
+.imagebox3 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/Serve-cloudkitchen@2x.png");
+}
+.imagebox4 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/Serve-enterprise@2x.png");
+}
 .accompaniments_image {
   background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/accompaniments.gif");
 }
@@ -274,4 +280,55 @@ small {
     -10px 10px 20px rgb(7 11 17 / 20%), 10px 10px 20px rgb(27 43 69 / 90%),
     -10px -10px 25px rgb(7 11 17 / 90%), inset -1px -1px 2px rgb(27 43 69 / 30%),
     inset 1px 1px 2px rgb(7 11 17 / 50%);
+}
+/* optimize kitchen */
+.container_weserve {
+  display: flex;
+  flex-direction: row;
+  background-color: #111b2b;
+}
+.sideBar_left {
+  margin-left: 12vh;
+  width: 50%;
+}
+
+.sideBar_left h6 {
+  color: #8ac03b;
+  padding: 100px 0px 20px 0px;
+}
+
+.sideBar_left h1 {
+  color: white;
+  font-size: 9vh;
+  padding-bottom: 5vh;
+}
+
+.sideBar_left h5 {
+  color: white;
+  border-left: solid 5px #8ac03b;
+  padding: 0vh 0vh 1vh 4vh;
+  line-height: normal;
+}
+.weserve_button1 {
+  padding: 15px 41px 15px 41px;
+  color: #111b2b;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+.weserve_button2 {
+  background-color: #111b2b;
+  color: white;
+  font-weight: bold;
+  margin: 30px 0px 0px 5px;
+  padding: 15px 41px 15px 41px;
+  border: none;
+  border-radius: 5px;
+}
+.weserve_img {
+  height: auto;
+  width: 75%;
+}
+.container_weserve {
+  margin-top: 12rem;
 }

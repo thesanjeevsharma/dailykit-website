@@ -14,6 +14,18 @@ export default class OwnYourOnline extends PureComponent {
               />
             </div>
             <div class="col-6">
+              <div
+                style={{
+                  color: "#1374f6",
+                  fontWeight: "bolder",
+                  fontSize: "15px",
+                  marginBottom: "1rem",
+                  marginTop: "2rem",
+                }}
+              >
+                Don't Compromise
+              </div>
+
               <h2
                 style={{
                   fontWeight: "bolder",

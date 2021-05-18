@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-// navbar
-import Navbar from "./Navbar";
+
 // pages
 
 /* start meal kit brand */
@@ -28,10 +27,16 @@ import Revenue_CalculatorPage from "./pages/resources/Revenue_Calculator";
 import Groctorant_study_centerPage from "./pages/resources/Groctorant_study_center";
 import Meal_Kit_PackagingPage from "./pages/resources/Meal_Kit_Packaging";
 import Meal_Kit_Marketing_guidePage from "./pages/resources/Meal_Kit_Marketing_guide";
+// homepage
 import Homepage from "./pages/homepage";
+// sells
 import OnDemandStorepage from "./pages/ondemandstorepage";
+import SubscriptionStorepage from "./pages/subscriptionstorepage";
+// ScheduleMeeting
 import ScheduleMeeting from "./components/homepage/ScheduleMeeting";
+// marketpage
 import Marketpage from "./pages/marketpage";
+import MenuManagementpage from "./pages/menumanagement";
 
 // routing
 
@@ -44,7 +49,6 @@ class App extends Component {
             <Route exact path="/" component={Homepage} />
             <Route exact path="/ScheduleDemo" component={ScheduleMeeting} />
             {/* start meal kit brand */}
-
             <Route path="/bakerypage" component={BakeryPage} />
             <Route path="/Cloud_kitchen" component={Cloud_kitchen} />
             <Route path="/For_Enterprise" component={For_Enterprise} />
@@ -54,20 +58,25 @@ class App extends Component {
               path="/How_to_start_a_meal_kit_service"
               component={How_to_start_a_meal_kit_service}
             />
+            {/* sells */}
             <Route
               path="/sells/on-demand-online-store"
               component={OnDemandStorepage}
             />
+            <Route
+              path="/sells/subscription-online-store"
+              component={SubscriptionStorepage}
+            />
+            <Route path="/menu/overview" component={MenuManagementpage} />
+
+            {/* market */}
             <Route path="/market" component={Marketpage} />
             {/* Do more */}
-
             <Route path="/Recipe_Provider" component={RecipeProviderPage} />
             <Route path="/Co_packer" component={Co_packerPage} />
             <Route path="/Co_seller" component={Co_sellerPage} />
             <Route path="/Delivery_Partner" component={Delivery_PartnerPage} />
-
             {/* Resources */}
-
             <Route
               path="/AboutUs/OurPhilosophy"
               component={OurPhilosophyPage}

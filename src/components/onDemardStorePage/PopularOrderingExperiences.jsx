@@ -15,7 +15,7 @@ export default class PopularOrderingExperiences extends PureComponent {
                 marginTop: "2rem",
               }}
             >
-              Familiar & Intuitive
+              {this.props.subheading}
             </div>
             <h2
               style={{
@@ -25,15 +25,14 @@ export default class PopularOrderingExperiences extends PureComponent {
               }}
               className="nunito"
             >
-              Popular Ordering Experiences
+              {this.props.heading}
             </h2>
             <p
               style={{
                 fontSize: "23px",
               }}
             >
-              Customer Experience shouldn't be an expense. DailyKIT offers
-              turnkey solutions for higher conversions.
+              {this.props.text}
             </p>
 
             <ul
@@ -43,23 +42,14 @@ export default class PopularOrderingExperiences extends PureComponent {
                 marginTop: "2rem",
               }}
             >
-              <li>
-                Showcase Multiple Product Types in
-                <b> elegant cards & drawers.</b>
-              </li>
-              <li>
-                Give your customers option to choose between
-                <b> Now/Later & Pickup/Delivery.</b>
-              </li>
-              <li>
-                Increase conversions by showcasing categories as
-                <b> Digital Aisle for Smooth Browsing.</b>
-              </li>
+              {this.props.point.map((li) => {
+                return <li>{li}</li>;
+              })}
             </ul>
           </div>
           <div class="col-6">
             <img
-              src="https://www.dailykit.org/hubfs/dailykit-assets/popularOrderingExperiences.gif"
+              src={this.props.image}
               alt="image-gif"
               style={{ width: "35rem" }}
             />

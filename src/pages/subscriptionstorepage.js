@@ -5,41 +5,35 @@ import "../style.css";
 import ScheduleMeeting from "../components/homepage/ScheduleMeeting";
 import StoreThatSells from "../components/onDemardStorePage/StoreThatSells";
 import PopularOrderingExperiences from "../components/onDemardStorePage/PopularOrderingExperiences";
-import IdealProduct from "../components/onDemardStorePage/IdealProduct";
-import RealTimeOrderTracking from "../components/onDemardStorePage/RealTimeOrderTracking";
 import OwnYourOnline from "../components/onDemardStorePage/OwnYourOnline";
-import Showcase from "../components/onDemardStorePage/Showcase";
 import WhyChoose from "../components/onDemardStorePage/WhyChoose";
+import TakingYourStore from "../components/subscription/TakingYourStore";
 export default class OnDemandStorepage extends PureComponent {
   render() {
     return (
       <div style={{ marginTop: "12rem" }}>
         <Navbar />
         <StoreThatSells
-          subheading={"DailyKIT for Online Ordering"}
-          heading={"A Store That Sells"}
-          image={
-            "https://www.dailykit.org/hubfs/dailykit-assets/ondemand-hero1.gif"
-          }
+          subheading="Why should they have all the fun?"
+          heading="Get your share of subscription Revenue"
+          image="https://www.dailykit.org/hubfs/dailykit-assets/subscription-logos/subscription-banner-2.png"
         />
         <PopularOrderingExperiences
-          subheading={"Familiar & Intuitive"}
-          heading={"Popular Ordering Experiences"}
+          subheading={"Familiar & Intuitive Signup Process"}
+          heading={"Market Standard Subsription Flows"}
           text={
             "Customer Experience shouldn't be an expense. DailyKIT offers turnkey solutions for higher conversions."
           }
           point={[
-            "Showcase Multiple Product Types in elegant cards & drawers.",
-            "Give your customers option to choose between Now/Later & Pickup/Delivery.",
-            "Increase conversions by showcasing categories as Digital Aisle for Smooth Browsing.",
+            "Showcase Subscription Plans in elegant cards",
+            "Give your customers option to choose between Item Count, Servings & Delivery Week-Day.",
+            "Increase Conversions by funneling Customers to preview menus prior to signing up.",
           ]}
           image={
-            "https://www.dailykit.org/hubfs/dailykit-assets/popularOrderingExperiences.gif"
+            "https://www.dailykit.org/hubfs/dailykit-assets/marketStandardSubscriptionFlows@2x-1.png"
           }
         />
-        <IdealProduct />
-        <RealTimeOrderTracking />
-        <Showcase />
+        <TakingYourStore />
         <OwnYourOnline />
         <WhyChoose />
         <ScheduleMeeting />

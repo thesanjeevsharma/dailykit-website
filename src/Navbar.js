@@ -25,18 +25,6 @@ export default class Navbar extends PureComponent {
                 height="54"
               />
             </a>
-
-            {/* <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button> */}
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
               <ul className="navbar-nav">
                 <li className="nav-item dropdown">
@@ -81,7 +69,7 @@ export default class Navbar extends PureComponent {
                           fontSize: "12px",
                         }}
                         className="dropdown-item"
-                        href="#"
+                        href="/sells/subscription-online-store"
                       >
                         Subscription Store
                       </a>
@@ -94,7 +82,7 @@ export default class Navbar extends PureComponent {
                           fontSize: "12px",
                         }}
                         className="dropdown-item"
-                        href="#"
+                        href="/menu/overview"
                       >
                         Menu Management
                       </a>

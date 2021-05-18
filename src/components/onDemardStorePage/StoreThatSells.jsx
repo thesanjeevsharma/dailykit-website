@@ -13,10 +13,7 @@ export default class StoreThatSells extends PureComponent {
                   fontWeight: "600",
                 }}
               >
-                DailyKIT for Online Ordering
-                <br />
-                The Only Affordable End-to-End Software Solution Built for Food
-                Trends.
+                {this.props.subheading && this.props.subheading}
               </p>
               <h2
                 style={{
@@ -26,9 +23,16 @@ export default class StoreThatSells extends PureComponent {
                 }}
                 className="nunito"
               >
-                A Store That Sells
+                {this.props.heading && this.props.heading}
               </h2>
-
+              <p
+                style={{
+                  fontSize: "17px",
+                  marginBottom: "4rem",
+                }}
+              >
+                {this.props.text && this.props.text}
+              </p>
               <div className="justify-content-center">
                 <form>
                   <input
@@ -85,7 +89,7 @@ export default class StoreThatSells extends PureComponent {
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img
-                      src="https://www.dailykit.org/hubfs/dailykit-assets/ondemand-hero1.gif"
+                      src={this.props.image}
                       class="d-block w-100"
                       alt="..."
                     />

@@ -37,6 +37,7 @@ import ScheduleMeeting from "./components/homepage/ScheduleMeeting";
 // marketpage
 import Marketpage from "./pages/marketpage";
 import MenuManagementpage from "./pages/menumanagement";
+import weservepage from "./pages/weservepage";
 
 // routing
 
@@ -71,6 +72,8 @@ class App extends Component {
 
             {/* market */}
             <Route path="/market" component={Marketpage} />
+            {/* we serve */}
+            <Route path="/we_serve" component={weservepage} />
             {/* Do more */}
             <Route path="/Recipe_Provider" component={RecipeProviderPage} />
             <Route path="/Co_packer" component={Co_packerPage} />

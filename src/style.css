@@ -248,6 +248,13 @@ small {
   display: inline-block;
   margin-right: 20px;
 }
+.blackline {
+  border-left: 3px solid #ffffff;
+  height: 230px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: -90px;
+}
 .column:hover {
   background: #f8f8f7;
   box-shadow: 2px 2px 3px 3px #e7e7e6;

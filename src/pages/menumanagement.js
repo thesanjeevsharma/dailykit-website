@@ -5,6 +5,7 @@ import "../style.css";
 import ScheduleMeeting from "../components/homepage/ScheduleMeeting";
 import StoreThatSells from "../components/onDemardStorePage/StoreThatSells";
 import PersonalizationDoneRight from "../components/menumanagepage/menusecondComponent";
+import Bluebox from "../components/menumanagepage/Bluebox";
 export default class MenuManagementpage extends PureComponent {
   render() {
     return (
@@ -41,6 +42,7 @@ export default class MenuManagementpage extends PureComponent {
             "https://www.dailykit.org/hubfs/dailykit-assets/menu/give-life-to-your-menu2.gif"
           }
         />
+        <Bluebox />
         <PersonalizationDoneRight
           heading={"How Intimately Do You Know Your Food Costs?"}
           para={[

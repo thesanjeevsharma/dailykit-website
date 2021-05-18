@@ -10,7 +10,7 @@ export default class PersonalizationDoneRight extends PureComponent {
               <div class="col-5">
                 <img
                   src={this.props.leftImage}
-                  class="d-block w-100"
+                  class="d-block w-80"
                   alt="..."
                 />
               </div>
@@ -55,7 +55,7 @@ export default class PersonalizationDoneRight extends PureComponent {
               <div class="col-5">
                 <img
                   src={this.props.rightImage}
-                  class="d-block w-100"
+                  class="d-block w-80"
                   alt="..."
                 />
               </div>

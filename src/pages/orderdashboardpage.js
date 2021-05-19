@@ -6,6 +6,7 @@ import MarketingMadeEasy from "../components/marketpage/MarketingMadeEasy";
 import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
 import ScheduleMeeting from "../components/homepage/ScheduleMeeting";
 import PopularOrderingExperiences from "../components/onDemardStorePage/PopularOrderingExperiences";
+import Insights from "../components/orderfulfillmentpage/Insights";
 export default class Orderdashboardpage extends PureComponent {
   render() {
     return (
@@ -34,6 +35,7 @@ export default class Orderdashboardpage extends PureComponent {
           }
         />
         <div style={{ background: "#111B2B", height: "40rem" }} />
+        <Insights />
         <EndToEndFoodBusiness />
         <ScheduleMeeting />
         <Footer />

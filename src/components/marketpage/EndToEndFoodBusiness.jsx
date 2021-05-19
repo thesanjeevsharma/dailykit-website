@@ -16,7 +16,7 @@ export default class EndToEndFoodBusiness extends PureComponent {
             fontSize: "14px",
             fontWeight: "600",
             textAlign: "center",
-            marginTop: "23rem",
+            marginTop: "12rem",
           }}
         >
           <br />

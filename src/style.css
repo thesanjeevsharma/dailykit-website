@@ -217,6 +217,18 @@ small {
 .imagebox4 {
   background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/Serve-enterprise@2x.png");
 }
+.imagebox5 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/Order%20fulfillment.png");
+  background-position: center;
+}
+.imagebox6 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/sales%20%26%20revenues.png");
+  background-position: center;
+}
+.imagebox7 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/inventory%20usage.png");
+  background-position: center;
+}
 .accompaniments_image {
   background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/accompaniments.gif");
 }
@@ -331,4 +343,12 @@ small {
 }
 .container_weserve {
   margin-top: 12rem;
+}
+.learn {
+  padding: 12px 21px 12px 21px;
+  color: #111b2b;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 4rem;
 }

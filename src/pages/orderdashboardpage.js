@@ -6,7 +6,8 @@ import MarketingMadeEasy from "../components/marketpage/MarketingMadeEasy";
 import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
 import ScheduleMeeting from "../components/homepage/ScheduleMeeting";
 import PopularOrderingExperiences from "../components/onDemardStorePage/PopularOrderingExperiences";
-import Insights from "../components/orderfulfillmentpage/Insights";
+import Redhover from "../components/orderpage/Redhover";
+import OrderNotification from "../components/orderpage/OrderNotification";
 export default class Orderdashboardpage extends PureComponent {
   render() {
     return (
@@ -34,8 +35,17 @@ export default class Orderdashboardpage extends PureComponent {
             "https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/all-orders-2@2x.png"
           }
         />
+        <OrderNotification />
         <div style={{ background: "#111B2B", height: "40rem" }} />
-        <Insights />
+        <Redhover
+          heading={"Daily Order Reporting & Analytics"}
+          list={[
+            "Order Fulfillment",
+            "Daily Sales & Revenue",
+            "Inventory Usage",
+          ]}
+          image={["imagebox5", "imagebox6", "imagebox7"]}
+        />
         <EndToEndFoodBusiness />
         <ScheduleMeeting />
         <Footer />

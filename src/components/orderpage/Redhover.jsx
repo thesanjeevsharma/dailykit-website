@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react";
 import "../../style.css";
-export default class Insights extends PureComponent {
+export default class Redhover extends PureComponent {
   render() {
     return (
       <>
@@ -26,7 +26,7 @@ export default class Insights extends PureComponent {
             display: "inline",
           }}
         >
-          Daily Order Reporting & Analytics
+          {this.props.heading}
         </h1>
         &nbsp;&nbsp;
         <button type="button" className="learn">
@@ -37,67 +37,7 @@ export default class Insights extends PureComponent {
             <div class="col-4">
               <div class="card redhover">
                 <div
-                  class="card-body imagebox5"
-                  style={{
-                    height: "14rem",
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover",
-                  }}
-                >
-                  <h5 class="card-title"></h5>
-                  <p class="card-text"></p>{" "}
-                  <a
-                    href="#"
-                    class="btn  pl-4 pr-4"
-                    style={{
-                      backgroundColor: "#FA4B4B",
-                      color: "white",
-                      width: "250px",
-                      fontWeight: "bold",
-                      border: "0 2px 0 2px green",
-                      marginTop: "-5rem",
-                      marginLeft: "2rem",
-                    }}
-                  >
-                    SuperMarkets
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="card">
-                <div
-                  class="card-body imagebox6"
-                  style={{
-                    height: "14rem",
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover",
-                  }}
-                >
-                  <h5 class="card-title"></h5>
-                  <p class="card-text"></p>{" "}
-                  <a
-                    href="#"
-                    class="btn  pl-4 pr-4"
-                    style={{
-                      backgroundColor: "#FA4B4B",
-                      color: "white",
-                      width: "250px",
-                      fontWeight: "bold",
-                      border: "0 2px 0 2px green",
-                      marginTop: "-5rem",
-                      marginLeft: "2rem",
-                    }}
-                  >
-                    Cloud Kitchens
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="card redhover">
-                <div
-                  class="card-body imagebox7"
+                  class={this.props.image[0]}
                   style={{
                     height: "14rem",
                     backgroundRepeat: "no-repeat",
@@ -119,7 +59,67 @@ export default class Insights extends PureComponent {
                       marginLeft: "2rem",
                     }}
                   >
-                    Enterprise
+                    {this.props.list[0]}
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <div
+                  class={this.props.image[1]}
+                  style={{
+                    height: "14rem",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                  }}
+                >
+                  <h5 class="card-title"></h5>
+                  <p class="card-text"></p>{" "}
+                  <a
+                    href="#"
+                    class="btn  pl-4 pr-4"
+                    style={{
+                      backgroundColor: "#FA4B4B",
+                      color: "white",
+                      width: "250px",
+                      fontWeight: "bold",
+                      border: "0 2px 0 2px green",
+                      marginTop: "-5rem",
+                      marginLeft: "2rem",
+                    }}
+                  >
+                    {this.props.list[1]}
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card redhover">
+                <div
+                  class={this.props.image[2]}
+                  style={{
+                    height: "14rem",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                  }}
+                >
+                  <h5 class="card-title"></h5>
+                  <p class="card-text"></p>{" "}
+                  <a
+                    href="#"
+                    class="btn pl-4 pr-4"
+                    style={{
+                      backgroundColor: "#FA4B4B",
+                      color: "white",
+                      width: "250px",
+                      fontWeight: "bold",
+                      border: "0 2px 0 2px green",
+                      marginTop: "-5rem",
+                      marginLeft: "2rem",
+                    }}
+                  >
+                    {this.props.list[2]}
                   </a>
                 </div>
               </div>

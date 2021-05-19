@@ -6,6 +6,7 @@ import MarketingMadeEasy from "../components/marketpage/MarketingMadeEasy";
 import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
 import ScheduleMeeting from "../components/homepage/ScheduleMeeting";
 import PopularOrderingExperiences from "../components/onDemardStorePage/PopularOrderingExperiences";
+import Redhover from "../components/orderpage/Redhover";
 export default class Orderfulfillmentpage extends PureComponent {
   render() {
     return (
@@ -34,6 +35,15 @@ export default class Orderfulfillmentpage extends PureComponent {
           }
         />
         <div style={{ background: "#111B2B", height: "40rem" }} />
+        <Redhover
+          heading={"Delivery & Pickup Insights"}
+          list={[
+            "Pickup Insights",
+            "Self-Delivery Reports",
+            "Delivery Partner Ananlytics",
+          ]}
+          image={["imagebox8", "imagebox9", "imagebox10"]}
+        />
         <EndToEndFoodBusiness />
         <ScheduleMeeting />
         <Footer />

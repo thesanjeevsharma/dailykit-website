@@ -55,7 +55,8 @@ export default class PersonalizationDoneRight extends PureComponent {
               <div class="col-5">
                 <img
                   src={this.props.rightImage}
-                  class="d-block w-80"
+                  class="d-block"
+                  width="480px"
                   alt="..."
                 />
               </div>

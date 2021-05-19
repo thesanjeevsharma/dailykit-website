@@ -229,6 +229,25 @@ small {
   background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/inventory%20usage.png");
   background-position: center;
 }
+.imagebox8 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-fulfilment/pickup%20insights.png");
+  background-position: center;
+}
+.imagebox9 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-fulfilment/self%20delivery%20reports.png");
+  background-position: center;
+}
+.imagebox10 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-fulfilment/delivery%20partner.png");
+  background-position: center;
+}
+.imagebox11 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/order-dashboard-hero2@2x.png");
+  background-position: left;
+  background-size: 130vh;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
 .accompaniments_image {
   background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/accompaniments.gif");
 }

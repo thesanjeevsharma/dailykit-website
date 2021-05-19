@@ -5,7 +5,7 @@ export default class MarketingMadeEasy extends PureComponent {
     return (
       <>
         <div class="container">
-          <div class="row justify-content-between">
+          <div class="row justify-content-evenly">
             <div class="col-6">
               <p
                 style={{
@@ -38,9 +38,7 @@ export default class MarketingMadeEasy extends PureComponent {
               </div>
             </div>
             {this.props.image ? (
-              <div class="col-6">
-                <img src={this.props.image} alt="..." />
-              </div>
+              <div class="col-4 imagebox11"></div>
             ) : (
               <div class="col-6">
                 <div

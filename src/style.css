@@ -248,8 +248,28 @@ small {
   background-repeat: no-repeat;
   height: 80vh;
 }
+
+.imagebox12 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/order-dashboard-hero2@2x.png");
+}
+.imagebox13 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/DailyOS-Notifications@2x.png");
+}
+.imagebox14 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/DailyOS-Notifications@2x.png");
+}
+.imagebox15 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/print-KOTs@2x.png");
+  background-position: center;
+}
+.imagebox16 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/print-KOTs@2x.png");
+}
+.imagebox17 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/print-KOTs@2x.png");
+}
 .accompaniments_image {
-  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/accompaniments.gif");
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/hardwareee.png");
 }
 .onDemandCategories {
   list-style-type: "✔ ";
@@ -370,4 +390,20 @@ small {
   border: none;
   border-radius: 5px;
   margin-bottom: 4rem;
+}
+.learMore_button2 {
+  background-color: #8ac03b;
+  color: white;
+  padding: 5px 31px 5px 31px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.blackline2 {
+  border-left: 3px solid #ffffff;
+
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: -90px;
 }

@@ -157,7 +157,7 @@ export default class Navbar extends PureComponent {
                           fontSize: "12px",
                         }}
                         className="dropdown-item"
-                        href="/Tools/Revenue_Calculator"
+                        href="/operate/packaging-management"
                       >
                         Packaging Management
                       </a>
@@ -170,7 +170,7 @@ export default class Navbar extends PureComponent {
                           fontSize: "12px",
                         }}
                         className="dropdown-item"
-                        href="/Meal_Kit_Guides/Meal_Kit_Packaging"
+                        href="/operate/portion-control"
                       >
                         Portion Control
                       </a>

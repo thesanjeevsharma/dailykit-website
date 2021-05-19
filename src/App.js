@@ -43,6 +43,8 @@ import weservepage from "./pages/weservepage";
 import Orderdashboardpage from "./pages/orderdashboardpage";
 import Orderroutingpage from "./pages/orderroutingpage";
 import Orderfulfillmentpage from "./pages/orderfulfillmentpage";
+import Portioncontrolpage from "./pages/portioncontrolpage";
+import Packagingmanagementpage from "./pages/packagingmangement";
 // routing
 
 class App extends Component {
@@ -75,6 +77,14 @@ class App extends Component {
             <Route
               path="/operate/order-fulfillment"
               component={Orderfulfillmentpage}
+            />{" "}
+            <Route
+              path="/operate/packaging-management"
+              component={Packagingmanagementpage}
+            />
+            <Route
+              path="/operate/portion-control"
+              component={Portioncontrolpage}
             />
             {/* sells */}
             <Route

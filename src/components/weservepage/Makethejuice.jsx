@@ -37,11 +37,11 @@ export default class Makethejuice extends PureComponent {
                 </div>
               </div>
               <div className="justify-content-center mt-4">
-                <button type="button" class="btn btn-light">
+                <button type="button" className="weserve_button1">
                   Schedule A Call
                 </button>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <button type="button" class="btn btn-dark">
+                &nbsp;&nbsp;&nbsp;
+                <button type="button" className="weserve_button2">
                   Learn More
                 </button>
               </div>

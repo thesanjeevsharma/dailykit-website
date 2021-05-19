@@ -2,10 +2,6 @@ import React, { PureComponent } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer.js";
 import "../style.css";
-import MarketingMadeEasy from "../components/marketpage/MarketingMadeEasy";
-import BuildSmarterCampaigns from "../components/marketpage/BuildSmarterCampaigns";
-import InspireCustomers from "../components/marketpage/InspireCustomers";
-import CreateRewardingExperiences from "../components/marketpage/CreateRewardingExperiences";
 import Yourtryst from "../components/marketpage/Yourtryst";
 import KeepthemLoyal from "../components/marketpage/KeepthemLoyal";
 import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
@@ -13,6 +9,8 @@ import ScheduleMeeting from "../components/homepage/ScheduleMeeting";
 import Makethejuice from "../components/weservepage/Makethejuice";
 import Weserve from "../components/weservepage/Weserve";
 import OptimizeKitchen from "../components/weservepage/OptimizeKitchen";
+import SuperMarkets from "../components/weservepage/SuperMarkets";
+import AnERP from "../components/weservepage/AnERP";
 export default class Weservepage extends PureComponent {
   render() {
     return (
@@ -21,10 +19,36 @@ export default class Weservepage extends PureComponent {
         <Makethejuice />
         <Weserve />
         <OptimizeKitchen />
-        <CreateRewardingExperiences />
-        <Yourtryst />
-        <KeepthemLoyal />
-        <EndToEndFoodBusiness />
+        <SuperMarkets
+          subheading={"For Supermarkets"}
+          heading={"Meet Rapidly Evolving Consumer Needs With Ease"}
+          leftImage={
+            "https://www.dailykit.org/hubfs/dailykit-assets/supermarket@2x.png"
+          }
+          para={
+            "Online Grocery Sales Hit A Record $7.2 BN in 2020 & That Is Just Scratching The Surface."
+          }
+          list1={["Grow Top-Line Revenue", "Mulitply Brand Awareness"]}
+          list2={[
+            "Increase Bottom-Line Profits",
+
+            "Mitigate Risk & Achieve Sustainability",
+          ]}
+        />
+        <SuperMarkets
+          subheading={"For Cloud Kitchens"}
+          heading={"Built For Cloud Kitchen Operations"}
+          rightImage={
+            "https://www.dailykit.org/hubfs/dailykit-assets/Cloudkitchen@2x.png"
+          }
+          para={
+            "Cloud Kitchens rely heavily on technology to help run their brands. DailyKIT’s ability to take any kitchen to cloud will help bring life into your Ghost Kitchen brands."
+          }
+          list1={["Incorporate Trending Sales Channels", "Optimize Operations"]}
+          list2={["Multiple Brands - One Solution", "Built for The Future"]}
+        />
+        <AnERP />
+
         <ScheduleMeeting />
         <Footer />
       </div>

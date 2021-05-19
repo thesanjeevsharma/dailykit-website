@@ -7,6 +7,8 @@ import ScheduleMeeting from "../components/homepage/ScheduleMeeting";
 import PopularOrderingExperiences from "../components/onDemardStorePage/PopularOrderingExperiences";
 import StoreThatSells from "../components/onDemardStorePage/StoreThatSells";
 import Bluebox1 from "../components/orderpage/Bluebox1";
+import Digitalise from "../components/orderpage/Digitalise";
+import RoutingSameBanners from "../components/orderpage/RoutingSameBanners";
 export default class Orderroutingpage extends PureComponent {
   render() {
     return (
@@ -35,21 +37,8 @@ export default class Orderroutingpage extends PureComponent {
             "No KDS? No problem! Print receipts with precise job instructions."
           }
         />
-        <PopularOrderingExperiences
-          subheading={"Easy & Intuitive"}
-          heading={"One Dashboard For Every Product Line"}
-          text={
-            "Be it Meal Kits, Ready-To-Eat, Private-Label Artisanal Grocery or Any Other Trending Product Line, DailyKIT Offers One Comprehensive Dashboard to Manage Them All."
-          }
-          point={[
-            "Accept Orders from Everywhere e.g.On-Demand/Subscription Store, Multiple Ghost Brands/Third-Party Marketplaces",
-            "Cloud-Based Access allowing you to manage orders from anywhere",
-            "Apply Filters & Sorting using multiple parameters to help with Order Expediting",
-          ]}
-          image={
-            "https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/all-orders-2@2x.png"
-          }
-        />
+
+        <Digitalise />
         <Bluebox1
           heading={"DailyKIT Understands Production Nuances"}
           subheading={
@@ -64,6 +53,42 @@ export default class Orderroutingpage extends PureComponent {
             "For on-demand ordering it is best to assign priority to each received order and pack & assemble them according to their expected dispatch time."
           }
           learn={"one"}
+        />
+        <RoutingSameBanners
+          heading={"How It Works for Meal Kits"}
+          subheading={"Routing Meal Kit Ingredients"}
+          image={
+            "https://www.dailykit.org/hubfs/dailykit-assets/order-routing/Work-for-MealKit@2x.png"
+          }
+          para={[
+            "Step 1 - The meal kit ingredients are reported at the stations according to your operational configuration, either through KDS or KOTs.",
+            "Step 2 - Your staff is shown precise instructions regarding packaging, weight, SOPs, etc., in order to ensure product consistency.",
+            "Step 3 - Post ingredients packing, the assembly station is notified. Staff then assemble meal kits using a hand-scanner or mobile app.",
+          ]}
+        />
+        <RoutingSameBanners
+          heading={"How It Works for Ready-to-Eat"}
+          subheading={"Routing Menu Items"}
+          image={
+            "https://www.dailykit.org/hubfs/dailykit-assets/order-routing/ready-to-eat.png"
+          }
+          para={[
+            "Step 1 - All of the items in a Ready-to-Eat order are routed to assigned work stations.",
+            "Step 2 - Your staff is shown precise instructions, packaging, and any customer-generated modification. Once staff marks it done, the label is automatically printed if configured.",
+            "Step 3 - Once all of the items are packed, it's sent to the designated assembly station, where label is scanned or marked manually.",
+          ]}
+        />
+        <RoutingSameBanners
+          heading={"How It Works for Grocery"}
+          subheading={"Routing Grocery Items"}
+          image={
+            "https://www.dailykit.org/hubfs/dailykit-assets/order-routing/Order-routing@2x.png"
+          }
+          para={[
+            "Step 1 - All of the grocery items are routed to their assigned stations for picking & packaging.",
+            "Step 2 - Your staff is shown precise instructions on picking the supplier item, along with the quantity needed, as well as packaging. Once staff marks it done, the label is automatically printed if configured.",
+            "Step 3 - Once all items are packed, it's then sent to the designated assembly station where the label is scanned or marked manually & the items are assembled in their respective bags",
+          ]}
         />
         <EndToEndFoodBusiness />
         <ScheduleMeeting />

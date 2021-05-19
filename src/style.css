@@ -268,6 +268,14 @@ small {
 .imagebox17 {
   background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/print-KOTs@2x.png");
 }
+/* used in page-'order-routing-and-kitchen-display-system' */
+.imagebox18 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-routing/Digitalize-Kitchen-Operation5@2x.png");
+  background-position: left;
+  background-size: 200vh;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
 .accompaniments_image {
   background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/hardwareee.png");
 }

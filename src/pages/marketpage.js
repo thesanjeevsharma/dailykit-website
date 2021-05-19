@@ -20,6 +20,9 @@ export default class Marketpage extends PureComponent {
           subheading={
             "Must have Innovative Marketing tools to help you connect your brand with your customers."
           }
+          imageurl={
+            "https://www.dailykit.org/hubfs/dailykit-assets/marketing-overview/Marketing%20made%20easy.png"
+          }
         />
         <BuildSmarterCampaigns />
         <InspireCustomers />

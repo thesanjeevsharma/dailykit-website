@@ -71,7 +71,7 @@ export default class MarketingMadeEasy extends PureComponent {
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <img
-                        src="https://www.dailykit.org/hubfs/dailykit-assets/marketing-overview/Marketing%20made%20easy.png"
+                        src={this.props.imageurl}
                         class="d-block w-80"
                         alt="..."
                       />

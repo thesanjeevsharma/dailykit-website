@@ -15,7 +15,7 @@ export default class Orderfulfillmentpage extends PureComponent {
         <MarketingMadeEasy
           heading={"Set Your Own Delivery Terms"}
           subheading={"Flexible Order Fulfillment"}
-          image={
+          imageurl={
             "https://www.dailykit.org/hubfs/dailykit-assets/order-fulfilment/order-fulfilment-hero@2x.png"
           }
         />

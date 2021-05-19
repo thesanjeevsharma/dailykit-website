@@ -118,7 +118,7 @@ export default class Navbar extends PureComponent {
                           fontSize: "12px",
                         }}
                         className="dropdown-item"
-                        href="/AboutUs/OurPhilosophy"
+                        href="/operate/centralized-order-dashboard"
                       >
                         Centralized Order Dashboard
                       </a>
@@ -131,7 +131,7 @@ export default class Navbar extends PureComponent {
                           fontSize: "12px",
                         }}
                         className="dropdown-item"
-                        href="/Tools/Revenue_Calculator"
+                        href="/operate/order-routing-and-kitchen-display-system"
                       >
                         Order Routing & KDS
                       </a>
@@ -144,7 +144,7 @@ export default class Navbar extends PureComponent {
                           fontSize: "12px",
                         }}
                         className="dropdown-item"
-                        href="/Meal_Kit_Guides/Meal_Kit_Packaging"
+                        href="/operate/order-fulfillment"
                       >
                         Order Fulfillment Management
                       </a>

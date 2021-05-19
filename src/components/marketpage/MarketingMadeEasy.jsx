@@ -9,13 +9,12 @@ export default class MarketingMadeEasy extends PureComponent {
             <div class="col-6">
               <p
                 style={{
-                  fontSize: "18px",
-                  fontWeight: "600",
+                  fontSize: "16px",
+                  fontWeight: "400",
                 }}
               >
                 <br />
-                Must have Innovative Marketing tools to help you connect your
-                brand with your customers.
+                {this.props.subheading}
               </p>
               <h2
                 style={{
@@ -25,58 +24,64 @@ export default class MarketingMadeEasy extends PureComponent {
                 }}
                 className="nunito"
               >
-                Marketing Made Easy.
+                {this.props.heading}
               </h2>
 
               <div className="justify-content-center">
-                <button type="button" class="btn btn-dark">
+                <button type="button" className="weserve_button1">
                   Get Started Now
                 </button>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <button type="button" class="btn btn-light">
+                &nbsp;&nbsp;&nbsp;
+                <button type="button" className="weserve_button2">
                   Free Demo
                 </button>
               </div>
             </div>
-            <div class="col-6">
-              <div
-                id="carouselExampleIndicators"
-                class="carousel slide"
-                data-bs-ride="carousel"
-              >
-                <div class="carousel-indicators">
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="0"
-                    class="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                  ></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img
-                      src="https://www.dailykit.org/hubfs/dailykit-assets/marketing-overview/Marketing%20made%20easy.png"
-                      class="d-block w-80"
-                      alt="..."
-                    />
+            {this.props.image ? (
+              <div class="col-6">
+                <img src={this.props.image} alt="..." />
+              </div>
+            ) : (
+              <div class="col-6">
+                <div
+                  id="carouselExampleIndicators"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="2"
+                      aria-label="Slide 3"
+                    ></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="https://www.dailykit.org/hubfs/dailykit-assets/marketing-overview/Marketing%20made%20easy.png"
+                        class="d-block w-80"
+                        alt="..."
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+            )}
           </div>
         </div>
       </>

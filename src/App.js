@@ -32,13 +32,17 @@ import Homepage from "./pages/homepage";
 // sells
 import OnDemandStorepage from "./pages/ondemandstorepage";
 import SubscriptionStorepage from "./pages/subscriptionstorepage";
+import MenuManagementpage from "./pages/menumanagement";
 // ScheduleMeeting
 import ScheduleMeeting from "./components/homepage/ScheduleMeeting";
 // marketpage
 import Marketpage from "./pages/marketpage";
-import MenuManagementpage from "./pages/menumanagement";
+//servepage
 import weservepage from "./pages/weservepage";
-
+//operatepage
+import Orderdashboardpage from "./pages/orderdashboardpage";
+import Orderroutingpage from "./pages/orderroutingpage";
+import Orderfulfillmentpage from "./pages/orderfulfillmentpage";
 // routing
 
 class App extends Component {
@@ -59,6 +63,19 @@ class App extends Component {
               path="/How_to_start_a_meal_kit_service"
               component={How_to_start_a_meal_kit_service}
             />
+            {/* operate */}
+            <Route
+              path="/operate/centralized-order-dashboard"
+              component={Orderdashboardpage}
+            />
+            <Route
+              path="/operate/order-routing-and-kitchen-display-system"
+              component={Orderroutingpage}
+            />
+            <Route
+              path="/operate/order-fulfillment"
+              component={Orderfulfillmentpage}
+            />
             {/* sells */}
             <Route
               path="/sells/on-demand-online-store"
@@ -69,7 +86,6 @@ class App extends Component {
               component={SubscriptionStorepage}
             />
             <Route path="/menu/overview" component={MenuManagementpage} />
-
             {/* market */}
             <Route path="/market" component={Marketpage} />
             {/* we serve */}

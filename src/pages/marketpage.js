@@ -15,7 +15,12 @@ export default class Marketpage extends PureComponent {
     return (
       <div style={{ marginTop: "12rem" }}>
         <Navbar />
-        <MarketingMadeEasy />
+        <MarketingMadeEasy
+          heading={"Marketing Made Easy."}
+          subheading={
+            "Must have Innovative Marketing tools to help you connect your brand with your customers."
+          }
+        />
         <BuildSmarterCampaigns />
         <InspireCustomers />
         <CreateRewardingExperiences />

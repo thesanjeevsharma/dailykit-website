@@ -11,54 +11,48 @@ export default class OurPhilosophyPage extends PureComponent {
     return (
       <div>
         <Navbar />
-        <Bakeries />
+        <OurPhilosophy />
         <Footer />
       </div>
     );
   }
 }
 
-export class Bakeries extends PureComponent {
+export class OurPhilosophy extends PureComponent {
   render() {
     return (
       <div>
         <div className="head">
-          <GreenHeading text="Bakers can get the most out ofMeal Kits by enjoying" />
-          <BlackHeading text="Substantial Revenue, Diverse menu & Increased Customer Loyalty" />
+          <GreenHeading text="Our Philosophy" />
+          <BlackHeading text="No Harvested Grain of Grocery should be lost wasted" />
         </div>
         {/* <--first sidebar--> */}
         <Sidebar
           rest={[
             {
-              sidebar_heading: "WHY SHOULD BAKERIES DO MEAL KITS?",
+              sidebar_heading: "TABLE OF CONTENT",
               sidebar_link: [
-                "What would you choose from the 2 choices below?",
-                "Increased Revenue",
-                "Diversify your Menu",
-                "Loyal Customers",
-                "Higher Profit Margin",
+                "The Premise",
+                "Vision Statement",
+                "The Reason",
+                "Our Path",
+                "The Future",
               ],
-              para_heading: "Who doesn’t love baking?",
+              para_heading: "The Premise",
               para: [
-                "Having the sweet aroma of freshly baked delicacies fill up your home. While you get the dreamy picture, the reality is, for 90% of people, this sweet aroma is a dream.",
-                "Nailing the right recipe and technique is so damn difficult in bakery products and it’s not surprising to see people try their whole life to make a cake and fail miserably at it.",
-                "That’s not all, even for people that are adept at baking, it gets challenging to source small quantities of various ingredients that go in baking. Just think how big companies that introduced ready to bake mixes, instant cupcakes etc became a hit. There are millions of people who use these mixes regularly.",
-                "Truthfully, if there’s any niche that meal kit is built for, it’s gotta be Bakery products. Everything needs to be precisely portioned and instructions need to be followed very strictly. And guess what? Meal Kit does that.",
+                "What is the future of Cooking? Does it become obsolete? Would Kitchen transform into Pantry? The answer to these questions reflects one fundamental problem. Problem that cooking via traditional Grocery is way too inconvenient. The problem that needs to be solved is of daily food, for which we are relied upon the Cooking. Consumers don’t have time for Grocery Shopping. They want to Shop for Meals. We believe in the future either Cooking will become obsolete or Meal Kits will thrive as a go to choice for the daily food. We fear the former and inspire from latter.",
               ],
               para2: [
                 {
-                  para2_heading:
-                    "What would you choose from the 2 choices below?",
+                  para2_heading: "Vision Statement",
                   para2: [
-                    "Meal kit from your favorite baker that includes all the ingredients and recipe to their product range curated by their chef. Tasteless mass produced mix",
-                    "Well, the answer is pretty clear. Everyone chooses Meal Kits.",
-                    "Here are all the benefits you will get when you start selling meal kits of bakery products to your consumers",
+                    "To Abolish the unsaid right to food wastage so No harvested grain of grocery is lost",
                   ],
                 },
                 {
-                  para2_heading: "Increased Revenue",
+                  para2_heading: "The Reason",
                   para2: [
-                    "Selling meal kits, will drive consumers who would have otherwise purchased these mixes to spend money in your business.",
+                    "Our existing food system is on the verge of collapse with shrinking farm lands and expanding population. It is estimated that our earth can only sustain a population of 9 Billion as will not have food to sustain the extra population.",
                   ],
                 },
                 {
@@ -68,64 +62,18 @@ export class Bakeries extends PureComponent {
                   ],
                 },
                 {
-                  para2_heading: "Loyal Customers",
+                  para2_heading: "Our Path",
                   para2: [
-                    "Loyalty is driven by empathy towards consumers and when you help them to make their home smell like your bakery, they don’t have a choice except to become loyal to you.",
+                    "We aim to build a system where each individual know his/her immediate needs for grocery and by real time analysis we can plan and forsee the requirement and transmit the data to farmers so to grow and sow the exact needs.",
+                    "Our aim is to introduce automation into food businesses and make them self reliant. Our team is built with former Restaurant Owners, Meal Kit Company Owners, Ghost Kitchen owners. We know each and every pain point of what it takes to get everything absolutely spot on.",
+                    "While our technology can be used all across the food industry in different aspects, our focus is towards a gap which is widening and no one seems to be filling",
                   ],
                 },
                 {
-                  para2_heading: "Higher Profit Margin",
+                  para2_heading: "The Future",
                   para2: [
-                    "Selling baked goods includes cost of oven electricity, talented chefs and wastage eating away in your profit margin. With meal kits, the only cost you incur is of ingredients and the inexpensive labour to portion them. So, with meal kits, you’ll find a much healthier profit margin that would bring your business to a new high.",
-                  ],
-                },
-              ],
-            },
-          ]}
-        />
-
-        {/* <--first sidebar--> */}
-
-        <Sidebar
-          rest={[
-            {
-              sidebar_heading: "HOW DAILYKIT HELPS YOU?",
-              sidebar_link: [
-                "Recipes",
-                "Manufacturing/Fulfillment",
-                "Market and Sell",
-                "Delivery",
-              ],
-              para_heading: "We hope",
-              para: [
-                "after reading “why bakeries should add meal kits”, you’re eager and relaxed to know that with dailykit platform, this will be a piece of cake.",
-                "Following are the 4 ways dailykit helps you with your meal kit business",
-              ],
-              para2: [
-                {
-                  para2_heading: "Recipes",
-                  para2: [
-                    "Using DailyKit recipe tools, you’d be able to curate your recipes to be sold as meal kits. We’ll keep you updated on all the latest trends in recipes so you stay on top of industry.",
-                  ],
-                },
-                {
-                  para2_heading: "Manufacturing/Fulfillment",
-                  para2: [
-                    "Dailykit solution can be very easily integrated inside your kitchen. Our simple and easy to use weighing scales will make portioning and packing so easy that even a child can pack meal dailykit makes packing meal kits idiot proof, leaving no room for errors.",
-                  ],
-                },
-                {
-                  para2_heading: "Market and Sell",
-                  para2: [
-                    "Dailykit’s omni channel commerce solution allows you to plan your inventory to keep on shelf and use POS for in-store customers. We also help you set up your website for free. You can choose to sell on marketplaces using easy integrations.",
-                    "We’re coming soon with vending machine that can be loaded up with pre-packaged ingredients that fall at once to form a meal kit. We’ll keep you posted with this.",
-                  ],
-                },
-                {
-                  para2_heading: "Delivery",
-                  para2: [
-                    "The advantage with bakery products being shelf stable is that you can choose to extend your delivery area using delivery partners, both hyperlocal and nationwide shipping companies.",
-                    "Dailykit’s platform is specifically built with keeping the bakery operations in mind and starting with meal kit is super easy. So, with that said, what are you waiting for? Bring us today, our baking kit.",
+                    "The future of food consumption is here and we are leading the charge. We have all seen it in the movies and now we all have a chance to make it a reality. As the working population begins to adopt itself into newer ways of food consumption, accessibility is all that they need. Dailykit has done all the heavy lifting and we believe our clients have everything they need to run a successful food business be it Restaurant, Grocery, A Large Enterprise, Food StartUp, Meal Kit Company, To-Go Meals and every other business that one can possibly imagine. ",
+                    "The future is here and it’s now, adaptation must not be the cause for turning a blind eye to the future.",
                   ],
                 },
               ],

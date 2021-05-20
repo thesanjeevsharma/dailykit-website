@@ -35,7 +35,17 @@ export default class Orderdashboardpage extends PureComponent {
             "https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/all-orders-2@2x.png"
           }
         />
-        <OrderNotification />
+        <OrderNotification
+          image1={
+            "https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/DailyOS-Notifications@2x.png"
+          }
+          image2={
+            "https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/print-KOTs@2x.png"
+          }
+          image3={
+            "https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/Email-%26-SMS-Notifications@2x.png"
+          }
+        />
         <div style={{ background: "#111B2B", height: "40rem" }} />
         <Redhover
           heading={"Daily Order Reporting & Analytics"}

@@ -48,6 +48,15 @@ export default class RoutingSameBanners extends PureComponent {
                   );
                 })}
               </p>
+              {this.props.learn && (
+                <button
+                  type="button"
+                  className="learMore_button2 m-4 pt-2 pb-2"
+                  style={{ marginRight: "120px" }}
+                >
+                  Learn More
+                </button>
+              )}
             </div>
             {this.props.rightImage && (
               <div class="col-6">

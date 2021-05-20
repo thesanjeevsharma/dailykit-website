@@ -4,7 +4,6 @@ import Footer from "../Footer.js";
 import "../style.css";
 import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
 import ScheduleMeeting from "../components/homepage/ScheduleMeeting";
-import PopularOrderingExperiences from "../components/onDemardStorePage/PopularOrderingExperiences";
 import StoreThatSells from "../components/onDemardStorePage/StoreThatSells";
 import Bluebox1 from "../components/orderpage/Bluebox1";
 import Digitalise from "../components/orderpage/Digitalise";

@@ -276,6 +276,13 @@ small {
   background-repeat: no-repeat;
   height: 90vh;
 }
+/* used in page-'order-fulfillment' */
+.imagebox19 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-fulfilment/pickup@2x.png");
+}
+.imagebox20 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-fulfilment/delivery@2x.png");
+}
 .accompaniments_image {
   background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/hardwareee.png");
 }

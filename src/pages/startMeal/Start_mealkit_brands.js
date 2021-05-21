@@ -11,14 +11,14 @@ export default class Start_mealkit_brands extends PureComponent {
     return (
       <div>
         <Navbar />
-        <Start_mealkit_brandsComponent />
+        <StartmealkitbrandsComponent />
         <Footer />
       </div>
     );
   }
 }
 
-export class Start_mealkit_brandsComponent extends PureComponent {
+export class StartmealkitbrandsComponent extends PureComponent {
   render() {
     return (
       <div>

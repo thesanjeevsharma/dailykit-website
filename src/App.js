@@ -19,22 +19,10 @@ import HowtopriceyourMealKits from "./pages/startMeal/HowtopriceyourMealKits";
 import HowtopromoteyourMealKits from "./pages/startMeal/HowtopromoteyourMealKits";
 import HowtosellyourMealKits from "./pages/startMeal/HowtosellyourMealKits";
 import Start_mealkit_brands from "./pages/startMeal/Start_mealkit_brands";
-
-/* Do more */
-
-import RecipeProviderPage from "./pages/doMore/recipeProvider";
-import Co_packerPage from "./pages/doMore/co_packer";
-import Co_sellerPage from "./pages/doMore/co_seller";
-import Delivery_PartnerPage from "./pages/doMore/delivery_Partner";
-
-/* Resources */
-
-import OurPhilosophyPage from "./pages/resources/OurPhilosophy";
-import BlogPage from "./pages/resources/Blog";
-import Revenue_CalculatorPage from "./pages/resources/Revenue_Calculator";
-import Groctorant_study_centerPage from "./pages/resources/Groctorant_study_center";
-import Meal_Kit_PackagingPage from "./pages/resources/Meal_Kit_Packaging";
-import Meal_Kit_Marketing_guidePage from "./pages/resources/Meal_Kit_Marketing_guide";
+import RecipeProvider from "./pages/startMeal/RecipeProvider";
+import Coseller from "./pages/startMeal/Coseller";
+import Copacker from "./pages/startMeal/Copacker";
+import DeliveryPartner from "./pages/startMeal/DeliveryPartner";
 // homepage
 import Homepage from "./pages/homepage";
 // sells
@@ -85,6 +73,13 @@ class App extends Component {
             <Route
               path="/case-study/Groctaurant-Case-Study"
               component={GroctaurantCaseStudy}
+            />
+            <Route path="/do-more/Recipe-Provider" component={RecipeProvider} />
+            <Route path="/do-more/Co-Packer" component={Copacker} />
+            <Route path="/do-more/Co-Seller" component={Coseller} />
+            <Route
+              path="/do-more/Delivery-Partner"
+              component={DeliveryPartner}
             />
             <Route
               path="/start-meal-kit-brands/what-is-meal-kit"
@@ -149,33 +144,6 @@ class App extends Component {
             <Route path="/market" component={Marketpage} />
             {/* we serve */}
             <Route path="/we_serve" component={weservepage} />
-            {/* Do more */}
-            <Route path="/Recipe_Provider" component={RecipeProviderPage} />
-            <Route path="/Co_packer" component={Co_packerPage} />
-            <Route path="/Co_seller" component={Co_sellerPage} />
-            <Route path="/Delivery_Partner" component={Delivery_PartnerPage} />
-            {/* Resources */}
-            <Route
-              path="/AboutUs/OurPhilosophy"
-              component={OurPhilosophyPage}
-            />
-            <Route path="/AboutUs/Blog" component={BlogPage} />
-            <Route
-              path="/Tools/Revenue_Calculator"
-              component={Revenue_CalculatorPage}
-            />
-            <Route
-              path="/Case_study/Groctorant_study_center"
-              component={Groctorant_study_centerPage}
-            />
-            <Route
-              path="/Meal_Kit_Guides/Meal_Kit_Packaging"
-              component={Meal_Kit_PackagingPage}
-            />
-            <Route
-              path="/Meal_Kit_Guides/Meal_Kit_Marketing_guide"
-              component={Meal_Kit_Marketing_guidePage}
-            />
           </Switch>
         </Router>
       </div>

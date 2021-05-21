@@ -410,22 +410,16 @@ export default class Navbar extends PureComponent {
                       </a>{" "}
                       <ul className="special-styling">
                         <li>
-                          <a href="/meal-kit-guides/meal-kit-guides/how-to-decide-your-meal-kits">
-                            Recipe Provider
-                          </a>
+                          <a href="/do-more/Recipe-Provider">Recipe Provider</a>
                         </li>
                         <li>
-                          <a href="/meal-kit-guides/meal-kit-guides/how-to-price-your-meal-kits">
-                            Co-Packer
-                          </a>
+                          <a href="/do-more/Co-Packer">Co-Packer</a>
                         </li>
                         <li>
-                          <a href="/meal-kit-guides/meal-kit-guides/how-to-promote-your-meal-kits">
-                            Co-Seller
-                          </a>
+                          <a href="/do-more/Co-Seller">Co-Seller</a>
                         </li>
                         <li>
-                          <a href="/meal-kit-guides/meal-kit-guides/how-to-sell-your-meal-kits">
+                          <a href="/do-more/Delivery-Partner">
                             Delivery Partner
                           </a>
                         </li>

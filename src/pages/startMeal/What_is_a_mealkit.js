@@ -11,121 +11,58 @@ export default class What_is_a_mealkit extends PureComponent {
     return (
       <div>
         <Navbar />
-        <Mealkit />
+        <MealkitComponent />
         <Footer />
       </div>
     );
   }
 }
 
-export class Mealkit extends PureComponent {
+export class MealkitComponent extends PureComponent {
   render() {
     return (
       <div>
         <div className="head">
-          <GreenHeading text="Bakers can get the most out ofMeal Kits by enjoying" />
-          <BlackHeading text="Substantial Revenue, Diverse menu & Increased Customer Loyalty" />
+          <GreenHeading text="Everyone’s talking about Meal Kits." />
+          <BlackHeading text="But do you know what a Meal Kit is?" />
         </div>
         {/* <--first sidebar--> */}
         <Sidebar
           rest={[
             {
-              sidebar_heading: "WHY SHOULD BAKERIES DO MEAL KITS?",
+              sidebar_heading: "WHAT THE HELL IS A MEAL KIT?",
               sidebar_link: [
-                "What would you choose from the 2 choices below?",
-                "Increased Revenue",
-                "Diversify your Menu",
-                "Loyal Customers",
-                "Higher Profit Margin",
+                "The Popularity",
+                "Convenience and Choice",
+                "The Future",
               ],
-              para_heading: "Who doesn’t love baking?",
+              para_heading: "Meal Kits",
               para: [
-                "Having the sweet aroma of freshly baked delicacies fill up your home. While you get the dreamy picture, the reality is, for 90% of people, this sweet aroma is a dream.",
-                "Nailing the right recipe and technique is so damn difficult in bakery products and it’s not surprising to see people try their whole life to make a cake and fail miserably at it.",
-                "That’s not all, even for people that are adept at baking, it gets challenging to source small quantities of various ingredients that go in baking. Just think how big companies that introduced ready to bake mixes, instant cupcakes etc became a hit. There are millions of people who use these mixes regularly.",
-                "Truthfully, if there’s any niche that meal kit is built for, it’s gotta be Bakery products. Everything needs to be precisely portioned and instructions need to be followed very strictly. And guess what? Meal Kit does that.",
+                "Meal Kit is a ready-to-cook solution that contains all the ingredients pre-portioned according to a recipe.",
+                "The biggest reason why this concept is such a huge hit is because it attracts the people who want to cook their own food without having to step foot in the grocery store.",
+                "A Meal Kit is not convenience food, which is actually cooked and 'prepared' at a kitchen facility before shipment--typically in a refrigerated container. The ingredients in a Meal Kit are usually fresh or pre-prepped.",
               ],
               para2: [
                 {
-                  para2_heading:
-                    "What would you choose from the 2 choices below?",
+                  para2_heading: "The Popularity",
                   para2: [
-                    "Meal kit from your favorite baker that includes all the ingredients and recipe to their product range curated by their chef. Tasteless mass produced mix",
-                    "Well, the answer is pretty clear. Everyone chooses Meal Kits.",
-                    "Here are all the benefits you will get when you start selling meal kits of bakery products to your consumers",
+                    "The Meal Kits are popular among busy parents, millennials, or those juggling multiple jobs, working couples, or people with special diet needs who are always in a rush to come up with a quick dinner. ",
+                    "The age old solutions were was pizza delivery, a drive-thru or a takeout counter. These days, there is so much more in prepared food and meal kit delivery, the consumer usually treats Meal Kits as a way to cook food at Home with minimal fuss and no complications.",
                   ],
                 },
                 {
-                  para2_heading: "Increased Revenue",
+                  para2_heading: "Convenience and Choice",
                   para2: [
-                    "Selling meal kits, will drive consumers who would have otherwise purchased these mixes to spend money in your business.",
-                  ],
-                },
-                {
-                  para2_heading: "Diversify your Menu",
-                  para2: [
-                    "You know how much you can play around with different permutation combination of toppings but you can’t put all of them on your shelf because there’s a very niche market for them. But with meal kits, your menu can include any of these crazy ideas which have a very niche market.",
-                  ],
-                },
-                {
-                  para2_heading: "Loyal Customers",
-                  para2: [
-                    "Loyalty is driven by empathy towards consumers and when you help them to make their home smell like your bakery, they don’t have a choice except to become loyal to you.",
-                  ],
-                },
-                {
-                  para2_heading: "Higher Profit Margin",
-                  para2: [
-                    "Selling baked goods includes cost of oven electricity, talented chefs and wastage eating away in your profit margin. With meal kits, the only cost you incur is of ingredients and the inexpensive labour to portion them. So, with meal kits, you’ll find a much healthier profit margin that would bring your business to a new high.",
-                  ],
-                },
-              ],
-            },
-          ]}
-        />
+                    "The exotic nature of the recipes also contribute to the success of Meal Kits even though most of these recipes are available on the internet, the convenience of Meal Kits make them an extremely popular choice with the customers. ",
 
-        {/* <--first sidebar--> */}
-
-        <Sidebar
-          rest={[
-            {
-              sidebar_heading: "HOW DAILYKIT HELPS YOU?",
-              sidebar_link: [
-                "Recipes",
-                "Manufacturing/Fulfillment",
-                "Market and Sell",
-                "Delivery",
-              ],
-              para_heading: "We hope",
-              para: [
-                "after reading “why bakeries should add meal kits”, you’re eager and relaxed to know that with dailykit platform, this will be a piece of cake.",
-                "Following are the 4 ways dailykit helps you with your meal kit business",
-              ],
-              para2: [
-                {
-                  para2_heading: "Recipes",
-                  para2: [
-                    "Using DailyKit recipe tools, you’d be able to curate your recipes to be sold as meal kits. We’ll keep you updated on all the latest trends in recipes so you stay on top of industry.",
+                    "Although most of the services are subscription-based, there’s a huge gap in terms of offering the Meal Kits Hyper-locally. This provides more convenience, customization, and choices to the consumers. This can only be possible by using a Meal Kit Software Platform that will fill all these gaps.",
                   ],
                 },
                 {
-                  para2_heading: "Manufacturing/Fulfillment",
+                  para2_heading: "The Future",
                   para2: [
-                    "Dailykit solution can be very easily integrated inside your kitchen. Our simple and easy to use weighing scales will make portioning and packing so easy that even a child can pack meal dailykit makes packing meal kits idiot proof, leaving no room for errors.",
-                  ],
-                },
-                {
-                  para2_heading: "Market and Sell",
-                  para2: [
-                    "Dailykit’s omni channel commerce solution allows you to plan your inventory to keep on shelf and use POS for in-store customers. We also help you set up your website for free. You can choose to sell on marketplaces using easy integrations.",
-                    "We’re coming soon with vending machine that can be loaded up with pre-packaged ingredients that fall at once to form a meal kit. We’ll keep you posted with this.",
-                  ],
-                },
-                {
-                  para2_heading: "Delivery",
-                  para2: [
-                    "The advantage with bakery products being shelf stable is that you can choose to extend your delivery area using delivery partners, both hyperlocal and nationwide shipping companies.",
-                    "Dailykit’s platform is specifically built with keeping the bakery operations in mind and starting with meal kit is super easy. So, with that said, what are you waiting for? Bring us today, our baking kit.",
+                    "Meal Kits are soon turning out to be a necessity with consumers who are running out of time to manage their day to day activities. Meal Kits is probably the last stage in disruption of food businesses and probably one of the most critical disruptions to emerge in a market where people are constantly trying solve the problem of food wastage.",
+                    "The U.S. meal kit market tallied sales of $2.6 billion in 2017 and will achieve an estimated $4 billion in sales in 2019. The Meal Kit sales will soon hit double digits by 2023 onwards and continue to grow exponentially",
                   ],
                 },
               ],

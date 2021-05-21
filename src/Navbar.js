@@ -359,10 +359,22 @@ export default class Navbar extends PureComponent {
                           fontSize: "12px",
                         }}
                         className="dropdown-item"
-                        href="How_to_start_a_meal_kit_service"
+                        href="#"
                       >
                         Start Meal Kit Brand
                       </a>
+                      <ul className="special-styling">
+                        <li>
+                          <a href="/start-meal-kit-brands/what-is-meal-kit">
+                            What is a Meal Kit?
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/start-meal-kit-brands/how-to-start-a-Meal-Kit-Service">
+                            How to start a Meal Kit Service
+                          </a>
+                        </li>
+                      </ul>
                     </li>
                     <li>
                       <a
@@ -372,10 +384,17 @@ export default class Navbar extends PureComponent {
                           fontSize: "12px",
                         }}
                         className="dropdown-item"
-                        href="How_to_start_a_meal_kit_service"
+                        href="#"
                       >
                         Case study
                       </a>
+                      <ul className="special-styling">
+                        <li>
+                          <a href="/case-study/Groctaurant-Case-Study">
+                            Groctaurant Case Study
+                          </a>
+                        </li>
+                      </ul>
                     </li>
                     <li className="nav-item dropdown">
                       <a
@@ -388,7 +407,29 @@ export default class Navbar extends PureComponent {
                         href="Recipe_Provider"
                       >
                         Do more
-                      </a>
+                      </a>{" "}
+                      <ul className="special-styling">
+                        <li>
+                          <a href="/meal-kit-guides/meal-kit-guides/how-to-decide-your-meal-kits">
+                            Recipe Provider
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/meal-kit-guides/meal-kit-guides/how-to-price-your-meal-kits">
+                            Co-Packer
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/meal-kit-guides/meal-kit-guides/how-to-promote-your-meal-kits">
+                            Co-Seller
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/meal-kit-guides/meal-kit-guides/how-to-sell-your-meal-kits">
+                            Delivery Partner
+                          </a>
+                        </li>
+                      </ul>
                     </li>
                   </ul>
                 </li>

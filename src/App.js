@@ -14,6 +14,11 @@ import What_is_a_mealkit from "./pages/startMeal/What_is_a_mealkit";
 import For_Restaurants from "./pages/startMeal/For_Restaurants";
 import QSR_Cafes from "./pages/startMeal/QSR_Cafes";
 import Meal_kit_packaging from "./pages/startMeal/Meal_kit_packaging";
+import HowtodecideyourMealKitMenu from "./pages/startMeal/HowtodecideyourMealKitMenu";
+import HowtopriceyourMealKits from "./pages/startMeal/HowtopriceyourMealKits";
+import HowtopromoteyourMealKits from "./pages/startMeal/HowtopromoteyourMealKits";
+import HowtosellyourMealKits from "./pages/startMeal/HowtosellyourMealKits";
+import Start_mealkit_brands from "./pages/startMeal/Start_mealkit_brands";
 
 /* Do more */
 
@@ -48,10 +53,7 @@ import Orderroutingpage from "./pages/orderroutingpage";
 import Orderfulfillmentpage from "./pages/orderfulfillmentpage";
 import Portioncontrolpage from "./pages/portioncontrolpage";
 import Packagingmanagementpage from "./pages/packagingmangement";
-import HowtodecideyourMealKitMenu from "./pages/startMeal/HowtodecideyourMealKitMenu";
-import HowtopriceyourMealKits from "./pages/startMeal/HowtopriceyourMealKits";
-import HowtopromoteyourMealKits from "./pages/startMeal/HowtopromoteyourMealKits";
-import HowtosellyourMealKits from "./pages/startMeal/HowtosellyourMealKits";
+import GroctaurantCaseStudy from "./pages/startMeal/GroctaurantCaseStudy";
 
 // routing
 
@@ -80,7 +82,18 @@ class App extends Component {
               component={For_Restaurants}
             />
             <Route path="/restaurants/cafes" component={QSR_Cafes} />
-            <Route path="/What_is_a_mealkit" component={What_is_a_mealkit} />
+            <Route
+              path="/case-study/Groctaurant-Case-Study"
+              component={GroctaurantCaseStudy}
+            />
+            <Route
+              path="/start-meal-kit-brands/what-is-meal-kit"
+              component={What_is_a_mealkit}
+            />
+            <Route
+              path="/start-meal-kit-brands/how-to-start-a-Meal-Kit-Service"
+              component={Start_mealkit_brands}
+            />
             <Route
               path="/meal-kit-guides/meal-kit-packaging"
               component={Meal_kit_packaging}

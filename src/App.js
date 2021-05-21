@@ -7,10 +7,13 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import BakeryPage from "./pages/startMeal/bakery";
 import Cloud_kitchen from "./pages/startMeal/cloud_kitchen";
-import For_Enterprise from "./pages/startMeal/For_Enterprise";
+import Grocers from "./pages/startMeal/Grocers";
+import MealkitStartups from "./pages/startMeal/MealkitStartups";
+import Franchisees from "./pages/startMeal/Franchisees";
 import What_is_a_mealkit from "./pages/startMeal/What_is_a_mealkit";
 import For_Restaurants from "./pages/startMeal/For_Restaurants";
-import How_to_start_a_meal_kit_service from "./pages/startMeal/How_to_start_a_meal_kit_service";
+import QSR_Cafes from "./pages/startMeal/QSR_Cafes";
+import Meal_kit_packaging from "./pages/startMeal/Meal_kit_packaging";
 
 /* Do more */
 
@@ -45,6 +48,11 @@ import Orderroutingpage from "./pages/orderroutingpage";
 import Orderfulfillmentpage from "./pages/orderfulfillmentpage";
 import Portioncontrolpage from "./pages/portioncontrolpage";
 import Packagingmanagementpage from "./pages/packagingmangement";
+import HowtodecideyourMealKitMenu from "./pages/startMeal/HowtodecideyourMealKitMenu";
+import HowtopriceyourMealKits from "./pages/startMeal/HowtopriceyourMealKits";
+import HowtopromoteyourMealKits from "./pages/startMeal/HowtopromoteyourMealKits";
+import HowtosellyourMealKits from "./pages/startMeal/HowtosellyourMealKits";
+
 // routing
 
 class App extends Component {
@@ -58,12 +66,40 @@ class App extends Component {
             {/* start meal kit brand */}
             <Route path="/bakerypage" component={BakeryPage} />
             <Route path="/Cloud_kitchen" component={Cloud_kitchen} />
-            <Route path="/For_Enterprise" component={For_Enterprise} />
-            <Route path="/For_Restaurants" component={For_Restaurants} />
+            <Route path="/enterprise/grocers" component={Grocers} />
+            <Route
+              path="/enterprise/meal-kit-startups"
+              component={MealkitStartups}
+            />
+            <Route
+              path="/enterprise/how-dailykit-can-help-franchisees"
+              component={Franchisees}
+            />
+            <Route
+              path="/restaurants/fine-dine-restaurants"
+              component={For_Restaurants}
+            />
+            <Route path="/restaurants/cafes" component={QSR_Cafes} />
             <Route path="/What_is_a_mealkit" component={What_is_a_mealkit} />
             <Route
-              path="/How_to_start_a_meal_kit_service"
-              component={How_to_start_a_meal_kit_service}
+              path="/meal-kit-guides/meal-kit-packaging"
+              component={Meal_kit_packaging}
+            />
+            <Route
+              path="/meal-kit-guides/meal-kit-guides/how-to-decide-your-meal-kits"
+              component={HowtodecideyourMealKitMenu}
+            />{" "}
+            <Route
+              path="/meal-kit-guides/meal-kit-guides/how-to-price-your-meal-kits"
+              component={HowtopriceyourMealKits}
+            />{" "}
+            <Route
+              path="/meal-kit-guides/meal-kit-guides/how-to-promote-your-meal-kits"
+              component={HowtopromoteyourMealKits}
+            />{" "}
+            <Route
+              path="/meal-kit-guides/meal-kit-guides/how-to-sell-your-meal-kits"
+              component={HowtosellyourMealKits}
             />
             {/* operate */}
             <Route

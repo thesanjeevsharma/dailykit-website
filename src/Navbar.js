@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react";
 import "./style.css";
-
+import "./dropdown.css";
 export default class Navbar extends PureComponent {
   render() {
     return (
@@ -26,7 +26,7 @@ export default class Navbar extends PureComponent {
               />
             </a>
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul className="navbar-nav">
+              <ul className="special-styling navbar-nav">
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
@@ -45,7 +45,7 @@ export default class Navbar extends PureComponent {
                     Sell
                   </a>
                   <ul
-                    className="dropdown-menu"
+                    className=" special-styling dropdown-menu"
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <li>
@@ -107,7 +107,7 @@ export default class Navbar extends PureComponent {
                     Operate
                   </a>
                   <ul
-                    className="dropdown-menu"
+                    className=" special-styling dropdown-menu"
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <li>
@@ -223,7 +223,7 @@ export default class Navbar extends PureComponent {
                     Start a Meal Kit Brand
                   </a>
                   <ul
-                    className="dropdown-menu"
+                    className=" special-styling dropdown-menu"
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <li>
@@ -234,10 +234,20 @@ export default class Navbar extends PureComponent {
                           fontSize: "12px",
                         }}
                         className="dropdown-item"
-                        href="/For_Restaurants"
+                        href="#"
                       >
                         For Restaurants
                       </a>
+                      <ul className="special-styling">
+                        <li>
+                          <a href="/restaurants/fine-dine-restaurants">
+                            Casual and Fine Dining
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/restaurants/cafes">QSR, Cafes</a>
+                        </li>
+                      </ul>
                     </li>
 
                     <li>
@@ -248,10 +258,25 @@ export default class Navbar extends PureComponent {
                           fontSize: "12px",
                         }}
                         className="dropdown-item"
-                        href="For_Enterprise"
+                        href="#"
                       >
                         For Enterprise
                       </a>
+                      <ul className="special-styling">
+                        <li>
+                          <a href="/enterprise/grocers">Grocers</a>
+                        </li>
+                        <li>
+                          <a href="/enterprise/meal-kit-startups">
+                            Meal kit Startups
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/enterprise/how-dailykit-can-help-franchisees">
+                            Franchisees
+                          </a>
+                        </li>
+                      </ul>
                     </li>
 
                     <li>
@@ -288,11 +313,44 @@ export default class Navbar extends PureComponent {
                           fontSize: "12px",
                         }}
                         className="dropdown-item"
-                        href="How_to_start_a_meal_kit_service"
+                        href="#"
                       >
                         Meal Kit Guides
-                      </a>
+                      </a>{" "}
+                      <ul className="special-styling">
+                        <li>
+                          <a href="/meal-kit-guides/meal-kit-packaging">
+                            Meal Kit Packaging
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">The Meal Kit Marketing Guide</a>
+                          <ul className="special-styling">
+                            <li>
+                              <a href="/meal-kit-guides/meal-kit-guides/how-to-decide-your-meal-kits">
+                                How to decide your meal kits
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/meal-kit-guides/meal-kit-guides/how-to-price-your-meal-kits">
+                                How to price your meal kits
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/meal-kit-guides/meal-kit-guides/how-to-promote-your-meal-kits">
+                                How to promote your meal kits
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/meal-kit-guides/meal-kit-guides/how-to-sell-your-meal-kits">
+                                How to sell your meal kits
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
                     </li>
+
                     <li>
                       <a
                         style={{
@@ -352,7 +410,7 @@ export default class Navbar extends PureComponent {
                     About Us
                   </a>
                   <ul
-                    className="dropdown-menu"
+                    className=" special-styling dropdown-menu"
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <li>

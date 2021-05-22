@@ -425,15 +425,15 @@ small {
 }
 /* ///////////////////////// */
 /* videobanner */
-/* @media only screen and (max-width: 400px) {
-  .video .videoTag {
-    width: 500px;
+@media only screen and (min-width: 400px) {
+  .videoTag {
+    width: 100vw;
     margin-top: 40rem;
   }
   .homebutton {
     margin-top: 2rem;
   }
-} */
+}
 /* imagebox */
 .restaurant-button {
   margin-top: -2rem;

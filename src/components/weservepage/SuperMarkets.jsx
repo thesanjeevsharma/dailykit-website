@@ -7,7 +7,7 @@ export default class SuperMarkets extends PureComponent {
         <div class="container" style={{ marginTop: "8rem" }}>
           <div class="row justify-content-between">
             {this.props.leftImage && (
-              <div class="col-6">
+              <div class="col-md-6 col-xs-10">
                 <img
                   src={this.props.leftImage}
                   class="d-block w-100"
@@ -15,7 +15,7 @@ export default class SuperMarkets extends PureComponent {
                 />
               </div>
             )}
-            <div class="col-6">
+            <div class="col-md-6 col-xs-10">
               {" "}
               <h6
                 style={{
@@ -50,12 +50,12 @@ export default class SuperMarkets extends PureComponent {
                   class="row"
                   style={{ marginTop: "2rem", marginLeft: "2rem" }}
                 >
-                  <ul class="col-6 onDemandCategories">
+                  <ul class="col-md-6 col-xs-10 onDemandCategories">
                     {this.props.list1.map((list) => {
                       return <li style={{ fontSize: "14px" }}>{list}</li>;
                     })}
                   </ul>
-                  <ul class="col-6 onDemandCategories">
+                  <ul class="col-md-6 col-xs-10 onDemandCategories">
                     {this.props.list2.map((list) => {
                       return <li style={{ fontSize: "14px" }}>{list}</li>;
                     })}
@@ -71,7 +71,7 @@ export default class SuperMarkets extends PureComponent {
               </button>
             </div>
             {this.props.rightImage && (
-              <div class="col-6">
+              <div class="col-md-6 col-xs-10">
                 <img
                   src={this.props.rightImage}
                   class="d-block w-100"

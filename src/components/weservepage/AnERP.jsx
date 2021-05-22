@@ -6,7 +6,7 @@ export default class AnERP extends PureComponent {
       <>
         <div class="container" style={{ marginTop: "12rem" }}>
           <div class="row justify-content-between">
-            <div class="col-6">
+            <div class="col-md-6 col-xs-10 trend-responsive">
               <h2
                 style={{
                   fontWeight: "bolder",
@@ -32,7 +32,7 @@ export default class AnERP extends PureComponent {
                 SCHEDULE A MEETING
               </button>
             </div>
-            <div class="col-6">
+            <div class="col-md-6 col-xs-10">
               <img
                 src="https://www.dailykit.org/hubfs/dailykit-assets/enterprise-solution@2x.png"
                 alt="..."

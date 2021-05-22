@@ -31,7 +31,7 @@ export default class Weserve extends PureComponent {
 
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-3">
+            <div class="col-md-3 col-xs-10">
               <div class="card">
                 <div
                   class="card-body imagebox1"
@@ -57,7 +57,7 @@ export default class Weserve extends PureComponent {
                 </div>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-md-3 col-xs-10">
               <div class="card">
                 <div
                   class="card-body imagebox2"
@@ -84,7 +84,7 @@ export default class Weserve extends PureComponent {
                 </div>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-md-3 col-xs-10">
               <div class="card">
                 <div
                   class="card-body imagebox3"
@@ -112,7 +112,7 @@ export default class Weserve extends PureComponent {
                 </div>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-md-3 col-xs-10">
               <div class="card">
                 <div
                   class="card-body imagebox4"

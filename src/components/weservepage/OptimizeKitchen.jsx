@@ -41,7 +41,7 @@ export default class OptimizeKitchen extends PureComponent {
               }}
             >
               <div class="row justify-content-evenly mb-4">
-                <div class="col-4 p-4 column3 justify-content-center">
+                <div class="col-md-4 col-xs-10 p-4 column3 justify-content-center">
                   <h5
                     style={{
                       display: "inline",
@@ -72,7 +72,7 @@ export default class OptimizeKitchen extends PureComponent {
                     }}
                   />
                 </div>
-                <div class="col-4 p-4 column3 justify-content-center">
+                <div class="col-md-4 col-xs-10 p-4 column3 justify-content-center">
                   {" "}
                   <h5
                     style={{
@@ -106,7 +106,7 @@ export default class OptimizeKitchen extends PureComponent {
                 </div>
 
                 <div class="row justify-content-evenly mt-4">
-                  <div class="col-4 p-4 column3 justify-content-center">
+                  <div class="col-md-4 col-xs-10 p-4 column3 justify-content-center">
                     {" "}
                     <h5
                       style={{
@@ -138,7 +138,7 @@ export default class OptimizeKitchen extends PureComponent {
                       }}
                     />
                   </div>
-                  <div class="col-4 p-4 column3 justify-content-center">
+                  <div class="col-md-4 col-xs-10 p-4 column3 justify-content-center">
                     <h5
                       style={{
                         display: "inline",

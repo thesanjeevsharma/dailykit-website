@@ -6,7 +6,7 @@ export default class Makethejuice extends PureComponent {
       <>
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-6">
+            <div class="col-md-6 col-xs-10 trend-responsive">
               <p
                 style={{
                   fontSize: "16px",
@@ -28,10 +28,10 @@ export default class Makethejuice extends PureComponent {
               </h2>
               <div class="row">
                 <div
-                  class="col-2 vl"
+                  class="col-md-2 col-xs-10 vl"
                   style={{ marginRight: "-70px", paddingRight: "-12px" }}
                 ></div>
-                <div class="col-10">
+                <div class="col-md-10 col-xs-10">
                   Blend Best Business Practices To Help Your Food Business
                   Maximize Sustainability & Growth
                 </div>
@@ -46,7 +46,7 @@ export default class Makethejuice extends PureComponent {
                 </button>
               </div>
               <div class="row" style={{ paddingTop: "1rem" }}>
-                <div class="col-3">
+                <div class="col-md-3 col-xs-10">
                   {" "}
                   <img
                     src="https://www.dailykit.org/hubfs/osaas/images/icons/chat-icon.png"
@@ -54,7 +54,7 @@ export default class Makethejuice extends PureComponent {
                     style={{ paddingTop: "2rem", width: "110px" }}
                   />
                 </div>
-                <div class="col-5" style={{ paddingTop: "2rem" }}>
+                <div class="col-md-5 col-xs-10" style={{ paddingTop: "2rem" }}>
                   <small>Minimum Added Revenue</small>
                   <h4 style={{ color: "#8ac03b", fontWeight: "bolder" }}>
                     $100000
@@ -62,7 +62,7 @@ export default class Makethejuice extends PureComponent {
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-md-6 col-xs-10">
               <img
                 src="https://www.dailykit.org/hubfs/dailykit-assets/Lob-hero@2x.png"
                 alt="..."

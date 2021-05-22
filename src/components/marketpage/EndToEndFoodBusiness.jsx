@@ -56,7 +56,7 @@ export default class EndToEndFoodBusiness extends PureComponent {
                 background: "#8ac03b",
                 color: "white",
               }}
-              class="btn btn-lg p-3 pl-4 pr-4"
+              class="btn btn-lg p-3 pl-4 pr-4 form-button"
             >
               Start Now
             </button>
@@ -79,7 +79,7 @@ export default class EndToEndFoodBusiness extends PureComponent {
             <br />
           </div>
           <div class="row justify-content-center">
-            <div class="col-4 p-4">
+            <div class="col-md-3 col-xs-10 p-4">
               <img alt="icon" src={tick} style={{ width: "50px" }} />{" "}
               <h6 style={{ display: "inline" }}>
                 Delivery & Packaging Integrations
@@ -91,7 +91,7 @@ export default class EndToEndFoodBusiness extends PureComponent {
               <h6 style={{ display: "inline" }}>Inventory Management</h6>
               <br />
             </div>
-            <div class="col-md-2 col-xs-10 p-4">
+            <div class="col-md-3 col-xs-10 p-4">
               <img alt="icon" src={tick} style={{ width: "50px" }} />
               <h6 style={{ display: "inline" }}> Analytics</h6>
               <br />

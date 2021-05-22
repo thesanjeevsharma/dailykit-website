@@ -36,7 +36,7 @@ export default class BlueBox extends PureComponent {
             }}
           >
             <div class="row justify-content-evenly mb-4">
-              <div class="col-3 p-4 column3 justify-content-center">
+              <div class="col-md-3 col-xs-10 p-4 column3 justify-content-center">
                 <h5
                   style={{
                     display: "inline",
@@ -68,7 +68,7 @@ export default class BlueBox extends PureComponent {
                   }}
                 />
               </div>
-              <div class="col-3 p-4 column3 justify-content-center">
+              <div class="col-md-3 col-xs-10 p-4 column3 justify-content-center">
                 <h5
                   style={{
                     display: "inline",
@@ -98,7 +98,7 @@ export default class BlueBox extends PureComponent {
                   }}
                 />
               </div>
-              <div class="col-3 p-4 column3 justify-content-center">
+              <div class="col-md-3 col-xs-10 p-4 column3 justify-content-center">
                 {" "}
                 <h5
                   style={{
@@ -132,7 +132,7 @@ export default class BlueBox extends PureComponent {
               </div>
 
               <div class="row justify-content-evenly mt-4">
-                <div class="col-3 p-4 column3 justify-content-center">
+                <div class="col-md-3 col-xs-10 p-4 column3 justify-content-center">
                   {" "}
                   <h5
                     style={{
@@ -164,7 +164,7 @@ export default class BlueBox extends PureComponent {
                     }}
                   />
                 </div>
-                <div class="col-3 p-4 column3 justify-content-center">
+                <div class="col-md-3 col-xs-10 p-4 column3 justify-content-center">
                   <h5
                     style={{
                       display: "inline",
@@ -195,7 +195,7 @@ export default class BlueBox extends PureComponent {
                     }}
                   />
                 </div>
-                <div class="col-3 p-4 column3 justify-content-center">
+                <div class="col-md-3 col-xs-10 p-4 column3 justify-content-center">
                   <h5
                     style={{
                       display: "inline",
@@ -245,7 +245,7 @@ export default class BlueBox extends PureComponent {
               }}
             >
               <div class="row justify-content-evenly">
-                <div class="col-5 p-4 column3">
+                <div class="col-md-5 col-xs-10 p-4 column3">
                   <img
                     alt="icon"
                     src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/Margins.svg"
@@ -259,7 +259,7 @@ export default class BlueBox extends PureComponent {
                     Common & Most Sold Items could be added for each week
                   </p>
                 </div>
-                <div class="col-5 p-4 column3">
+                <div class="col-md-5 col-xs-10 p-4 column3">
                   <img
                     alt="icon"
                     src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/Precise%20Configuration.svg"
@@ -274,7 +274,7 @@ export default class BlueBox extends PureComponent {
                   </p>
                 </div>
                 <div class="row justify-content-evenly mt-4">
-                  <div class="col-5 p-4 column3">
+                  <div class="col-md-5 col-xs-10 p-4 column3">
                     <img
                       alt="icon"
                       src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/Smart%20Insights.svg"
@@ -289,7 +289,7 @@ export default class BlueBox extends PureComponent {
                       ease.
                     </p>
                   </div>
-                  <div class="col-5 p-4 column3">
+                  <div class="col-md-5 col-xs-10 p-4 column3">
                     <img
                       alt="icon"
                       src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/Discounts%20%26%20Coupons.svg"

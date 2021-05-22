@@ -53,7 +53,7 @@ export default class OurPricing extends PureComponent {
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-xs-10 mt-4">
+            <div class="col-md-6 col-xs-10 ourpricing">
               <div
                 class="card"
                 style={{
@@ -116,7 +116,6 @@ export default class OurPricing extends PureComponent {
               To start now, get in touch
             </h1>
             <form>
-              {" "}
               <input
                 type="email"
                 class="form-control"

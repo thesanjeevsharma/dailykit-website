@@ -31,7 +31,7 @@ export default class PartnerWithDailyKIT extends PureComponent {
             >
               <a
                 href="https://share.hsforms.com/1nmDk2BV3Teql1yIVH7gpqw3fqrt"
-                style={{ textDecoration: "none !important", color: "white" }}
+                style={{ textDecoration: "none", color: "white" }}
               >
                 Schedula A Meeting
               </a>

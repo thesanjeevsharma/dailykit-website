@@ -6,14 +6,14 @@ export default class OwnYourOnline extends PureComponent {
       <>
         <div class="container" style={{ marginTop: "8rem" }}>
           <div class="row justify-content-between">
-            <div class="col-6">
+            <div class="col-md-6 col-xs-10">
               <img
                 src="https://www.dailykit.org/hubfs/dailykit-assets/Real-TimeOrderTracking@2x.png"
                 class="d-block w-100"
                 alt="..."
               />
             </div>
-            <div class="col-6">
+            <div class="col-md-6 col-xs-10 trend-responsive">
               <div
                 style={{
                   color: "#1374f6",
@@ -50,11 +50,11 @@ export default class OwnYourOnline extends PureComponent {
                   class="row"
                   style={{ marginTop: "2rem", marginLeft: "2rem" }}
                 >
-                  <ul class="col-6 onDemandCategories">
+                  <ul class="col-md-6 col-xs-10 onDemandCategories">
                     <li>Your Own Domain</li>
                     <li>iOS & Android Apps</li>
                   </ul>
-                  <ul class="col-6 onDemandCategories">
+                  <ul class="col-md-6 col-xs-10 onDemandCategories">
                     <li>Themes & Brand Colors</li>
                     <li>Custom Brand Pages</li>
                   </ul>

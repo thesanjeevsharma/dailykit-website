@@ -5,7 +5,7 @@ export default class PopularOrderingExperiences extends PureComponent {
     return (
       <div class="container" style={{ marginTop: "15rem" }}>
         <div class="row justify-content-center">
-          <div class="col-6">
+          <div class="col-md-6 col-xs-10 trend-responsive">
             <div
               style={{
                 color: "#1374f6",
@@ -47,11 +47,11 @@ export default class PopularOrderingExperiences extends PureComponent {
               })}
             </ul>
           </div>
-          <div class="col-6">
+          <div class="col-md-6 col-xs-10">
             <img
               src={this.props.image}
               alt="image-gif"
-              style={{ width: "35rem" }}
+              style={{ width: "25rem" }}
             />
           </div>
         </div>

@@ -4,9 +4,9 @@ export default class Showcase extends PureComponent {
   render() {
     return (
       <>
-        <div class="container" style={{ marginTop: "12rem" }}>
+        <div class="container" style={{ marginTop: "8rem" }}>
           <div class="row justify-content-between">
-            <div class="col-6">
+            <div class="col-md-6 col-xs-10 trend-responsive">
               <h2
                 style={{
                   fontWeight: "bolder",
@@ -31,18 +31,18 @@ export default class Showcase extends PureComponent {
                   class="row"
                   style={{ marginTop: "2rem", marginLeft: "2rem" }}
                 >
-                  <ul class="col-6 onDemandCategories">
+                  <ul class="col-md-6 col-xs-10 onDemandCategories">
                     <li>Body-Temp Reports</li>
                     <li>Use of PPE Checklist</li>
                   </ul>
-                  <ul class="col-6 onDemandCategories">
+                  <ul class="col-md-6 col-xs-10 onDemandCategories">
                     <li>Safety report on Invoice</li>
                     <li>Cleaning Protocols</li>
                   </ul>
                 </div>
               </p>
             </div>{" "}
-            <div class="col-6">
+            <div class="col-md-6 col-xs-10">
               <img
                 src="https://www.dailykit.org/hubfs/dailykit-assets/ShowcaseYourCOVIDSafetyMeasures@2x.png"
                 class="d-block w-100"

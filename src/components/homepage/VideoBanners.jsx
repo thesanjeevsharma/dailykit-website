@@ -27,11 +27,15 @@ const VideoBanner = () => {
         <br />
         <br />
         <button type="button" className="btn btn-light btn-lg">
-          Schedule Demo
+          <a href="/" style={{ textDecoration: "none", color: "#0a58ca" }}>
+            Schedule Demo
+          </a>
         </button>
         &ensp;
         <button type="button" className="btn btn-primary btn-lg homebutton">
-          Start Now With A 3-Month Trail
+          <a href="/" style={{ textDecoration: "none", color: "white" }}>
+            Start Now With A 3-Month Trail
+          </a>
         </button>
         <br />
         <br />

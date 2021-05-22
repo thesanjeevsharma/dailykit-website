@@ -497,3 +497,55 @@ small {
     margin-left: 4rem;
   }
 }
+/* ourupricing */
+@media only screen and (max-width: 600px) {
+  .ourpricing {
+    margin-top: 2rem;
+  }
+}
+/* storethatsells */
+
+@media only screen and (max-width: 600px) {
+  .image-responsive {
+    margin-top: 4rem;
+  }
+}
+/* why_choose */
+.why_choose {
+  color: #8ac03b;
+  font-weight: 600;
+}
+/* menu-management */
+.image-responsive-size {
+  width: 28vw;
+}
+@media only screen and (max-width: 600px) {
+  .image-responsive-size {
+    width: 65vw;
+    margin-left: 7rem;
+  }
+}
+/* blue-box */
+@media only screen and (max-width: 600px) {
+  .blackline {
+    display: none;
+  }
+}
+
+.bluebox-right {
+  font-size: 19px;
+  line-height: 2rem;
+  text-align: right;
+}
+.bluebox-left {
+  font-size: 19px;
+  line-height: 2rem;
+  text-align: left;
+}
+@media only screen and (max-width: 600px) {
+  .bluebox-right,
+  .bluebox-left {
+    text-align: center;
+    font-size: 15px;
+  }
+}

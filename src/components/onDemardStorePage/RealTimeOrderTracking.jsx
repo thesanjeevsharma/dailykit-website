@@ -6,14 +6,14 @@ export default class RealTimeOrderTracking extends PureComponent {
       <>
         <div class="container" style={{ marginTop: "8rem" }}>
           <div class="row justify-content-between">
-            <div class="col-6">
+            <div class="col-md-6 col-xs-10">
               <img
                 src="https://www.dailykit.org/hubfs/dailykit-assets/Real-TimeOrderTracking@2x.png"
                 class="d-block w-100"
                 alt="..."
               />
             </div>
-            <div class="col-6">
+            <div class="col-md-6 col-xs-10 trend-responsive">
               <h2
                 style={{
                   fontWeight: "bolder",
@@ -38,11 +38,11 @@ export default class RealTimeOrderTracking extends PureComponent {
                   class="row"
                   style={{ marginTop: "2rem", marginLeft: "2rem" }}
                 >
-                  <ul class="col-6 onDemandCategories">
+                  <ul class="col-md-6 col-xs-10 onDemandCategories">
                     <li>Kitchen Order Status</li>
                     <li>Delivery Personnel Info</li>
                   </ul>
-                  <ul class="col-6 onDemandCategories">
+                  <ul class="col-md-6 col-xs-10 onDemandCategories">
                     <li>ETA & Map Tracking</li>
                     <li>Review & Rating</li>
                   </ul>

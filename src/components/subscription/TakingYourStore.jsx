@@ -6,14 +6,14 @@ export default class CreateRewardingExperiences extends PureComponent {
       <>
         <div class="container" style={{ marginTop: "8rem" }}>
           <div class="row justify-content-between">
-            <div class="col-6">
+            <div class="col-md-6 col-xs-10">
               <img
                 src="https://www.dailykit.org/hubfs/dailykit-assets/takingyourStoreAbove%26Beyond@2x.png"
                 class="d-block w-100"
                 alt="..."
               />
             </div>
-            <div class="col-6">
+            <div class="col-md-6 col-xs-10">
               <h2
                 style={{
                   fontWeight: "bolder",
@@ -36,7 +36,7 @@ export default class CreateRewardingExperiences extends PureComponent {
               </p>{" "}
               <div class="row justify-content-evenly">
                 <div
-                  class="col-5 p-4"
+                  class="col-md-5 col-xs-10 p-4"
                   style={{ boxShadow: "0 0 10px 0px rgba(0, 0, 0, 0.3)" }}
                 >
                   <img
@@ -51,7 +51,7 @@ export default class CreateRewardingExperiences extends PureComponent {
                   </p>
                 </div>
                 <div
-                  class="col-5 p-4"
+                  class="col-md-5 col-xs-10 p-4"
                   style={{ boxShadow: "0 0 10px 0px rgba(0, 0, 0, 0.3)" }}
                 >
                   <img

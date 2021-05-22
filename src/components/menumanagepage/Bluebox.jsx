@@ -27,10 +27,7 @@ export default class Bluebox extends PureComponent {
           Schedule A Meeting
         </button>
         <div class="row justify-content-center mb-4 mt-4">
-          <p
-            class="col-5"
-            style={{ fontSize: "19px", lineHeight: "2rem", textAlign: "right" }}
-          >
+          <p class="col-md-5 col-xs-10 bluebox-right">
             Menu management is a general menu building excercise done
             periodically and ideally before the start of business each day,
             where you simply build & discuss your menu, as well as specials and
@@ -38,11 +35,8 @@ export default class Bluebox extends PureComponent {
             demands and desires. Novice businesses often miss out on the
             importance of menu engineering.
           </p>
-          <p class="col-1 blackline"></p>
-          <p
-            class="col-5"
-            style={{ fontSize: "19px", lineHeight: "2rem", textAlign: "left" }}
-          >
+          <p class="col-md-1 blackline"></p>
+          <p class="col-md-5 col-xs-10 bluebox-left">
             Menu Engineering is Active & Modern Menu Management. Ask yourself:
             When was the last time you paid detailed attention to your menu and
             revamped it according to your customer's expectations? With

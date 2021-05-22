@@ -6,7 +6,7 @@ export default class StoreThatSells extends PureComponent {
       <>
         <div class="container">
           <div class="row justify-content-between">
-            <div class="col-6">
+            <div class="col-md-6 col-xs-10 trend-responsive">
               <p
                 style={{
                   fontSize: "18px",
@@ -51,14 +51,14 @@ export default class StoreThatSells extends PureComponent {
                   <button
                     type="button"
                     style={{ fontSize: "14px", width: "150px" }}
-                    class="btn btn-dark btn-lg p-3 pl-4 pr-4"
+                    class="btn btn-dark btn-lg p-3 pl-4 pr-4 homebutton"
                   >
                     Start Now
                   </button>
                 </form>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-md-6 col-xs-10">
               <div
                 id="carouselExampleIndicators"
                 class="carousel slide"
@@ -90,7 +90,7 @@ export default class StoreThatSells extends PureComponent {
                   <div class="carousel-item active">
                     <img
                       src={this.props.image}
-                      class="d-block w-100"
+                      class="d-block w-100 image-responsive"
                       alt="..."
                     />
                   </div>

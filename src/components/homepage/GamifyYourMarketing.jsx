@@ -5,7 +5,7 @@ export default class GamifyYourMarketing extends PureComponent {
     return (
       <div class="container">
         <div class="row justify-content-between">
-          <div class="col-6">
+          <div class="col-md-6 col-xs-10 gamify">
             <div
               style={{
                 color: "#1374f6",
@@ -36,6 +36,10 @@ export default class GamifyYourMarketing extends PureComponent {
               Multi-Conditional Discounting Tools .
             </p>
             <button type="button" class="btn btn-outline-success btn-lg">
+              <a
+                href="/meal-kit-guides/meal-kit-guides/how-to-sell-your-meal-kits"
+                style={{ textDecoration: "none" }}
+              ></a>
               TELL ME MORE
             </button>
             <ul
@@ -59,7 +63,7 @@ export default class GamifyYourMarketing extends PureComponent {
               </li>
             </ul>
           </div>
-          <div class="col-6">
+          <div class="col-md-6 col-xs-10 gamify">
             <div
               id="carouselExampleIndicators"
               class="carousel slide"

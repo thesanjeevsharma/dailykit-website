@@ -1,6 +1,5 @@
 import React, { PureComponent } from "react";
 import "./style.css";
-import "./dropdown.css";
 export default class Navbar extends PureComponent {
   render() {
     return (
@@ -24,9 +23,23 @@ export default class Navbar extends PureComponent {
                 width="181"
                 height="54"
               />
-            </a>
-            <div className="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul className="special-styling navbar-nav">
+            </a>{" "}
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul className="navbar-nav special-styling   me-auto mb-2 mb-lg-0">
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
@@ -37,7 +50,7 @@ export default class Navbar extends PureComponent {
                       fontSize: "14px",
                     }}
                     href="#"
-                    id="navbarDropdownMenuLink"
+                    id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -46,7 +59,7 @@ export default class Navbar extends PureComponent {
                   </a>
                   <ul
                     className=" special-styling dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink"
+                    aria-labelledby="navbarDropdown"
                   >
                     <li>
                       <a
@@ -99,7 +112,7 @@ export default class Navbar extends PureComponent {
                       fontSize: "14px",
                     }}
                     href="#"
-                    id="navbarDropdownMenuLink"
+                    id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -108,7 +121,7 @@ export default class Navbar extends PureComponent {
                   </a>
                   <ul
                     className=" special-styling dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink"
+                    aria-labelledby="navbarDropdown"
                   >
                     <li>
                       <a
@@ -215,7 +228,7 @@ export default class Navbar extends PureComponent {
                       fontSize: "14px",
                     }}
                     href="#"
-                    id="navbarDropdownMenuLink"
+                    id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -224,7 +237,7 @@ export default class Navbar extends PureComponent {
                   </a>
                   <ul
                     className=" special-styling dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink"
+                    aria-labelledby="navbarDropdown"
                   >
                     <li>
                       <a
@@ -437,7 +450,7 @@ export default class Navbar extends PureComponent {
                       fontSize: "14px",
                     }}
                     href="#"
-                    id="navbarDropdownMenuLink"
+                    id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -446,7 +459,7 @@ export default class Navbar extends PureComponent {
                   </a>
                   <ul
                     className=" special-styling dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink"
+                    aria-labelledby="navbarDropdown"
                   >
                     <li>
                       <a

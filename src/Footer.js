@@ -5,8 +5,12 @@ const Footer = () => {
   return (
     <>
       <div class="flex-container">
-              <div>
-                  <img src={dailykit_logo} style={{"width":"50px","paddingBottom":"1rem"}} alt="footer_logo"/>
+        <div className="footer_section">
+          <img
+            src={dailykit_logo}
+            style={{ width: "50px", paddingBottom: "1rem" }}
+            alt="footer_logo"
+          />
           <p>
             DailyKit is a Meal Kit Technology Platform
             <br />
@@ -15,27 +19,27 @@ const Footer = () => {
             everything that your company needs to grow.
           </p>
         </div>
-              <div className="footer_section">
+        <div className="footer_section">
           <h3>ABOUT US</h3>
           <p>DailyKit Philosophy</p>
         </div>
-        <div className="footer_section"><ul>
-          <h3>START A MEAL KIT BRAND</h3>
-          
-            <li>QSR & Cafes</li>
-            <li>Casual and Fine Dining</li>
-            <li>Cloud Kitchen</li>
-            <li>Bakery</li>
-          </ul>
-        </div>
-        <div className="footer_section"> <ul>
-          <h3>Contact us</h3>
-         
-            <li>Rishi@dailykit.org</li>
 
-            <li>+13125210704</li>
-          </ul>
-        </div>
+        <ul className="footer_section">
+          <h3>START A MEAL KIT BRAND</h3>
+
+          <li>QSR & Cafes</li>
+          <li>Casual and Fine Dining</li>
+          <li>Cloud Kitchen</li>
+          <li>Bakery</li>
+        </ul>
+
+        <ul className="footer_section">
+          <h3>Contact us</h3>
+
+          <li>Rishi@dailykit.org</li>
+
+          <li>+13125210704</li>
+        </ul>
       </div>
 
       <div className="copyright">

@@ -17,11 +17,10 @@ export default class OurPricing extends PureComponent {
         </h6>
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-6">
+            <div class="col-md-6 col-xs-10 mb-4">
               <div
                 class="card"
                 style={{
-                  width: "34rem",
                   background: "#F1F1EF",
                   boxShadow: "0px 5px 10px 0px #888888",
                   textAlign: "center",
@@ -54,11 +53,10 @@ export default class OurPricing extends PureComponent {
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-md-6 col-xs-10 mt-4">
               <div
                 class="card"
                 style={{
-                  width: "34rem",
                   background: "#F1F1EF",
                   boxShadow: "0px 5px 10px 0px #888888",
                   textAlign: "center",
@@ -125,17 +123,14 @@ export default class OurPricing extends PureComponent {
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 placeholder="Enter your Valid Email Address"
-                style={{
-                  margin: "0.3rem 0rem 0.3rem 9rem",
-                  width: "40rem",
-                  height: "3.29rem",
-                  display: "inline",
-                  background: "#E6F8FC",
-                }}
               />
               <button
                 type="button"
-                style={{ fontSize: "14px", width: "150px" }}
+                style={{
+                  fontSize: "14px",
+                  width: "150px",
+                  margin: "2rem 40% 0rem 40%",
+                }}
                 class="btn btn-dark btn-lg p-3 pl-4 pr-4"
               >
                 Start Now

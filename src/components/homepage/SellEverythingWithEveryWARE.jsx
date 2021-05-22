@@ -4,14 +4,14 @@ export default class SellEverythingWithEveryWARE extends PureComponent {
   render() {
     return (
       <div
-        className="container"
+        className="container-fluid"
         style={{ marginTop: "12rem", textAlign: "center" }}
       >
         <div class="row justify-content-between">
-          <div class="col-6">
-            <div class="row justify-content-around">
+          <div class="col-md-5 col-xs-10">
+            <div class="row justify-content-center">
               <div
-                class="col-5 justify-content-around"
+                class="col-md-5 col-xs-10 justify-content-center"
                 style={{ background: "#F4F9FF", borderRadius: "5%" }}
               >
                 <div
@@ -34,8 +34,9 @@ export default class SellEverythingWithEveryWARE extends PureComponent {
                   alt="trending"
                 />
               </div>
+
               <div
-                class="col-5 justify-content-center"
+                class="col-md-5 col-xs-10 justify-content-center"
                 style={{ background: "#FFF4FA", borderRadius: "5%" }}
               >
                 <br />
@@ -59,19 +60,24 @@ export default class SellEverythingWithEveryWARE extends PureComponent {
               </div>
             </div>
           </div>
-          <div class="col-6" style={{ textAlign: "left" }}>
+          <div class="col-md-6 col-xs-10 trend-responsive">
             <div class="title">Trend-Responsive Demand Platform</div>
             <h2 style={{ fontWeight: "bolder", fontSize: "60px" }}>
               Sell Everything With EveryWARE
             </h2>
             <br />
             <button type="button" class="btn btn-outline-success btn-lg">
-              TELL ME MORE
+              <a
+                href="/enterprise/meal-kit-startups"
+                style={{ textDecoration: "none" }}
+              >
+                TELL ME MORE
+              </a>
             </button>
           </div>
         </div>
         <div class="row justify-content-start">
-          <div class="col-6 accompaniments_image">
+          <div class="col-6 col-xs-12 accompaniments_image">
             <div style={{ height: "13rem" }} />
           </div>
         </div>

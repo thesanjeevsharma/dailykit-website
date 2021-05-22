@@ -8,7 +8,7 @@ export default class ScheduleMeeting extends PureComponent {
         style={{ marginTop: "12rem", marginBottom: "20rem" }}
       >
         <div class="row justify-content-between">
-          <div class="col-5" style={{ textAlign: "left" }}>
+          <div class="col-md-5 col-xs-10" style={{ textAlign: "left" }}>
             <h2
               style={{ fontWeight: "bolder", fontSize: "25px" }}
               className="nunito"
@@ -81,10 +81,10 @@ export default class ScheduleMeeting extends PureComponent {
               business strategy.
             </p>
           </div>
-          <div class="col-7 nunito">
+          <div class="col-md-7 col-xs-10 nunito">
             <div class="row justify-content-center text-center">
-              <div class="col-3"></div>
-              <div class="col-8">
+              <div class="col-md-3 col-xs-10"></div>
+              <div class="col-md-8 col-xs-10">
                 {" "}
                 <img
                   src="https://static.hsappstatic.net/ui-images/static-2.377/optimized/errors/map.svg"

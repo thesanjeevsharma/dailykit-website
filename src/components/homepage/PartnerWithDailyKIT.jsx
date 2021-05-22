@@ -5,7 +5,7 @@ export default class PartnerWithDailyKIT extends PureComponent {
     return (
       <div className="container" style={{ marginTop: "12rem" }}>
         <div class="row justify-content-between">
-          <div class="col-6" style={{ textAlign: "left" }}>
+          <div class="col-md-6 col-xs-10 trend-responsive">
             <div style={{ fontSize: "18px", fontWeight: "bolder" }}>
               Are You A Reseller?
             </div>
@@ -23,16 +23,25 @@ export default class PartnerWithDailyKIT extends PureComponent {
             <button
               type="button"
               class="btn btn-dark btn-lg p-4"
-              style={{ fontSize: "15px", marginTop: "2rem" }}
+              style={{
+                fontSize: "15px",
+                marginTop: "2rem",
+                marginBottom: "2rem",
+              }}
             >
-              Schedula A Meeting
+              <a
+                href="https://share.hsforms.com/1nmDk2BV3Teql1yIVH7gpqw3fqrt"
+                style={{ textDecoration: "none !important", color: "white" }}
+              >
+                Schedula A Meeting
+              </a>
             </button>
           </div>
-          <div class="col-6">
+          <div class="col-md-6 col-xs-10">
             <img
               src="https://www.dailykit.org/hubfs/dailykit-assets/homepage/Reseller.png"
               alt="women"
-              style={{ width: "45vw" }}
+              style={{ width: "65vh" }}
             />
           </div>
         </div>

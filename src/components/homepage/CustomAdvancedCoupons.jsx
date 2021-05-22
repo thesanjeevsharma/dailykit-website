@@ -5,7 +5,7 @@ export default class CustomAdvancedCoupons extends PureComponent {
     return (
       <div class="container">
         <div
-          class="row justify-content-center"
+          class="row justify-content-center categories"
           style={{
             fontSize: "15px",
             fontWeight: "bold",
@@ -13,21 +13,21 @@ export default class CustomAdvancedCoupons extends PureComponent {
             marginTop: "10rem",
           }}
         >
-          <div class="col-4">
+          <div class="col-md-4 col-xs-10">
             <ul class="onDemandCategories">
               <li>Custom Advanced Coupons</li>
               <li>Coupon-based Cashback</li>
               <li>Coupon-based Loyalty Points</li>
             </ul>
           </div>
-          <div class="col-4">
+          <div class="col-md-4 col-xs-10">
             <ul class="onDemandCategories">
               <li>Signup Offer Campaigns</li>
               <li>Referral Marketing Campaigns</li>
               <li>Post-Order Loyalty Points Wallet Cashback</li>
             </ul>
           </div>
-          <div class="col-4">
+          <div class="col-md-4 col-xs-10">
             <ul class="onDemandCategories">
               <li>
                 Automated Social Media Collateral

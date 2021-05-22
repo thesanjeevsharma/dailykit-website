@@ -173,37 +173,38 @@ small {
 .flex-container {
   background: #f7f7f7;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-content: center;
   justify-content: center;
 }
 
-.flex-container > div {
+.flex-container > .footer_section {
   font-family: "chivo", sans-serif;
   width: 18rem;
   margin: 10px;
   font-size: 17px;
   line-height: 1.8rem;
 }
-.flex-container > div > ul {
-  list-style: none;
-}
-.flex-container > div > ul > li {
+
+.flex-container > .footer_section > li {
   line-height: 2.5rem;
   cursor: pointer;
 }
-.flex-container > div > ul > li:hover {
+.flex-container > .footer_section > li:hover {
   color: orange;
 }
 .footer_section {
   color: #113d63;
   font-weight: 700;
+  list-style: none;
 }
 .footer_section h3 {
   color: #113d63;
   font-family: "Nunito", sans-serif;
   font-weight: bold;
+  list-style: none;
 }
+
 /* homepage */
 .imagebox1 {
   background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/Serve-restaurant@2x.png");
@@ -421,4 +422,78 @@ small {
   display: inline-block;
   margin-left: 20px;
   margin-right: -90px;
+}
+/* ///////////////////////// */
+/* videobanner */
+@media only screen and (max-width: 600px) {
+  .video .videoTag {
+    width: 500px;
+    margin-top: 40rem;
+  }
+  .homebutton {
+    margin-top: 2rem;
+  }
+}
+/* imagebox */
+.restaurant-button {
+  margin-top: -2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  cursor: pointer;
+}
+.supermarket-button {
+  margin-top: -2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  cursor: pointer;
+}
+.restaurant-button:hover {
+  border-left: 4px solid #8ac03b;
+  border-right: 4px solid #8ac03b;
+}
+.supermarket-button:hover {
+  border-left: 4px solid #8ac03b;
+  border-right: 4px solid #8ac03b;
+}
+@media only screen and (max-width: 600px) {
+  .restaurant-button {
+    margin-top: -4rem;
+    margin-bottom: 4rem;
+  }
+  .supermarket-button {
+    margin-top: -4rem;
+  }
+}
+/* selleverything */
+.trend-responsive,
+.gamify {
+  text-align: left;
+}
+@media only screen and (max-width: 600px) {
+  .trend-responsive,
+  .gamify {
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .accompaniments_image {
+    display: none;
+  }
+}
+/* /demandcategories */
+@media only screen and (max-width: 600px) {
+  .categories {
+    margin-left: 4rem;
+  }
+}
+/* start-grow-run  */
+.heading-start-grow-run {
+  font-weight: "bolder";
+  font-size: "60px";
+  width: "90%";
+  text-align: "center";
+}
+@media only screen and (max-width: 600px) {
+  .heading-start-grow-run {
+    margin-left: 4rem;
+  }
 }

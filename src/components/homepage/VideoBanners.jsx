@@ -2,7 +2,7 @@ import React from "react";
 import "./../../style.css";
 const VideoBanner = () => {
   return (
-    <div className="image" style={{ background: "#212529" }}>
+    <div className="image video" style={{ background: "#212529" }}>
       <video
         className="videoTag"
         autoPlay
@@ -30,7 +30,7 @@ const VideoBanner = () => {
           Schedule Demo
         </button>
         &ensp;
-        <button type="button" className="btn btn-primary btn-lg">
+        <button type="button" className="btn btn-primary btn-lg homebutton">
           Start Now With A 3-Month Trail
         </button>
         <br />

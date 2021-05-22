@@ -3,16 +3,16 @@ import React, { PureComponent } from "react";
 export default class DeliverExcellence extends PureComponent {
   render() {
     return (
-      <div className="container" style={{ marginTop: "12rem" }}>
+      <div className="container">
         <div class="row justify-content-between">
-          <div class="col-6">
+          <div class="col-md-6 col-xs-10 trend-responsive">
             <img
               src="https://www.dailykit.org/hubfs/dailykit-assets/Operate-hero@2x.png"
               alt="women"
-              style={{ width: "40vw" }}
+              style={{ width: "70vh" }}
             />
           </div>
-          <div class="col-6" style={{ textAlign: "left" }}>
+          <div class="col-md-6 col-xs-10 trend-responsive">
             <div style={{ fontSize: "18px" }}>
               Trend-Agnostic Supply Platform
             </div>
@@ -21,7 +21,12 @@ export default class DeliverExcellence extends PureComponent {
             </h2>
             <br />
             <button type="button" class="btn btn-outline-success btn-lg">
-              TELL ME MORE
+              <a
+                href="/operate/order-fulfillment"
+                style={{ textDecoration: "none" }}
+              >
+                TELL ME MORE
+              </a>
             </button>
           </div>
         </div>

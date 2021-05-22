@@ -19,8 +19,8 @@ export default class ImageBox extends PureComponent {
                 <p class="card-text"></p>
               </div>
               <a
-                href="#"
-                class="btn btn-dark pt-4 pb-4"
+                href="/we_serve"
+                class="btn btn-dark restaurant-button"
                 style={{
                   fontSize: "25px",
                 }}
@@ -43,8 +43,8 @@ export default class ImageBox extends PureComponent {
                 <p class="card-text"></p>
               </div>
               <a
-                href="#"
-                class="btn btn-dark  pt-4 pb-4"
+                href="/we_serve"
+                class="btn btn-dark supermarket-button"
                 style={{ fontSize: "25px", border: "0 2px 0 2px green" }}
               >
                 SuperMarkets

@@ -5,7 +5,7 @@ export default class OnDemandCategories extends PureComponent {
     return (
       <div class="container">
         <div
-          class="row justify-content-center"
+          class="row justify-content-center categories"
           style={{
             fontSize: "15px",
             fontWeight: "bold",
@@ -13,7 +13,7 @@ export default class OnDemandCategories extends PureComponent {
             marginTop: "10rem",
           }}
         >
-          <div class="col-3">
+          <div class="col-md-3 col-xs-10">
             <ul class="onDemandCategories">
               <li>On-Demand Online Store</li>
               <li>Online Subscription Store</li>
@@ -21,7 +21,7 @@ export default class OnDemandCategories extends PureComponent {
               <li>iOS & Android Apps(Upon Request)</li>
             </ul>
           </div>
-          <div class="col-3">
+          <div class="col-md-3 col-xs-10">
             <ul class="onDemandCategories">
               <li>Marketplace Integrations(Coming Soon)</li>
               <li>Your Own Custom Domain</li>
@@ -29,7 +29,7 @@ export default class OnDemandCategories extends PureComponent {
               <li>Easy Payment & Checkout Experiences</li>
             </ul>
           </div>
-          <div class="col-3">
+          <div class="col-md-3 col-xs-10">
             <ul class="onDemandCategories">
               <li>Combo Products</li>
               <li>Build Your Own Meal</li>
@@ -37,7 +37,7 @@ export default class OnDemandCategories extends PureComponent {
               <li>Sort, Filter & Search</li>
             </ul>
           </div>
-          <div class="col-3">
+          <div class="col-md-3 col-xs-10">
             <ul class="onDemandCategories">
               <li>Nutrition & Allergens</li>
               <li>Product Recommendations</li>

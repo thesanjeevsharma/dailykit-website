@@ -549,3 +549,13 @@ small {
     font-size: 15px;
   }
 }
+/* end-to-end */
+.inputbox {
+  margin-left: "27rem";
+}
+
+@media only screen and (max-width: 600px) {
+  .inputbox {
+    margin-left: "7rem";
+  }
+}

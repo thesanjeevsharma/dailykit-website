@@ -6,7 +6,7 @@ export default class MarketingMadeEasy extends PureComponent {
       <>
         <div class="container">
           <div class="row justify-content-evenly">
-            <div class="col-6">
+            <div class="col-md-6 col-xs-10 trend-responsive">
               <p
                 style={{
                   fontSize: "16px",
@@ -27,7 +27,7 @@ export default class MarketingMadeEasy extends PureComponent {
                 {this.props.heading}
               </h2>
 
-              <div className="justify-content-center">
+              <div className="justify-content-center mb-4">
                 <button type="button" className="weserve_button1">
                   Get Started Now
                 </button>
@@ -40,7 +40,7 @@ export default class MarketingMadeEasy extends PureComponent {
             {this.props.image ? (
               <div class="col-4 imagebox11"></div>
             ) : (
-              <div class="col-6">
+              <div class="col-md-6 col-xs-10">
                 <div
                   id="carouselExampleIndicators"
                   class="carousel slide"

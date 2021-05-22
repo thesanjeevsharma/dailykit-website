@@ -7,14 +7,14 @@ export default class CreateRewardingExperiences extends PureComponent {
       <>
         <div class="container" style={{ marginTop: "8rem" }}>
           <div class="row justify-content-between">
-            <div class="col-6">
+            <div class="col-md-6 col-xs-10">
               <img
                 src="https://www.dailykit.org/hubfs/dailykit-assets/marketing-overview/Creat%20rewarding%20experiances.png"
                 class="d-block w-100"
                 alt="..."
               />
             </div>
-            <div class="col-6">
+            <div class="col-md-6 col-xs-10 trend-responsive">
               <img src={paperplane} width="120px" />
               <h2
                 style={{

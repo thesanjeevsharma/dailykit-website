@@ -10,7 +10,6 @@ export default class EndToEndFoodBusiness extends PureComponent {
           color: "white",
         }}
       >
-        {" "}
         <p
           style={{
             fontSize: "14px",
@@ -34,42 +33,47 @@ export default class EndToEndFoodBusiness extends PureComponent {
           You've Never Managed Your Food Business
           <br /> Like This Before
         </h2>
-        <form>
-          <input
-            type="email"
-            class="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-            placeholder="Enter your Valid Email Address"
-            style={{
-              width: "30rem",
-              height: "3.29rem",
-              display: "inline",
-              background: "#E6F8FC",
-              marginLeft: "20rem",
-              marginTop: "2rem",
-            }}
-          />
-          <button
-            type="button"
-            style={{ fontSize: "14px", width: "150px" }}
-            class="btn btn-dark btn-lg p-3 pl-4 pr-4"
-          >
-            Start Now
-          </button>
-        </form>
+        <div className="justify-content-center">
+          <form>
+            <input
+              type="email"
+              class="form-control inputbox"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter your Valid Email Address"
+              style={{
+                width: "20rem",
+                height: "3.29rem",
+                display: "inline",
+                background: "#E6F8FC",
+              }}
+            />
+            <button
+              type="button"
+              style={{
+                fontSize: "14px",
+                width: "150px",
+                background: "#8ac03b",
+                color: "white",
+              }}
+              class="btn btn-lg p-3 pl-4 pr-4"
+            >
+              Start Now
+            </button>
+          </form>
+        </div>
         <div class="row justify-content-center mt-4 mb-4">
-          <div class="col-3 p-4">
+          <div class="col-md-3 col-xs-10 p-4">
             <img alt="icon" src={tick} style={{ width: "50px" }} />{" "}
             <h6 style={{ display: "inline" }}>Recipe & Menu Engineering</h6>
             <br />
           </div>
-          <div class="col-3 p-4">
+          <div class="col-md-3 col-xs-10 p-4">
             <img alt="icon" src={tick} style={{ width: "50px" }} />{" "}
             <h6 style={{ display: "inline" }}> Manufacturing Technology</h6>
             <br />
           </div>
-          <div class="col-3 p-4">
+          <div class="col-md-3 col-xs-10 p-4">
             <img alt="icon" src={tick} style={{ width: "50px" }} />{" "}
             <h6 style={{ display: "inline" }}>Sales & Marketing Platform</h6>
             <br />
@@ -82,12 +86,12 @@ export default class EndToEndFoodBusiness extends PureComponent {
               </h6>
               <br />
             </div>
-            <div class="col-3 p-4">
+            <div class="col-md-3 col-xs-10 p-4">
               <img alt="icon" src={tick} style={{ width: "50px" }} />
               <h6 style={{ display: "inline" }}>Inventory Management</h6>
               <br />
             </div>
-            <div class="col-2 p-4">
+            <div class="col-md-2 col-xs-10 p-4">
               <img alt="icon" src={tick} style={{ width: "50px" }} />
               <h6 style={{ display: "inline" }}> Analytics</h6>
               <br />

@@ -425,7 +425,7 @@ small {
 }
 /* ///////////////////////// */
 /* videobanner */
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 400px) {
   .video .videoTag {
     width: 500px;
     margin-top: 40rem;
@@ -433,7 +433,7 @@ small {
   .homebutton {
     margin-top: 2rem;
   }
-}
+} */
 /* imagebox */
 .restaurant-button {
   margin-top: -2rem;
@@ -455,7 +455,7 @@ small {
   border-left: 4px solid #8ac03b;
   border-right: 4px solid #8ac03b;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   .restaurant-button {
     margin-top: -4rem;
     margin-bottom: 4rem;

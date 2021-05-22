@@ -5,9 +5,9 @@ export default class BuildSmarterCampaigns extends PureComponent {
   render() {
     return (
       <>
-        <div class="container">
+        <div class="container-fluid">
           <div class="row justify-content-between">
-            <div class="col-md-6 col-xs-10 trend-responsive">
+            <div class="col-md-6 col-sm-10 col-xs-10 trend-responsive">
               <img src={computerIcon} width="70px" />
               <h2
                 style={{
@@ -31,7 +31,7 @@ export default class BuildSmarterCampaigns extends PureComponent {
               </p>
               <div className="justify-content-center"></div>
             </div>
-            <div class="col-md-6 col-xs-10">
+            <div class="col-md-6 col-sm-10 col-xs-10">
               <img
                 src="https://www.dailykit.org/hubfs/dailykit-assets/marketing-overview/Build%20smarter%20campaigns.png"
                 class="d-block image-responsive-size"

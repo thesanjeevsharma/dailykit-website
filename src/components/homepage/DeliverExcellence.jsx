@@ -9,7 +9,7 @@ export default class DeliverExcellence extends PureComponent {
             <img
               src="https://www.dailykit.org/hubfs/dailykit-assets/Operate-hero@2x.png"
               alt="women"
-              style={{ width: "70vh" }}
+              style={{ width: "30vh" }}
             />
           </div>
           <div class="col-md-6 col-xs-10 trend-responsive">

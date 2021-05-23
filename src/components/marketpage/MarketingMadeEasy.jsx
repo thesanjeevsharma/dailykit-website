@@ -19,7 +19,7 @@ export default class MarketingMadeEasy extends PureComponent {
               <h2
                 style={{
                   fontWeight: "bolder",
-                  fontSize: "65px",
+                  fontSize: "50px",
                   margin: "2rem 0rem 2rem 0rem",
                 }}
                 className="nunito"
@@ -72,7 +72,7 @@ export default class MarketingMadeEasy extends PureComponent {
                     <div class="carousel-item active">
                       <img
                         src={this.props.imageurl}
-                        class="d-block w-80"
+                        class="d-block"
                         alt="..."
                       />
                     </div>

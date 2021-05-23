@@ -9,6 +9,7 @@ export default class Weighingimage extends PureComponent {
             display: "flex",
             justifyContent: "space-around",
             opacity: "0.3",
+            flexWrap: "wrap",
           }}
         >
           <img
@@ -36,7 +37,7 @@ export default class Weighingimage extends PureComponent {
         <button
           type="button"
           className="learMore_button2 mt-4 pb-3 pt-3"
-          style={{ margin: "1rem 43% 1rem 43%" }}
+          style={{ margin: "1rem 30% 1rem 30%" }}
         >
           TELL ME MORE
         </button>

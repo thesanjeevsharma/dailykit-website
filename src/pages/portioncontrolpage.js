@@ -13,7 +13,7 @@ import Weighingimage from "../components/orderpage/weighingimage";
 export default class Portioncontrolpage extends PureComponent {
   render() {
     return (
-      <div style={{ marginTop: "12rem" }}>
+      <div style={{ marginTop: "7rem" }}>
         <Navbar />
         <MarketingMadeEasy
           heading={"Ensuring Portion Consistency"}

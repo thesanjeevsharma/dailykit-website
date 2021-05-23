@@ -8,7 +8,11 @@ export default class RoutingSameBanners extends PureComponent {
           <div class="row justify-content-between">
             {this.props.image && (
               <div class="col-md-6 col-xs-10">
-                <img src={this.props.image} class="d-block w-100" alt="..." />
+                <img
+                  src={this.props.image}
+                  class="d-block right-image-responsive"
+                  alt="..."
+                />
               </div>
             )}
             <div class="col-md-6 col-xs-10">
@@ -26,10 +30,9 @@ export default class RoutingSameBanners extends PureComponent {
               <h2
                 style={{
                   fontWeight: "bolder",
-                  fontSize: "60px",
                   margin: "1rem 0rem 2rem 0rem",
                 }}
-                className="nunito"
+                className="nunito heading-responsive"
               >
                 {this.props.heading}
               </h2>
@@ -62,7 +65,7 @@ export default class RoutingSameBanners extends PureComponent {
               <div class="col-md-6 col-xs-10">
                 <img
                   src={this.props.rightImage}
-                  class="d-block w-100"
+                  class="d-block right-image-responsive"
                   alt="..."
                 />
               </div>

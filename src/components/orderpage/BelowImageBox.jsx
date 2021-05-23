@@ -19,7 +19,7 @@ export default class BelowImageBox extends PureComponent {
         <h2
           style={{
             fontWeight: "400",
-            fontSize: "60px",
+            fontSize: "50px",
             marginBottom: "2rem",
             marginLeft: "4rem",
           }}

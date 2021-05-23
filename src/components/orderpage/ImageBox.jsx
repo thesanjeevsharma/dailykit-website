@@ -20,7 +20,7 @@ export default class ImageBox extends PureComponent {
         <h2
           style={{
             fontWeight: "400",
-            fontSize: "60px",
+            fontSize: "50px",
             marginBottom: "2rem",
             marginLeft: "4rem",
           }}
@@ -72,7 +72,7 @@ export default class ImageBox extends PureComponent {
                 ></div>
                 <a
                   href="#"
-                  class="btn btn-dark  pt-4 pb-4"
+                  class="btn btn-dark pt-4 pb-4"
                   style={{
                     fontSize: "25px",
                     marginTop: "-5rem",

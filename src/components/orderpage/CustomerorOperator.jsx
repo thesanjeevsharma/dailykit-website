@@ -19,7 +19,7 @@ export default class CustomerorOperator extends PureComponent {
         <h2
           style={{
             fontWeight: "400",
-            fontSize: "60px",
+            fontSize: "50px",
             marginBottom: "2rem",
             marginLeft: "4rem",
           }}
@@ -28,18 +28,18 @@ export default class CustomerorOperator extends PureComponent {
           Customer or Operator? Track Orders the Same Way!
         </h2>
         <div class="row">
-          <div class="col-md-6 col-xs-10">
+          <div class="col-md-6 col-xs-10 ">
             <img
               src="https://www.dailykit.org/hubfs/dailykit-assets/order-fulfilment/consumer@2x.png"
               alt="..."
-              width="580px"
+              className="image-responsive-2"
             />
           </div>
           <div class="col-md-6 col-xs-10">
             <img
               src="https://www.dailykit.org/hubfs/dailykit-assets/order-fulfilment/operator@2x-1.png"
               alt="..."
-              width="580px"
+              className="image-responsive-2"
             />
           </div>
         </div>

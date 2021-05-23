@@ -8,7 +8,7 @@ export default class OrderNotification extends PureComponent {
         <h2
           style={{
             fontWeight: "bolder",
-            fontSize: "60px",
+            fontSize: "50px",
             margin: "4rem 0rem 0.5rem 0rem",
           }}
           className="nunito"

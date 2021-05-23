@@ -628,7 +628,7 @@ small {
 
 @media only screen and (max-width: 600px) {
   .inputbox {
-    margin-left: 5rem;
+    margin-left: 2rem;
   }
   .form-button {
     margin-top: 2rem;
@@ -640,10 +640,22 @@ small {
   width: 37rem;
   margin-top: -15rem;
 }
+/* also used in order-fullfillment in right-images */
+.right-image-responsive {
+  width: 27rem;
+}
 .enterprise-image {
   margin-top: -11rem;
   width: 34rem;
 }
+/* /2images in customer or opertor in order-fulfillment-page */
+.image-responsive-2 {
+  max-width: 80%;
+}
+.heading-responsive {
+  font-size: 50px;
+}
+
 @media only screen and (max-width: 600px) {
   .image-responsive-1 {
     vertical-align: middle;
@@ -658,6 +670,22 @@ small {
   .enterprise-image {
     margin-top: -5rem;
     width: 29rem;
+  }
+
+  /* customer or opertor in order-fulfillment-page  */
+  /* /* /2images in */
+  .image-responsive-2 {
+    max-width: 70%;
+    margin-left: 2rem;
+  }
+  /* heading */
+  .heading-responsive {
+    margin-top: 4rem;
+    font-size: 30px;
+  }
+  /* used in order-fullfillment in right-images */
+  .right-image-responsive {
+    width: 20rem;
   }
 }
 /*order-dashboard(insight-component-heading)*/

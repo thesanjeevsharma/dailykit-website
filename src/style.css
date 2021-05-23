@@ -514,13 +514,16 @@ small {
   border-left: 4px solid #8ac03b;
   border-right: 4px solid #8ac03b;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   .restaurant-button {
-    margin-top: -4rem;
+    margin-top: -8rem;
     margin-bottom: 4rem;
   }
   .supermarket-button {
-    margin-top: -4rem;
+    margin-top: -8rem;
+  }
+  .deliever-excellence-img {
+    margin-top: -12rem;
   }
 }
 /* selleverything */
@@ -528,6 +531,7 @@ small {
 .gamify {
   text-align: left;
 }
+
 @media only screen and (max-width: 600px) {
   .trend-responsive,
   .gamify {
@@ -541,7 +545,7 @@ small {
 /* /demandcategories */
 @media only screen and (max-width: 600px) {
   .categories {
-    margin-left: 4rem;
+    margin-left: 2rem;
   }
 }
 /* start-grow-run  */

@@ -20,7 +20,7 @@ export default class GamifyYourMarketing extends PureComponent {
             <h2
               style={{
                 fontWeight: "bolder",
-                fontSize: "60px",
+                fontSize: "50px",
                 marginBottom: "2rem",
               }}
               className="nunito"
@@ -63,7 +63,7 @@ export default class GamifyYourMarketing extends PureComponent {
               </li>
             </ul>
           </div>
-          <div class="col-md-6 col-xs-10 gamify">
+          <div class="col-md-6 col-xs-10 gamify-carousel">
             <div
               id="carouselExampleIndicators"
               class="carousel slide"
@@ -95,21 +95,21 @@ export default class GamifyYourMarketing extends PureComponent {
                 <div class="carousel-item active">
                   <img
                     src="https://www.dailykit.org/hubfs/dailykit-assets/homepage/Points.png"
-                    class="d-block w-100"
+                    class="d-block w-80"
                     alt="..."
                   />
                 </div>
                 <div class="carousel-item">
                   <img
                     src="https://www.dailykit.org/hubfs/dailykit-assets/homepage/Referral%20Campaigns.png"
-                    class="d-block w-100"
+                    class="d-block w-80"
                     alt="..."
                   />
                 </div>
                 <div class="carousel-item">
                   <img
                     src="https://www.dailykit.org/hubfs/dailykit-assets/homepage/Coupons.png"
-                    class="d-block w-100"
+                    class="d-block w-80"
                     alt="..."
                   />
                 </div>

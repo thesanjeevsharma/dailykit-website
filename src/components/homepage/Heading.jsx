@@ -13,7 +13,7 @@ export default class Heading extends PureComponent {
         <h1
           style={{
             fontWeight: "bolder",
-            fontSize: "3.5rem",
+            fontSize: "3rem",
             fontFamily: "'Nunito', sans-serif",
             letterSpacing: "1.5px",
           }}

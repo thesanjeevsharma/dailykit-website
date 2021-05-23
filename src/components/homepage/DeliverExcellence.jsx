@@ -10,13 +10,14 @@ export default class DeliverExcellence extends PureComponent {
               src="https://www.dailykit.org/hubfs/dailykit-assets/Operate-hero@2x.png"
               alt="women"
               style={{ width: "30vh" }}
+              class="deliever-excellence-img"
             />
           </div>
           <div class="col-md-6 col-xs-10 trend-responsive">
             <div style={{ fontSize: "18px" }}>
               Trend-Agnostic Supply Platform
             </div>
-            <h2 style={{ fontWeight: "bolder", fontSize: "60px" }}>
+            <h2 style={{ fontWeight: "bolder", fontSize: "50px" }}>
               Deliver Excellence With DailyOS
             </h2>
             <br />

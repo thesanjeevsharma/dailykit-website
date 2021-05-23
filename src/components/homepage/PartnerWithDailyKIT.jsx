@@ -41,7 +41,7 @@ export default class PartnerWithDailyKIT extends PureComponent {
             <img
               src="https://www.dailykit.org/hubfs/dailykit-assets/homepage/Reseller.png"
               alt="women"
-              style={{ width: "15vh" }}
+              style={{ width: "45vh", marginLeft: "3rem" }}
             />
           </div>
         </div>

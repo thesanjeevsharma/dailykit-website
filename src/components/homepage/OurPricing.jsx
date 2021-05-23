@@ -128,7 +128,7 @@ export default class OurPricing extends PureComponent {
                 style={{
                   fontSize: "14px",
                   width: "150px",
-                  margin: "2rem 40% 0rem 40%",
+                  marginTop: "2rem",
                 }}
                 class="btn btn-dark btn-lg p-3 pl-4 pr-4"
               >

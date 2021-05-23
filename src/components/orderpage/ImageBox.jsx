@@ -11,21 +11,12 @@ export default class ImageBox extends PureComponent {
             fontWeight: "bolder",
             fontSize: "15px",
             marginBottom: "1rem",
-            marginTop: "2rem",
             marginLeft: "4rem",
           }}
         >
           Order Fulfillment
         </div>
-        <h2
-          style={{
-            fontWeight: "400",
-            fontSize: "50px",
-            marginBottom: "2rem",
-            marginLeft: "4rem",
-          }}
-          className="nunito"
-        >
+        <h2 className="nunito order-fulfillment-heading">
           What Do You Need?
           <br />
           Pick-Up? Delivery? Both?
@@ -42,16 +33,7 @@ export default class ImageBox extends PureComponent {
                     backgroundSize: "contain",
                   }}
                 ></div>
-                <a
-                  href="#"
-                  class="btn btn-dark pt-4 pb-4"
-                  style={{
-                    fontSize: "25px",
-                    marginTop: "-5rem",
-                    width: "30rem",
-                    marginLeft: "2rem",
-                  }}
-                >
+                <a href="#" class="btn btn-dark pt-4 pb-4 pickup-button">
                   <h4 class="card-title nunito">PICK-UP</h4>
                   <p class="card-text nunito" style={{ fontSize: "16px" }}>
                     Set Pickup Time Range Daily, Weekly, Monthly, etc. Ensure
@@ -70,17 +52,7 @@ export default class ImageBox extends PureComponent {
                     backgroundSize: "contain",
                   }}
                 ></div>
-                <a
-                  href="#"
-                  class="btn btn-dark pt-4 pb-4"
-                  style={{
-                    fontSize: "25px",
-                    marginTop: "-5rem",
-                    width: "30rem",
-                    marginLeft: "2rem",
-                    border: "0 2px 0 2px green",
-                  }}
-                >
+                <a href="#" class="btn btn-dark pt-4 pb-4 pickup-button">
                   <h4 class="card-title nunito">DELIVERY</h4>
                   <p class="card-text nunito" style={{ fontSize: "16px" }}>
                     Opt for Self-Delivery or Partner with a 3rd-Party Set

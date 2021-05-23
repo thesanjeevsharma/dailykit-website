@@ -16,15 +16,7 @@ export default class CustomerorOperator extends PureComponent {
         >
           Order Tracking
         </div>
-        <h2
-          style={{
-            fontWeight: "400",
-            fontSize: "50px",
-            marginBottom: "2rem",
-            marginLeft: "4rem",
-          }}
-          className="nunito"
-        >
+        <h2 className="nunito order-fulfillment-heading">
           Customer or Operator? Track Orders the Same Way!
         </h2>
         <div class="row">

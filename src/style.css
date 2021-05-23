@@ -525,11 +525,11 @@ small {
 }
 @media only screen and (max-width: 600px) {
   .restaurant-button {
-    margin-top: -8rem;
+    margin-top: -10rem;
     margin-bottom: 4rem;
   }
   .supermarket-button {
-    margin-top: -8rem;
+    margin-top: -10rem;
   }
   .deliever-excellence-img {
     margin-top: -12rem;
@@ -741,8 +741,8 @@ small {
     margin-top: -7rem;
   }
   .black_heading {
-    width: 55vh;
-    font-size: 9.5vh;
+    width: 50vh;
+    font-size: 6vh;
   }
 }
 /* ////////////////////////////////////////////////////////// */
@@ -794,5 +794,33 @@ small {
   }
   .bluebox-learnMore {
     margin-right: 5rem;
+  }
+}
+/* orderfulfillment heading */
+.order-fulfillment-heading {
+  font-weight: 400;
+  font-size: 50px;
+  margin-bottom: 2rem;
+  margin-left: 4rem;
+}
+.pickup-button {
+  font-size: 25px;
+  margin-top: -5rem;
+  width: 30rem;
+  margin-left: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .order-fulfillment-heading {
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 2rem;
+    margin-left: 0.5rem;
+  }
+  .pickup-button {
+    margin-top: -12rem;
+    width: 20.5rem;
+    margin-left: 0.1rem;
+    margin-bottom: 5rem;
   }
 }

@@ -16,15 +16,7 @@ export default class BelowImageBox extends PureComponent {
         >
           Delivery Integrations
         </div>
-        <h2
-          style={{
-            fontWeight: "400",
-            fontSize: "50px",
-            marginBottom: "2rem",
-            marginLeft: "4rem",
-          }}
-          className="nunito"
-        >
+        <h2 className="nunito order-fulfillment-heading">
           Explore & Partner with Delivery Providers Around You.
         </h2>
         <div

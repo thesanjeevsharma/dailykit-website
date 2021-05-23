@@ -6,7 +6,7 @@ const Sidebar = (props) => {
     <div className="container">
       {console.log(props)}
       <div className="row">
-        <div className="col-3">
+        <div className="col-md-3 col-xs-10 trend-responsive">
           <div className="sticky-top">
             <h3 className="sidebar_heading">{props.rest[0].sidebar_heading}</h3>
             <ul className="link_container">
@@ -24,7 +24,7 @@ const Sidebar = (props) => {
           </div>
         </div>
         {/* <--initial Para--> */}
-        <div className="col-6">
+        <div className="col-md-6 col-xs-10">
           <p className="para_first">
             <span className="para_heading" id={props.rest[0].para_heading}>
               {props.rest[0].para_heading}{" "}

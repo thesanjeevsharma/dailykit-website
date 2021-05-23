@@ -7,11 +7,11 @@ export default class RoutingSameBanners extends PureComponent {
         <div class="container" style={{ marginTop: "8rem" }}>
           <div class="row justify-content-between">
             {this.props.image && (
-              <div class="col-6">
+              <div class="col-md-6 col-xs-10">
                 <img src={this.props.image} class="d-block w-100" alt="..." />
               </div>
             )}
-            <div class="col-6">
+            <div class="col-md-6 col-xs-10">
               <small
                 style={{
                   color: "#8ac03b",
@@ -59,7 +59,7 @@ export default class RoutingSameBanners extends PureComponent {
               )}
             </div>
             {this.props.rightImage && (
-              <div class="col-6">
+              <div class="col-md-6 col-xs-10">
                 <img
                   src={this.props.rightImage}
                   class="d-block w-100"

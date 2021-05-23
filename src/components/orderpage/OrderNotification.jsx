@@ -30,7 +30,7 @@ export default class OrderNotification extends PureComponent {
           }}
         >
           <div class="row justify-content-evenly">
-            <div class="col-3 p-4  justify-content-center">
+            <div class="col-md-3 col-xs-10 p-4  justify-content-center">
               <img
                 alt="icon"
                 src={this.props.image1}
@@ -67,7 +67,7 @@ export default class OrderNotification extends PureComponent {
                   items. It's upto you.`}
               </p>
             </div>
-            <div class="col-3 p-4  justify-content-center">
+            <div class="col-md-3 col-xs-10 p-4  justify-content-center">
               <img
                 alt="icon"
                 src={this.props.image2}
@@ -101,7 +101,7 @@ export default class OrderNotification extends PureComponent {
                   Kitchen Stations.`}
               </p>
             </div>
-            <div class="col-3 p-4  justify-content-center">
+            <div class="col-md-3 col-xs-10 p-4  justify-content-center">
               {" "}
               <img
                 alt="icon"

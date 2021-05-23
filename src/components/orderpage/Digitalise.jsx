@@ -31,7 +31,7 @@ export default class Digitalise extends PureComponent {
             Digitalize Your Kitchen Operations
           </h2>
           <div class="row justify-content-between">
-            <div class="col-6">
+            <div class="col-md-6 col-xs-10">
               <div class="row justify-content-evenly">
                 <div
                   class="col-12 p-4"
@@ -101,7 +101,7 @@ export default class Digitalise extends PureComponent {
                 </div>
               </div>
             </div>
-            <div class="col-6 imagebox18"></div>
+            <div class="col-md-6 col-xs-10 imagebox18"></div>
           </div>
         </div>
       </>

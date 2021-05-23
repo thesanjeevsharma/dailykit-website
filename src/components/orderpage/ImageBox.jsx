@@ -32,7 +32,7 @@ export default class ImageBox extends PureComponent {
         </h2>
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-sm-6">
+            <div class="col-md-6 col-xs-10">
               <div class="card">
                 <div
                   class="card-body imagebox19"
@@ -60,7 +60,7 @@ export default class ImageBox extends PureComponent {
                 </a>
               </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-md-6 col-xs-10">
               <div class="card">
                 <div
                   class="card-body imagebox20"

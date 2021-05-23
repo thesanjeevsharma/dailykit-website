@@ -474,7 +474,7 @@ export default class Navbar extends PureComponent {
                           fontSize: "12px",
                         }}
                         className="dropdown-item"
-                        href="/AboutUs/OurPhilosophy"
+                        href="/Aboutus/Ourphilosophy"
                       >
                         Our Philosophy
                       </a>

@@ -32,7 +32,7 @@ export default class Bluebox1 extends PureComponent {
         </small>
         <div class="row justify-content-center mb-4 mt-4">
           <p
-            class="col-5"
+            class="col-md-5 col-xs-10"
             style={{ fontSize: "19px", lineHeight: "2rem", textAlign: "right" }}
           >
             {" "}
@@ -51,7 +51,7 @@ export default class Bluebox1 extends PureComponent {
             </div>
             {!this.props.learn && (
               <div class="row justify-content-end mt-4">
-                <div class="col-3">
+                <div class="col-md-3 col-xs-10">
                   <div class="card">
                     <div
                       class="card-body imagebox12"
@@ -63,7 +63,7 @@ export default class Bluebox1 extends PureComponent {
                     ></div>
                   </div>
                 </div>
-                <div class="col-3">
+                <div class="col-md-3 col-xs-10">
                   <div class="card">
                     <div
                       class="card-body imagebox13"
@@ -75,7 +75,7 @@ export default class Bluebox1 extends PureComponent {
                     ></div>
                   </div>
                 </div>
-                <div class="col-3">
+                <div class="col-md-3 col-xs-10">
                   <div class="card">
                     <div
                       class="card-body imagebox14"
@@ -101,7 +101,7 @@ export default class Bluebox1 extends PureComponent {
           </p>
           <p class="col-1 blackline2"></p>
           <p
-            class="col-5"
+            class="col-md-5 col-xs-10"
             style={{ fontSize: "19px", lineHeight: "2rem", textAlign: "right" }}
           >
             {" "}
@@ -126,7 +126,7 @@ export default class Bluebox1 extends PureComponent {
               </div>
               {!this.props.learn && (
                 <div class="row justify-content-start mt-4">
-                  <div class="col-3">
+                  <div class="col-md-3 col-xs-10">
                     <div class="card">
                       <div
                         class="card-body imagebox15"
@@ -138,7 +138,7 @@ export default class Bluebox1 extends PureComponent {
                       ></div>
                     </div>
                   </div>
-                  <div class="col-3">
+                  <div class="col-md-3 col-xs-10">
                     <div class="card">
                       <div
                         class="card-body imagebox16"
@@ -150,7 +150,7 @@ export default class Bluebox1 extends PureComponent {
                       ></div>
                     </div>
                   </div>
-                  <div class="col-3">
+                  <div class="col-md-3 col-xs-10">
                     <div class="card">
                       <div
                         class="card-body imagebox17"

@@ -37,7 +37,7 @@ export default class BelowImageBox extends PureComponent {
         >
           <div class="row justify-content-evenly mb-4">
             <div
-              class="col-3 p-4"
+              class="col-md-3 col-xs-10 mt-2 p-4"
               style={{
                 background: "linear-gradient(135deg, #121c2d 0%, #101a29 100%)",
                 borderRadius: "12px",
@@ -79,7 +79,7 @@ export default class BelowImageBox extends PureComponent {
               </p>
             </div>
             <div
-              class="col-3 p-4"
+              class="col-md-3 col-xs-10 mt-2 p-4"
               style={{
                 background: "linear-gradient(135deg, #121c2d 0%, #101a29 100%)",
                 borderRadius: "12px",
@@ -120,7 +120,7 @@ export default class BelowImageBox extends PureComponent {
               </p>
             </div>
             <div
-              class="col-3 p-4"
+              class="col-md-3 col-xs-10 mt-2 p-4"
               style={{
                 background: "linear-gradient(135deg, #121c2d 0%, #101a29 100%)",
                 borderRadius: "12px",

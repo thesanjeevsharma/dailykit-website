@@ -28,14 +28,14 @@ export default class CustomerorOperator extends PureComponent {
           Customer or Operator? Track Orders the Same Way!
         </h2>
         <div class="row">
-          <div class="col-6">
+          <div class="col-md-6 col-xs-10">
             <img
               src="https://www.dailykit.org/hubfs/dailykit-assets/order-fulfilment/consumer@2x.png"
               alt="..."
               width="580px"
             />
           </div>
-          <div class="col-6">
+          <div class="col-md-6 col-xs-10">
             <img
               src="https://www.dailykit.org/hubfs/dailykit-assets/order-fulfilment/operator@2x-1.png"
               alt="..."

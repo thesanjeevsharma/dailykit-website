@@ -647,4 +647,62 @@ small {
     width: 29rem;
   }
 }
-/*enterprise image on An ERP Component in WE SERVE page*/
+/*order-dashboard(insight-component-heading)*/
+.insight-heading {
+  font-weight: bolder;
+  font-size: 3.5rem;
+  font-family: "Nunito", sans-serif;
+  letter-spacing: 1.5px;
+  margin-left: 5.5rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  display: inline;
+}
+.insight-subheading {
+  color: #8ac03b;
+  font-weight: bolder;
+  margin-top: 12rem;
+  margin-left: 5.5rem;
+}
+.list-styling {
+  background-color: #fa4b4b;
+  color: white;
+  width: 250px;
+  font-weight: bold;
+  border: 0 2px 0 2px green;
+  margin-top: -2rem;
+  margin-left: 2rem;
+}
+@media only screen and (max-width: 600px) {
+  .insight-heading {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-left: 8rem;
+  }
+  .insight-subheading {
+    text-align: center;
+    margin-left: 1rem;
+  }
+  .learn {
+    margin-top: 2rem;
+    margin-left: 11rem;
+  }
+  .redhover {
+    margin-bottom: 4rem;
+  }
+  .list-styling {
+    margin-left: 6rem;
+  }
+}
+/* ////////meal-kit-brand-sidebar-heading */
+@media only screen and (max-width: 600px) {
+  .sidebar_heading {
+    margin-left: 4rem;
+    width: 55vh;
+    margin-top: -7rem;
+  }
+  .black_heading {
+    width: 55vh;
+    font-size: 9.5vh;
+  }
+}

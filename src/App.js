@@ -42,6 +42,7 @@ import Orderfulfillmentpage from "./pages/orderfulfillmentpage";
 import Portioncontrolpage from "./pages/portioncontrolpage";
 import Packagingmanagementpage from "./pages/packagingmangement";
 import GroctaurantCaseStudy from "./pages/startMeal/GroctaurantCaseStudy";
+import OurPhilosophyPage from "./pages/startMeal/Ourphilosophy";
 
 // routing
 
@@ -138,6 +139,10 @@ class App extends Component {
             <Route
               path="/sells/subscription-online-store"
               component={SubscriptionStorepage}
+            />
+            <Route
+              path="/Aboutus/Ourphilosophy"
+              component={OurPhilosophyPage}
             />
             <Route path="/menu/overview" component={MenuManagementpage} />
             {/* market */}

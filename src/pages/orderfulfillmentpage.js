@@ -49,7 +49,7 @@ export default class Orderfulfillmentpage extends PureComponent {
           ]}
         />
         <Redhover
-          heading={"Delivery & Pickup Insights"}
+          heading={"Delivery and Pickup Insights"}
           list={[
             "Pickup Insights",
             "Self-Delivery Reports",

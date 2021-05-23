@@ -492,7 +492,7 @@ small {
 }
 @media only screen and (max-width: 600px) {
   .sideBar_left {
-    margin-left: 12vh;
+    margin-left: 7vh;
     width: 80%;
     text-align: center;
   }
@@ -659,9 +659,9 @@ small {
 @media only screen and (max-width: 600px) {
   .image-responsive-1 {
     vertical-align: middle;
-    width: 24rem;
+    width: 17rem;
     margin-top: 0rem;
-    margin-left: 3rem;
+    margin-left: 1.5rem;
   }
   /* cloud-kitchen and enterprise image */
   .right-image-margintop {
@@ -669,7 +669,7 @@ small {
   }
   .enterprise-image {
     margin-top: -5rem;
-    width: 29rem;
+    width: 20rem;
   }
 
   /* customer or opertor in order-fulfillment-page  */
@@ -810,7 +810,8 @@ small {
   margin-left: 2rem;
 }
 /* market-heading */
-.market-heading {
+.market-heading,
+.we-serve-heading {
   font-weight: bolder;
   font-size: 60px;
   margin: 2rem 0rem 2rem 0rem;
@@ -828,9 +829,13 @@ small {
     margin-left: 0.1rem;
     margin-bottom: 5rem;
   }
-  .market-heading {
+  .market-heading,
+  .we-serve-heading {
     font-weight: bolder;
     font-size: 30px;
     margin: 2rem 0rem 2rem 0rem;
+  }
+  .we-serve-heading {
+    margin-top: -2rem;
   }
 }

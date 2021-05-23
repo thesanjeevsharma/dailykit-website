@@ -7,14 +7,7 @@ export default class AnERP extends PureComponent {
         <div class="container" style={{ marginTop: "12rem" }}>
           <div class="row justify-content-between">
             <div class="col-md-6 col-xs-10 trend-responsive">
-              <h2
-                style={{
-                  fontWeight: "bolder",
-                  fontSize: "60px",
-                  marginBottom: "2rem",
-                }}
-                className="nunito"
-              >
+              <h2 className="nunito we-serve-heading">
                 An ERP for Large Enterprises
               </h2>
               <p

@@ -24,16 +24,7 @@ export default class SuperMarkets extends PureComponent {
               >
                 {this.props.subheading}
               </h6>
-              <h2
-                style={{
-                  fontWeight: "bolder",
-                  fontSize: "65px",
-                  margin: "2rem 0rem 2rem 0rem",
-                }}
-                className="nunito"
-              >
-                {this.props.heading}
-              </h2>
+              <h2 className="nunito market-heading">{this.props.heading}</h2>
               <p
                 style={{
                   fontSize: "18px",

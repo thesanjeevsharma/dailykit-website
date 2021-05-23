@@ -736,7 +736,7 @@ small {
 /* ////////meal-kit-brand-sidebar-heading */
 @media only screen and (max-width: 600px) {
   .sidebar_heading {
-    margin-left: 4rem;
+    margin-left: 2rem;
     width: 55vh;
     margin-top: -7rem;
   }

@@ -18,7 +18,7 @@ export default class StoreThatSells extends PureComponent {
               <h2
                 style={{
                   fontWeight: "bolder",
-                  fontSize: "65px",
+                  fontSize: "50px",
                   margin: "2rem 0rem 2rem 0rem",
                 }}
                 className="nunito"

@@ -398,6 +398,7 @@ small {
     inset 100px -100px 200px rgb(27 43 69 / 90%),
     inset -100px 100px 250px rgb(7 11 17 / 90%);
 }
+/* blue-box in subscription-store in sells category */
 .column3 {
   border-radius: 7px;
   background: linear-gradient(135deg, #121c2d 0%, #101a29 100%);
@@ -405,6 +406,14 @@ small {
     -10px 10px 20px rgb(7 11 17 / 20%), 10px 10px 20px rgb(27 43 69 / 90%),
     -10px -10px 25px rgb(7 11 17 / 90%), inset -1px -1px 2px rgb(27 43 69 / 30%),
     inset 1px 1px 2px rgb(7 11 17 / 50%);
+  padding: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .column3 {
+    text-align: center;
+    margin-left: -24px;
+  }
 }
 /* optimize kitchen */
 .container_weserve {
@@ -585,7 +594,7 @@ small {
 @media only screen and (max-width: 600px) {
   .image-responsive-size {
     width: 65vw;
-    margin-left: 7rem;
+    margin-left: 5rem;
   }
 }
 /* blue-box */

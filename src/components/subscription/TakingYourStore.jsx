@@ -13,11 +13,11 @@ export default class CreateRewardingExperiences extends PureComponent {
                 alt="..."
               />
             </div>
-            <div class="col-md-6 col-xs-10">
+            <div class="col-md-6 col-xs-10 trend-responsive">
               <h2
                 style={{
                   fontWeight: "bolder",
-                  fontSize: "60px",
+                  fontSize: "50px",
                   margin: "1rem 0rem 2rem 0rem",
                 }}
                 className="nunito"

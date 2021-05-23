@@ -13,7 +13,7 @@ export default class WhyChoose extends PureComponent {
         <h1
           style={{
             fontWeight: "bolder",
-            fontSize: "3rem",
+            fontSize: "2.8rem",
             fontFamily: "'Nunito', sans-serif",
             letterSpacing: "1.5px",
           }}

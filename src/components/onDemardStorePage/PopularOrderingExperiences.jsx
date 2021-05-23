@@ -51,7 +51,7 @@ export default class PopularOrderingExperiences extends PureComponent {
             <img
               src={this.props.image}
               alt="image-gif"
-              style={{ width: "25rem" }}
+              style={{ width: "22rem" }}
             />
           </div>
         </div>

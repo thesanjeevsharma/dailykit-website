@@ -23,7 +23,7 @@ export default class IdealProduct extends PureComponent {
           <h1
             style={{
               fontWeight: "bolder",
-              fontSize: "3.5rem",
+              fontSize: "3rem",
               fontFamily: "'Nunito', sans-serif",
               letterSpacing: "1.5px",
             }}
@@ -118,7 +118,7 @@ export default class IdealProduct extends PureComponent {
               />
               <div
                 class="carousel-caption d-none w-50 d-md-block"
-                style={{ textAlign: "left", marginLeft: "28rem" }}
+                style={{ textAlign: "left", marginLeft: "25rem" }}
               >
                 <h5
                   style={{

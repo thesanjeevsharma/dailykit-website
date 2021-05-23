@@ -19,7 +19,7 @@ export default class PersonalizationDoneRight extends PureComponent {
               <h2
                 style={{
                   fontWeight: "bolder",
-                  fontSize: "60px",
+                  fontSize: "50px",
                   margin: "1rem 0rem 2rem 0rem",
                 }}
                 className="nunito"

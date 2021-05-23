@@ -10,15 +10,7 @@ export default class Bluebox1 extends PureComponent {
         style={{ background: "#111B2B", textAlign: "center", color: "white" }}
       >
         <div style={{ color: "#111B2B" }}>.</div>
-        <div
-          style={{
-            fontWeight: "bolder",
-            fontSize: "50px",
-            marginTop: "5rem",
-          }}
-        >
-          {this.props.heading}
-        </div>
+        <div class="bluebox-heading">{this.props.heading}</div>
         <small
           style={{
             color: "#8ac03b",
@@ -37,54 +29,38 @@ export default class Bluebox1 extends PureComponent {
           >
             {" "}
             <div class="row justify-content-end mb-4 mt-4">
-              <div class="col-10" style={{ fontWeight: "bolder" }}>
+              <div class="col-md-10 col-xs-10 bluebox-col1heading">
                 {this.props.col1heading}
               </div>
-              <div class="col-2">
-                <img src={display} alt=".." width="80px" />
+              <div class="col-md-2 col-xs-10">
+                <img
+                  src={display}
+                  alt=".."
+                  width="80px"
+                  class="bluebox-imageicon"
+                />
               </div>
             </div>
-            <div class="row justify-content-end" style={{ textAlign: "right" }}>
-              <div class="col-8" style={{ marginBottom: "5rem" }}>
+            <div class="row justify-content-center">
+              <div class="col-md-8 col-xs-10 bluebox-col1para">
                 {this.props.col1para}
               </div>{" "}
             </div>
             {!this.props.learn && (
               <div class="row justify-content-end mt-4">
-                <div class="col-md-3 col-xs-10">
+                <div class="col-md-3 col-xs-10 bluebox-imagecontainer">
                   <div class="card">
-                    <div
-                      class="card-body imagebox12"
-                      style={{
-                        height: "10rem",
-                        backgroundRepeat: "no-repeat",
-                        backgroundSize: "cover",
-                      }}
-                    ></div>
+                    <div class="card-body imagebox12 bluebox-image"></div>
                   </div>
                 </div>
-                <div class="col-md-3 col-xs-10">
+                <div class="col-md-3 col-xs-10 bluebox-imagecontainer">
                   <div class="card">
-                    <div
-                      class="card-body imagebox13"
-                      style={{
-                        height: "10rem",
-                        backgroundRepeat: "no-repeat",
-                        backgroundSize: "cover",
-                      }}
-                    ></div>
+                    <div class="card-body imagebox13 bluebox-image"></div>
                   </div>
                 </div>
-                <div class="col-md-3 col-xs-10">
+                <div class="col-md-3 col-xs-10 bluebox-imagecontainer">
                   <div class="card">
-                    <div
-                      class="card-body imagebox14"
-                      style={{
-                        height: "10rem",
-                        backgroundRepeat: "no-repeat",
-                        backgroundSize: "cover",
-                      }}
-                    ></div>
+                    <div class="card-body imagebox14 bluebox-image"></div>
                   </div>
                 </div>
               </div>
@@ -106,60 +82,44 @@ export default class Bluebox1 extends PureComponent {
           >
             {" "}
             <div class="row justify-content-start mb-4 mt-4">
-              <div class="col-2 ml-2">
-                <img src={kitchen} alt=".." width="90px" />
+              <div class="col-md-2 col-xs-10 ml-2">
+                <img
+                  src={kitchen}
+                  alt=".."
+                  width="90px"
+                  class="bluebox-imageicon"
+                />
               </div>
 
               <div
-                class="col-10"
+                class="col-md-10 col-xs-10"
                 style={{ fontWeight: "bolder", textAlign: "left" }}
               >
-                {this.props.col1heading}
+                {this.props.col2heading}
               </div>
             </div>
             <div
               class="row justify-content-start"
               style={{ textAlign: "left" }}
             >
-              <div class="col-8" style={{ marginBottom: "5rem" }}>
+              <div class="col-md-8 col-xs-10" style={{ marginBottom: "5rem" }}>
                 {this.props.col2para}
               </div>
               {!this.props.learn && (
                 <div class="row justify-content-start mt-4">
-                  <div class="col-md-3 col-xs-10">
+                  <div class="col-md-3 col-xs-10 bluebox-imagecontainer">
                     <div class="card">
-                      <div
-                        class="card-body imagebox15"
-                        style={{
-                          height: "10rem",
-                          backgroundRepeat: "no-repeat",
-                          backgroundSize: "cover",
-                        }}
-                      ></div>
+                      <div class="card-body imagebox15 bluebox-image"></div>
                     </div>
                   </div>
-                  <div class="col-md-3 col-xs-10">
+                  <div class="col-md-3 col-xs-10 bluebox-imagecontainer">
                     <div class="card">
-                      <div
-                        class="card-body imagebox16"
-                        style={{
-                          height: "10rem",
-                          backgroundRepeat: "no-repeat",
-                          backgroundSize: "cover",
-                        }}
-                      ></div>
+                      <div class="card-body imagebox16 bluebox-image"></div>
                     </div>
                   </div>
-                  <div class="col-md-3 col-xs-10">
+                  <div class="col-md-3 col-xs-10 bluebox-imagecontainer">
                     <div class="card">
-                      <div
-                        class="card-body imagebox17"
-                        style={{
-                          height: "10rem",
-                          backgroundRepeat: "no-repeat",
-                          backgroundSize: "cover",
-                        }}
-                      ></div>
+                      <div class="card-body imagebox17 bluebox-image"></div>
                     </div>
                   </div>
                 </div>
@@ -168,8 +128,7 @@ export default class Bluebox1 extends PureComponent {
             {!this.props.learn && (
               <button
                 type="button"
-                className="learMore_button2 mt-4 "
-                style={{ marginRight: "15rem" }}
+                className="learMore_button2 mt-4 learn bluebox-learnMore"
               >
                 Learn More
               </button>

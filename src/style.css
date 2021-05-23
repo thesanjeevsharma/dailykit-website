@@ -628,7 +628,7 @@ small {
 
 @media only screen and (max-width: 600px) {
   .inputbox {
-    margin-left: 2rem;
+    margin-left: 0.5rem;
   }
   .form-button {
     margin-top: 2rem;
@@ -642,7 +642,7 @@ small {
 }
 /* also used in order-fullfillment in right-images */
 .right-image-responsive {
-  width: 27rem;
+  width: 25rem;
 }
 .enterprise-image {
   margin-top: -11rem;
@@ -697,7 +697,6 @@ small {
   margin-left: 5.5rem;
   margin-top: 2rem;
   margin-bottom: 4rem;
-  display: inline;
 }
 .insight-subheading {
   color: #8ac03b;
@@ -718,21 +717,20 @@ small {
   .insight-heading {
     font-size: 2.5rem;
     text-align: center;
-    margin-left: 8rem;
+    margin-left: 0rem;
   }
   .insight-subheading {
     text-align: center;
     margin-left: 1rem;
   }
   .learn {
-    margin-top: 2rem;
-    margin-left: 11rem;
+    margin-left: 8rem;
   }
   .redhover {
     margin-bottom: 4rem;
   }
   .list-styling {
-    margin-left: 6rem;
+    margin-left: 2rem;
   }
 }
 /* ////////meal-kit-brand-sidebar-heading */
@@ -745,5 +743,56 @@ small {
   .black_heading {
     width: 55vh;
     font-size: 9.5vh;
+  }
+}
+/* ////////////////////////////////////////////////////////// */
+.bluebox-heading {
+  font-weight: bolder;
+  font-size: 50px;
+  margin-top: 5rem;
+}
+.bluebox-col1heading {
+  font-weight: bolder;
+}
+.bluebox-col1para {
+  text-align: right;
+  margin-bottom: 5rem;
+  margin-left: 4rem;
+}
+.bluebox-image {
+  height: 10rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bluebox-learnMore {
+  margin-right: 15rem;
+}
+/* /////////////////////making bluebox on order routing page-responsive */
+@media only screen and (max-width: 600px) {
+  .bluebox-heading {
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 2rem;
+  }
+  .bluebox-col1heading {
+    text-align: left;
+  }
+  .bluebox-imageicon {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 10rem;
+  }
+  .bluebox-col1para {
+    font-weight: 10px !important;
+    text-align: left;
+    width: 120vw;
+    margin-left: -2rem;
+  }
+  .bluebox-image,
+  .bluebox-imagecontainer {
+    display: none;
+  }
+  .bluebox-learnMore {
+    margin-right: 5rem;
   }
 }

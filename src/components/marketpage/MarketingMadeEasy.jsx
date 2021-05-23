@@ -72,7 +72,7 @@ export default class MarketingMadeEasy extends PureComponent {
                     <div class="carousel-item active">
                       <img
                         src={this.props.imageurl}
-                        class="d-block"
+                        class="d-block w-80"
                         alt="..."
                       />
                     </div>

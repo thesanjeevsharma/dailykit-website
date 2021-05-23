@@ -9,14 +9,7 @@ export default class BuildSmarterCampaigns extends PureComponent {
           <div class="row justify-content-between">
             <div class="col-md-6 col-sm-10 col-xs-10 trend-responsive">
               <img src={computerIcon} width="70px" />
-              <h2
-                style={{
-                  fontWeight: "bolder",
-                  fontSize: "65px",
-                  margin: "2rem 0rem 2rem 0rem",
-                }}
-                className="nunito"
-              >
+              <h2 className="nunito market-heading">
                 Build Smarter Campaigns.
               </h2>{" "}
               <p

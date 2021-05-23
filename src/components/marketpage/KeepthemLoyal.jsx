@@ -17,14 +17,7 @@ export default class KeepthemLoyal extends PureComponent {
             <div class="col-md-6 col-xs-12">
               {" "}
               <img src={paperplane} width="120px" />
-              <h2
-                style={{
-                  fontWeight: "bolder",
-                  fontSize: "65px",
-                  margin: "1rem 0rem 2rem 0rem",
-                }}
-                className="nunito"
-              >
+              <h2 className="nunito market-heading ">
                 Keep them <br />
                 Loyal.
               </h2>

@@ -16,14 +16,7 @@ export default class CreateRewardingExperiences extends PureComponent {
             </div>
             <div class="col-md-6 col-xs-10 trend-responsive">
               <img src={paperplane} width="120px" />
-              <h2
-                style={{
-                  fontWeight: "bolder",
-                  fontSize: "60px",
-                  margin: "1rem 0rem 2rem 0rem",
-                }}
-                className="nunito"
-              >
+              <h2 className="nunito market-heading ">
                 Create Rewarding Experiences.
               </h2>
               <p

@@ -7,14 +7,7 @@ export default class Yourtryst extends PureComponent {
         <div class="container" style={{ marginTop: "8rem" }}>
           <div class="row justify-content-between">
             <div class="col-md-6 col-xs-10">
-              <h2
-                style={{
-                  fontWeight: "bolder",
-                  fontSize: "65px",
-                  margin: "2rem 0rem 2rem 0rem",
-                }}
-                className="nunito"
-              >
+              <h2 className="nunito market-heading ">
                 Your tryst with virality
               </h2>
               <p

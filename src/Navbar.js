@@ -67,7 +67,7 @@ export default class Navbar extends PureComponent {
                         style={{
                           color: "#113D63",
                           fontWeight: "600",
-                          fontSize: "12px",
+                          fontSize: "14px",
                         }}
                         className="dropdown-item"
                         href="/sells/on-demand-online-store"
@@ -80,7 +80,7 @@ export default class Navbar extends PureComponent {
                         style={{
                           color: "#113D63",
                           fontWeight: "600",
-                          fontSize: "12px",
+                          fontSize: "14px",
                         }}
                         className="dropdown-item"
                         href="/sells/subscription-online-store"
@@ -93,7 +93,7 @@ export default class Navbar extends PureComponent {
                         style={{
                           color: "#113D63",
                           fontWeight: "600",
-                          fontSize: "12px",
+                          fontSize: "14px",
                         }}
                         className="dropdown-item"
                         href="/menu/overview"
@@ -129,7 +129,7 @@ export default class Navbar extends PureComponent {
                         style={{
                           color: "#113D63",
                           fontWeight: "600",
-                          fontSize: "12px",
+                          fontSize: "14px",
                         }}
                         className="dropdown-item"
                         href="/operate/centralized-order-dashboard"
@@ -142,7 +142,7 @@ export default class Navbar extends PureComponent {
                         style={{
                           color: "#113D63",
                           fontWeight: "600",
-                          fontSize: "12px",
+                          fontSize: "14px",
                         }}
                         className="dropdown-item"
                         href="/operate/order-routing-and-kitchen-display-system"
@@ -155,7 +155,7 @@ export default class Navbar extends PureComponent {
                         style={{
                           color: "#113D63",
                           fontWeight: "600",
-                          fontSize: "12px",
+                          fontSize: "14px",
                         }}
                         className="dropdown-item"
                         href="/operate/order-fulfillment"
@@ -168,7 +168,7 @@ export default class Navbar extends PureComponent {
                         style={{
                           color: "#113D63",
                           fontWeight: "600",
-                          fontSize: "12px",
+                          fontSize: "14px",
                         }}
                         className="dropdown-item"
                         href="/operate/packaging-management"
@@ -181,7 +181,7 @@ export default class Navbar extends PureComponent {
                         style={{
                           color: "#113D63",
                           fontWeight: "600",
-                          fontSize: "12px",
+                          fontSize: "14px",
                         }}
                         className="dropdown-item"
                         href="/operate/portion-control"
@@ -245,7 +245,7 @@ export default class Navbar extends PureComponent {
                         style={{
                           color: "#113D63",
                           fontWeight: "600",
-                          fontSize: "12px",
+                          fontSize: "14px",
                         }}
                         className="dropdown-item"
                         href="#"
@@ -269,7 +269,7 @@ export default class Navbar extends PureComponent {
                         style={{
                           color: "#113D63",
                           fontWeight: "600",
-                          fontSize: "12px",
+                          fontSize: "14px",
                         }}
                         className="dropdown-item"
                         href="#"
@@ -298,7 +298,7 @@ export default class Navbar extends PureComponent {
                         style={{
                           color: "#113D63",
                           fontWeight: "600",
-                          fontSize: "12px",
+                          fontSize: "14px",
                         }}
                         className="dropdown-item"
                         href="/cloud_kitchen"
@@ -311,7 +311,7 @@ export default class Navbar extends PureComponent {
                         style={{
                           color: "#113D63",
                           fontWeight: "600",
-                          fontSize: "12px",
+                          fontSize: "14px",
                         }}
                         className="dropdown-item"
                         href="/bakerypage"
@@ -324,7 +324,7 @@ export default class Navbar extends PureComponent {
                         style={{
                           color: "#113D63",
                           fontWeight: "600",
-                          fontSize: "12px",
+                          fontSize: "14px",
                         }}
                         className="dropdown-item"
                         href="#"
@@ -370,7 +370,7 @@ export default class Navbar extends PureComponent {
                         style={{
                           color: "#113D63",
                           fontWeight: "600",
-                          fontSize: "12px",
+                          fontSize: "14px",
                         }}
                         className="dropdown-item"
                         href="#"
@@ -395,7 +395,7 @@ export default class Navbar extends PureComponent {
                         style={{
                           color: "#113D63",
                           fontWeight: "600",
-                          fontSize: "12px",
+                          fontSize: "14px",
                         }}
                         className="dropdown-item"
                         href="#"
@@ -415,7 +415,7 @@ export default class Navbar extends PureComponent {
                         style={{
                           color: "#113D63",
                           fontWeight: "600",
-                          fontSize: "12px",
+                          fontSize: "14px",
                         }}
                         className="dropdown-item"
                         href="#"
@@ -467,12 +467,12 @@ export default class Navbar extends PureComponent {
                         style={{
                           color: "#113D63",
                           fontWeight: "600",
-                          fontSize: "12px",
+                          fontSize: "14px",
                         }}
                         style={{
                           color: "#113D63",
                           fontWeight: "600",
-                          fontSize: "12px",
+                          fontSize: "14px",
                         }}
                         className="dropdown-item"
                         href="/Aboutus/Ourphilosophy"
@@ -485,7 +485,7 @@ export default class Navbar extends PureComponent {
                         style={{
                           color: "#113D63",
                           fontWeight: "600",
-                          fontSize: "12px",
+                          fontSize: "14px",
                         }}
                         className="dropdown-item"
                         href="/AboutUs/Blog"

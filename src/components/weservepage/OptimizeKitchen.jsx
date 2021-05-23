@@ -28,6 +28,7 @@ export default class OptimizeKitchen extends PureComponent {
             <img
               className="weserve_img"
               src="https://www.dailykit.org/hubfs/dailykit-assets/restaurant-chef-fold@2x.png"
+              alt="..."
             />
           </div>
           <div className="sideBar_right">
@@ -40,8 +41,8 @@ export default class OptimizeKitchen extends PureComponent {
                 textAlign: "center",
               }}
             >
-              <div class="row justify-content-evenly mb-4">
-                <div class="col-md-4 col-xs-10 p-4 column3 justify-content-center">
+              <div class="row justify-content-center mb-4">
+                <div class="col-md-4 col-xs-8 p-4 column3 justify-content-center">
                   <h5
                     style={{
                       display: "inline",
@@ -72,7 +73,7 @@ export default class OptimizeKitchen extends PureComponent {
                     }}
                   />
                 </div>
-                <div class="col-md-4 col-xs-10 p-4 column3 justify-content-center">
+                <div class="col-md-4 col-xs-8 p-4 column3 justify-content-center">
                   {" "}
                   <h5
                     style={{
@@ -106,7 +107,7 @@ export default class OptimizeKitchen extends PureComponent {
                 </div>
 
                 <div class="row justify-content-evenly mt-4">
-                  <div class="col-md-4 col-xs-10 p-4 column3 justify-content-center">
+                  <div class="col-md-4 col-xs-8 p-4 column3 justify-content-center">
                     {" "}
                     <h5
                       style={{
@@ -138,7 +139,7 @@ export default class OptimizeKitchen extends PureComponent {
                       }}
                     />
                   </div>
-                  <div class="col-md-4 col-xs-10 p-4 column3 justify-content-center">
+                  <div class="col-md-4 col-xs-8 p-4 column3 justify-content-center">
                     <h5
                       style={{
                         display: "inline",

@@ -66,7 +66,7 @@ export default class Makethejuice extends PureComponent {
               <img
                 src="https://www.dailykit.org/hubfs/dailykit-assets/Lob-hero@2x.png"
                 alt="..."
-                style={{ width: "37rem", marginTop: "-15rem" }}
+                class="image-responsive-1"
               />
             </div>
           </div>

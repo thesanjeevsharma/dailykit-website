@@ -5,6 +5,7 @@ export default class Weserve extends PureComponent {
   render() {
     return (
       <>
+        {/* heading */}
         <h6
           style={{
             color: "#8ac03b",
@@ -28,112 +29,40 @@ export default class Weserve extends PureComponent {
         >
           We Serve
         </h1>
-
+        {/* image-box */}
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-md-3 col-xs-10">
-              <div class="card">
-                <div
-                  class="card-body imagebox1"
-                  style={{
-                    height: "10rem",
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover",
-                  }}
-                >
-                  <h5 class="card-title"></h5>
-                  <p class="card-text"></p>{" "}
-                  <a
-                    href="#"
-                    class="btn btn-dark p-4"
-                    style={{
-                      fontSize: "19px",
-                      marginTop: "5rem",
-                      marginLeft: "2em",
-                    }}
-                  >
+              <div class="card card-responsive">
+                <div class="card-body imagebox1">
+                  <a href="/" class="btn btn-dark p-4 below-image-button">
                     Restaurants
                   </a>
                 </div>
               </div>
             </div>
             <div class="col-md-3 col-xs-10">
-              <div class="card">
-                <div
-                  class="card-body imagebox2"
-                  style={{
-                    height: "10rem",
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover",
-                  }}
-                >
-                  <h5 class="card-title"></h5>
-                  <p class="card-text"></p>{" "}
-                  <a
-                    href="#"
-                    class="btn btn-dark  p-4"
-                    style={{
-                      fontSize: "19px",
-                      border: "0 2px 0 2px green",
-                      marginTop: "5rem",
-                      marginLeft: "2rem",
-                    }}
-                  >
+              <div class="card card-responsive">
+                <div class="card-body imagebox2">
+                  <a href="/" class="btn btn-dark p-4 below-image-button">
                     SuperMarkets
                   </a>
                 </div>
               </div>
             </div>
             <div class="col-md-3 col-xs-10">
-              <div class="card">
-                <div
-                  class="card-body imagebox3"
-                  style={{
-                    height: "10rem",
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover",
-                  }}
-                >
-                  <h5 class="card-title"></h5>
-                  <p class="card-text"></p>{" "}
-                  <a
-                    href="#"
-                    class="btn btn-dark  p-4"
-                    style={{
-                      fontSize: "19px",
-                      border: "0 2px 0 2px green",
-                      marginTop: "5rem",
-                      marginLeft: "2rem",
-                      marginTop: "5rem",
-                    }}
-                  >
+              <div class="card card-responsive">
+                <div class="card-body imagebox3">
+                  <a href="/" class="btn btn-dark p-4 below-image-button">
                     Cloud Kitchens
                   </a>
                 </div>
               </div>
             </div>
             <div class="col-md-3 col-xs-10">
-              <div class="card">
-                <div
-                  class="card-body imagebox4"
-                  style={{
-                    height: "10rem",
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover",
-                  }}
-                >
-                  <h5 class="card-title"></h5>
-                  <p class="card-text"></p>{" "}
-                  <a
-                    href="#"
-                    class="btn btn-dark p-4"
-                    style={{
-                      fontSize: "19px",
-                      border: "0 2px 0 2px green",
-                      marginTop: "5rem",
-                      marginLeft: "2rem",
-                    }}
-                  >
+              <div class="card card-responsive">
+                <div class="card-body imagebox4">
+                  <a href="/" class="btn btn-dark p-4 below-image-button">
                     Enterprise
                   </a>
                 </div>

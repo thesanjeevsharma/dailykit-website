@@ -32,11 +32,11 @@ export default class AnERP extends PureComponent {
                 SCHEDULE A MEETING
               </button>
             </div>
-            <div class="col-md-6 col-xs-10">
+            <div class="col-md-6 col-xs-10 right-image-margintop">
               <img
                 src="https://www.dailykit.org/hubfs/dailykit-assets/enterprise-solution@2x.png"
                 alt="..."
-                style={{ marginTop: "-11rem", width: "35rem" }}
+                class="enterprise-image"
               />
             </div>
           </div>

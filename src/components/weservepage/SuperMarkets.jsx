@@ -15,7 +15,7 @@ export default class SuperMarkets extends PureComponent {
                 />
               </div>
             )}
-            <div class="col-md-6 col-xs-10">
+            <div class="col-md-6 col-xs-10 trend-responsive">
               {" "}
               <h6
                 style={{
@@ -44,13 +44,13 @@ export default class SuperMarkets extends PureComponent {
                     class="col-2 vl"
                     style={{ marginRight: "-70px", paddingRight: "-12px" }}
                   ></div>
-                  <div class="col-10">{this.props.para}</div>
+                  <div class="col-md-10">{this.props.para}</div>
                 </div>
                 <div
                   class="row"
                   style={{ marginTop: "2rem", marginLeft: "2rem" }}
                 >
-                  <ul class="col-md-6 col-xs-10 onDemandCategories">
+                  <ul class="col-md-6 col-xs-10 onDemandCategories trend-responsive">
                     {this.props.list1.map((list) => {
                       return <li style={{ fontSize: "14px" }}>{list}</li>;
                     })}
@@ -71,7 +71,7 @@ export default class SuperMarkets extends PureComponent {
               </button>
             </div>
             {this.props.rightImage && (
-              <div class="col-md-6 col-xs-10">
+              <div class="col-md-6 col-xs-10 right-image-margintop">
                 <img
                   src={this.props.rightImage}
                   class="d-block w-100"

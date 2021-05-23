@@ -1,5 +1,6 @@
 import React, { PureComponent } from "react";
 import "./style.css";
+import "./dropdown.css";
 export default class Navbar extends PureComponent {
   render() {
     return (
@@ -249,7 +250,7 @@ export default class Navbar extends PureComponent {
                         className="dropdown-item"
                         href="#"
                       >
-                        For Restaurants
+                        For Restaurants ▶
                       </a>
                       <ul className="special-styling">
                         <li>
@@ -273,7 +274,7 @@ export default class Navbar extends PureComponent {
                         className="dropdown-item"
                         href="#"
                       >
-                        For Enterprise
+                        For Enterprise ▶
                       </a>
                       <ul className="special-styling">
                         <li>
@@ -328,7 +329,7 @@ export default class Navbar extends PureComponent {
                         className="dropdown-item"
                         href="#"
                       >
-                        Meal Kit Guides
+                        Meal Kit Guides ▶
                       </a>{" "}
                       <ul className="special-styling">
                         <li>
@@ -337,7 +338,7 @@ export default class Navbar extends PureComponent {
                           </a>
                         </li>
                         <li>
-                          <a href="#">The Meal Kit Marketing Guide</a>
+                          <a href="#">The Meal Kit Marketing Guide ▶</a>
                           <ul className="special-styling">
                             <li>
                               <a href="/meal-kit-guides/meal-kit-guides/how-to-decide-your-meal-kits">
@@ -374,7 +375,7 @@ export default class Navbar extends PureComponent {
                         className="dropdown-item"
                         href="#"
                       >
-                        Start Meal Kit Brand
+                        Start Meal Kit Brand ▶
                       </a>
                       <ul className="special-styling">
                         <li>
@@ -399,7 +400,7 @@ export default class Navbar extends PureComponent {
                         className="dropdown-item"
                         href="#"
                       >
-                        Case study
+                        Case study ▶
                       </a>
                       <ul className="special-styling">
                         <li>
@@ -417,9 +418,9 @@ export default class Navbar extends PureComponent {
                           fontSize: "12px",
                         }}
                         className="dropdown-item"
-                        href="Recipe_Provider"
+                        href="#"
                       >
-                        Do more
+                        Do more ▶
                       </a>{" "}
                       <ul className="special-styling">
                         <li>

@@ -11,22 +11,12 @@ export default class PopularOrderingExperiences extends PureComponent {
                 color: "#1374f6",
                 fontWeight: "bolder",
                 fontSize: "15px",
-                marginBottom: "1rem",
-                marginTop: "2rem",
+                marginBottom: "2rem",
               }}
             >
               {this.props.subheading}
             </div>
-            <h2
-              style={{
-                fontWeight: "400",
-                fontSize: "60px",
-                marginBottom: "2rem",
-              }}
-              className="nunito"
-            >
-              {this.props.heading}
-            </h2>
+            <h2 className="nunito we-serve-heading">{this.props.heading}</h2>
             <p
               style={{
                 fontSize: "23px",

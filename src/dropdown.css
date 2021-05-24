@@ -53,10 +53,17 @@ ul ul ul {
 }
 ul:before,
 ul:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
-}
+  content: " "; 
+  display: table;  
+ } 
 
-ul:after {
+ ul:after {
   clear: both;
+} 
+
+/* .navbar-toggler>.close {
+  display:inline;
 }
+.navbar-toggler .collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+  display:none;
+} */

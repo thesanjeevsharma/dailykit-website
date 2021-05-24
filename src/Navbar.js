@@ -24,7 +24,7 @@ export default class Navbar extends PureComponent {
                 width="181"
                 height="54"
               />
-            </a>{" "}
+            </a>
             <button
               class="navbar-toggler"
               type="button"
@@ -35,12 +35,13 @@ export default class Navbar extends PureComponent {
               aria-label="Toggle navigation"
             >
               <span class="navbar-toggler-icon"></span>
+              {/* <span class="navbar-toggler-icon" style={{"marginLeft":"4rem"}}></span> */}
             </button>
             <div
               className="collapse navbar-collapse"
               id="navbarSupportedContent"
             >
-              <ul className="navbar-nav special-styling   me-auto mb-2 mb-lg-0">
+              <ul className="navbar-nav special-styling  me-auto mb-2 mb-lg-0">
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
@@ -330,7 +331,7 @@ export default class Navbar extends PureComponent {
                         href="#"
                       >
                         Meal Kit Guides ▶
-                      </a>{" "}
+                      </a>
                       <ul className="special-styling">
                         <li>
                           <a href="/meal-kit-guides/meal-kit-packaging">
@@ -421,7 +422,7 @@ export default class Navbar extends PureComponent {
                         href="#"
                       >
                         Do more ▶
-                      </a>{" "}
+                      </a>
                       <ul className="special-styling">
                         <li>
                           <a href="/do-more/Recipe-Provider">Recipe Provider</a>

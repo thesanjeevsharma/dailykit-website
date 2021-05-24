@@ -1,5 +1,7 @@
 import React from "react";
 import "./../../style.css";
+
+import $ from "jquery";
 const VideoBanner = () => {
   return (
     <div className="image video" style={{ background: "#212529" }}>
@@ -23,7 +25,22 @@ const VideoBanner = () => {
           The only Trend-Responsive Food-tech solution You'll Ever Need
         </h5>
         <br />
-        <h4 style={{ color: "lightgreen" }}>Multiple Your Brand Awareness</h4>
+        <h4
+          id="yourElem"
+          onclick={setInterval(() => {
+            var array = [
+              "Increase Bottom-Line Margin",
+              "Grow Top-Line Revenue",
+              "Mitigate Risk and Achieve Sustainability",
+              "Grow Top-Line Revenue",
+            ];
+            $("#yourElem").text(array[Math.floor(Math.random() * 4) + 0]);
+            console.log("changed");
+          }, 2000)}
+          style={{ color: "lightgreen" }}
+        >
+          Multiple Your Brand Awareness
+        </h4>
         <br />
         <br />
         <button type="button" className="btn btn-light btn-lg">

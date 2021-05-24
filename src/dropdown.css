@@ -53,17 +53,24 @@ ul ul ul {
 }
 ul:before,
 ul:after {
-  content: " "; 
-  display: table;  
- } 
+  content: " ";
+  display: table;
+}
 
- ul:after {
+ul:after {
   clear: both;
-} 
-
+}
+.close-button {
+  display: none;
+}
 /* .navbar-toggler>.close {
   display:inline;
 }
 .navbar-toggler .collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
   display:none;
 } */
+@media only screen and (max-width: 600px) {
+  .close-button {
+    display: inline;
+  }
+}

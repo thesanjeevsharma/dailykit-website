@@ -35,12 +35,24 @@ export default class Navbar extends PureComponent {
               aria-label="Toggle navigation"
             >
               <span class="navbar-toggler-icon"></span>
-              {/* <span class="navbar-toggler-icon" style={{"marginLeft":"4rem"}}></span> */}
             </button>
+
             <div
               className="collapse navbar-collapse"
               id="navbarSupportedContent"
             >
+              <a href={window.location.href} style={{ textDecoration: "none" }}>
+                <span
+                  class="close-button"
+                  style={{ marginLeft: "19rem", marginTop: "-5rem" }}
+                >
+                  <img
+                    src="https://image.flaticon.com/icons/png/512/1828/1828778.png"
+                    alt="clone-button"
+                    width="15px"
+                  />
+                </span>
+              </a>
               <ul className="navbar-nav special-styling  me-auto mb-2 mb-lg-0">
                 <li className="nav-item dropdown">
                   <a

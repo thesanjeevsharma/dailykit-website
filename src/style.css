@@ -739,13 +739,31 @@ small {
 /* ////////meal-kit-brand-sidebar-heading */
 @media only screen and (max-width: 600px) {
   .sidebar_heading {
-    margin-left: -0.1rem;
-    width: 55vh;
+    margin-left: -0.5rem;
+    width: 40vh;
     margin-top: -7rem;
+    font-size: 19px;
+  }
+  .sidebar_link {
+    font-size: 14px;
+    padding: 0px;
+    text-align: left;
+    margin-left: -0.5rem;
+  }
+  .link_container {
+    width: 40vh;
   }
   .black_heading {
-    width: 50vh;
-    font-size: 6vh;
+    width: 40vh;
+    font-size: 3vh;
+    line-height: 1.7rem;
+    margin: 0rem 0rem 5rem -4rem !important;
+  }
+  .green_heading {
+    width: 35vh;
+    font-size: 3vh;
+    line-height: 1.7rem;
+    margin: 10rem 0rem 4rem -4rem !important;
   }
   .imagebox-start-mealkit-brand {
     width: 20rem;
@@ -753,6 +771,10 @@ small {
   }
   .para2_heading {
     font-size: 18px;
+  }
+  .para_first,
+  .para_second {
+    font-size: 14px;
   }
 }
 /* ////////////////////////////////////////////////////////// */

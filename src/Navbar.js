@@ -44,12 +44,12 @@ export default class Navbar extends PureComponent {
               <a href={window.location.href} style={{ textDecoration: "none" }}>
                 <span
                   class="close-button"
-                  style={{ marginLeft: "19rem", marginTop: "-5rem" }}
+                  style={{ marginLeft: "90%", marginTop: "-5rem" }}
                 >
                   <img
                     src="https://image.flaticon.com/icons/png/512/1828/1828778.png"
                     alt="clone-button"
-                    width="15px"
+                    width="18px"
                   />
                 </span>
               </a>
@@ -263,7 +263,7 @@ export default class Navbar extends PureComponent {
                         className="dropdown-item"
                         href="#"
                       >
-                        For Restaurants ▶
+                        For Restaurants ▼
                       </a>
                       <ul className="special-styling">
                         <li>
@@ -287,7 +287,7 @@ export default class Navbar extends PureComponent {
                         className="dropdown-item"
                         href="#"
                       >
-                        For Enterprise ▶
+                        For Enterprise ▼
                       </a>
                       <ul className="special-styling">
                         <li>
@@ -342,7 +342,7 @@ export default class Navbar extends PureComponent {
                         className="dropdown-item"
                         href="#"
                       >
-                        Meal Kit Guides ▶
+                        Meal Kit Guides ▼
                       </a>
                       <ul className="special-styling">
                         <li>
@@ -351,7 +351,7 @@ export default class Navbar extends PureComponent {
                           </a>
                         </li>
                         <li>
-                          <a href="#">The Meal Kit Marketing Guide ▶</a>
+                          <a href="#">The Meal Kit Marketing Guide ▼</a>
                           <ul className="special-styling">
                             <li>
                               <a href="/meal-kit-guides/meal-kit-guides/how-to-decide-your-meal-kits">
@@ -388,7 +388,7 @@ export default class Navbar extends PureComponent {
                         className="dropdown-item"
                         href="#"
                       >
-                        Start Meal Kit Brand ▶
+                        Start Meal Kit Brand ▼
                       </a>
                       <ul className="special-styling">
                         <li>
@@ -413,7 +413,7 @@ export default class Navbar extends PureComponent {
                         className="dropdown-item"
                         href="#"
                       >
-                        Case study ▶
+                        Case study ▼
                       </a>
                       <ul className="special-styling">
                         <li>
@@ -433,7 +433,7 @@ export default class Navbar extends PureComponent {
                         className="dropdown-item"
                         href="#"
                       >
-                        Do more ▶
+                        Do more ▼
                       </a>
                       <ul className="special-styling">
                         <li>

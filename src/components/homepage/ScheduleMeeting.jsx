@@ -14,7 +14,16 @@ export default class ScheduleMeeting extends PureComponent {
               className="nunito"
             >
               Schedule an E-Meeting
+              <a href="/" style={{ marginLeft: "90%" }}>
+                <img
+                  src="https://image.flaticon.com/icons/png/512/1828/1828778.png"
+                  alt="clone-button"
+                  width="18px"
+                  style={{ marginTop: "-4rem" }}
+                />
+              </a>
             </h2>
+
             <div
               style={{
                 fontSize: "16px",

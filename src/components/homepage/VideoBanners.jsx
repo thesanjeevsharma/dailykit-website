@@ -17,16 +17,19 @@ const VideoBanner = () => {
           type="video/mp4"
         />
       </video>
-      <div className="videoTag_text">
-        <h2 style={{ color: "lightblue" }}>Time to EVOLVE with</h2>
-        <h2 style={{ color: "white" }}>DailyKIT</h2>
+      <div className="header">
+        <div style={{ color: "#aab6f6",fontSize:"32px" }}>Time to EVOLVE with</div>
+        <h2 class="nunito">DailyKIT</h2>
         <br />
-        <h5 style={{ color: "white" }}>
+        <h5 style={{ color: "white",fontWeight: "bold",
+    fontSize: "18px",paddingTop: "8px",
+    
+    paddingBottom: "8px" }}>
           The only Trend-Responsive Food-tech solution You'll Ever Need
         </h5>
         <br />
         <h4
-          id="yourElem"
+          id="yourElem" class="all-text"
           onclick={setInterval(() => {
             var array = [
               "Increase Bottom-Line Margin",
@@ -35,22 +38,21 @@ const VideoBanner = () => {
               "Grow Top-Line Revenue",
             ];
             $("#yourElem").text(array[Math.floor(Math.random() * 4) + 0]);
-            console.log("changed");
           }, 2000)}
-          style={{ color: "lightgreen" }}
+         
         >
           Multiple Your Brand Awareness
         </h4>
         <br />
         <br />
-        <button type="button" className="btn btn-light btn-lg">
-          <a href="/" style={{ textDecoration: "none", color: "#0a58ca" }}>
+        <button type="button" className="btn-style-thirteen white">
+          <a href="/" >
             Schedule Demo
           </a>
         </button>
         &ensp;
         <button type="button" className="btn btn-primary btn-lg homebutton">
-          <a href="/" style={{ textDecoration: "none", color: "white" }}>
+          <a href="/" style={{color: "white" }}>
             Start Now With A 3-Month Trail
           </a>
         </button>

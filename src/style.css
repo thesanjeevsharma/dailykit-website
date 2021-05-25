@@ -1,5 +1,13 @@
 * {
+  margin: 0px;
+    padding: 0px;
+    border: 0;
+    outline: 0;
   box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  outline: none;
 }
 /* bakery */
 .green_heading {
@@ -345,7 +353,8 @@ small {
   font-family: "Nunito", sans-serif;
   font-weight: bolder;
 }
-.videoTag_text {
+.header {
+  padding-top: 200px;
   position: absolute;
   text-align: center;
 }
@@ -367,6 +376,10 @@ small {
 
   .homebutton {
     margin-top: 2rem;
+  }
+ .header{
+    padding-top: 200px;
+    color: #fefdfc;
   }
 }
 /* vertical line */
@@ -870,4 +883,55 @@ small {
   .we-serve-heading {
     margin-top: -2rem;
   }
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.all-text{
+  position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    left: 0;
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #8ac03b;
+}
+.header>h2{
+  color: #fefdfc;
+  font-weight: 800;
+  clear: both;
+  margin: 0;
+  padding: 15px 0 10px;
+}
+.white {
+  background-color: #fefdfc;
+}
+.btn-style-thirteen {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 30px;
+    color: #19274d;
+    padding: 13px 47px;
+    font-weight: 700;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: 2px solid #d7e5f0;
+    font-family: 'Roboto',sans-serif;
+}
+.btn-style-thirteen>a{
+  color:#19274d
+}
+@media only screen and (max-width: 479px) and (min-width: 320px){
+.all-text {
+    font-size: 16px;
+}
+}
+@media (min-width: 30px) and (max-width: 767px){
+.header>h2 {
+    font-size: 30px;
+    line-height: 38px;
+}
 }

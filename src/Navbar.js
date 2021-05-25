@@ -4,7 +4,7 @@ import "./dropdown.css";
 export default class Navbar extends PureComponent {
   render() {
     return (
-      <div style={{ position: "fixed", top: "0", width: "100vw", zIndex: "1" }}>
+      <div style={{ position: "fixed", top: "0", width: "100%", zIndex: "1" }}>
         <nav
           className="navbar navbar-expand-lg navbar-light bg-light"
           style={{

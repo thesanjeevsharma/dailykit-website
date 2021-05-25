@@ -4,16 +4,12 @@ import Footer from "../Footer.js";
 import "../style.css";
 import VideoBanner from "../components/homepage/VideoBanners";
 import ImageBox1 from "../components/homepage/ImageBox1";
-import SellEverythingWithEveryWARE from "../components/homepage/SellEverythingWithEveryWARE";
-import OnDemandCategories from "../components/homepage/OnDemandCategories";
-import CustomAdvancedCoupons from "../components/homepage/CustomAdvancedCoupons";
-import GamifyYourMarketing from "../components/homepage/GamifyYourMarketing";
-import DeliverExcellence from "../components/homepage/DeliverExcellence";
-import List from "../components/homepage/List";
 import StartRunGrow from "../components/homepage/StartRunGrow";
 import OurPricing from "../components/homepage/OurPricing";
-import PartnerWithDailyKIT from "../components/homepage/PartnerWithDailyKIT";
 import ScheduleMeeting from "../components/homepage/ScheduleMeeting";
+import BannerSection1 from "../components/homepage/BannerSection1";
+import BannerSection2 from "../components/homepage/BannerSection2";
+import Categoriessection from "../components/homepage/Categoriessection";
 export default class Homepage extends PureComponent {
   render() {
     return (
@@ -49,15 +45,122 @@ export default class Homepage extends PureComponent {
             "https://www.dailykit.org/hubfs/dailykit-assets/Serve-supermarket@2x.png"
           }
         />
-        <SellEverythingWithEveryWARE />
-        <OnDemandCategories />
-        <GamifyYourMarketing />
-        <CustomAdvancedCoupons />
-        <DeliverExcellence />
-        <List />
+        <BannerSection1
+          boximage1subheading="Product Presentation"
+          boximage1heading="Trend-Responsive Demand Platform"
+          boximage1url="https://www.dailykit.org/hubfs/dailykit-assets/trending@2x.png"
+          boximage2subheading="Add Combos"
+          boximage2heading="Add Accompaniments"
+          boximage2url="https://www.dailykit.org/hubfs/dailykit-assets/slidertrending@2x.png"
+          heading={"Sell Everything With EveryWARE"}
+          subheading={"Trend-Responsive Demand Platform"}
+          buttontext={"TELL ME MORE"}
+        />
+        <Categoriessection
+          list={[
+            [
+              "On-Demand Online Store",
+              "Online Subscription Store",
+              "Unlimited Ghost Brands",
+              "iOS & Android Apps(Upon Request)",
+            ],
+            [
+              "Marketplace Integrations(Coming Soon)",
+              "Your Own Custom Domain",
+              "Custom Brand Pages",
+              "Easy Payment & Checkout Experiences",
+            ],
+            [
+              "Combo Products",
+              "Build Your Own Meal",
+              "Modifiers",
+              "Sort, Filter & Search",
+            ],
+            [
+              "Nutrition & Allergens",
+              "Product Recommendations",
+              "Recipe Pages",
+              "Order & Delivery Tracking",
+            ],
+          ]}
+        />
+        <BannerSection2
+          rightimagecarousel={[
+            "https://www.dailykit.org/hubfs/dailykit-assets/homepage/Coupons.png",
+            "https://www.dailykit.org/hubfs/dailykit-assets/homepage/Referral%20Campaigns.png",
+            "https://www.dailykit.org/hubfs/dailykit-assets/homepage/Points.png",
+          ]}
+          heading={"Gamify Your Marketing"}
+          bluesubheading={"DailyKIT Marketing Hub"}
+          greenbuttontext={"TELL ME MORE"}
+          description="Let Your Imaginations Run Wild. Convert More with Advanced, Multi-Conditional Discounting Tools ."
+          descriptionpoints={[
+            "Create Smart Coupons that actually appeal to your consumers.",
+            "Build exciting Referral Campaigns for your brand's Viral Growth.",
+            "Loyalty Points, Wallet Money and more for Increased Customer Retention",
+          ]}
+        />
+
+        <Categoriessection
+          list={[
+            [
+              "Custom Advanced Coupons",
+              "Coupon-based Cashback",
+              "Coupon-based Loyalty Points",
+            ],
+            [
+              "Signup Offer Campaigns",
+              "Referral Marketing Campaigns",
+              "Post-Order Loyalty Points Wallet Cashback",
+            ],
+            [
+              "Automated Social Media Collateral(Coming Soon)",
+              "Automated Recipe Cards",
+              "SEO - Friendly Product Pages",
+            ],
+          ]}
+        />
+        <BannerSection2
+          leftimageurl="https://www.dailykit.org/hubfs/dailykit-assets/Operate-hero@2x.png"
+          heading={"Deliver Excellence With DailyOS"}
+          subheading={"Trend-Agnostic Supply Platform"}
+          greenbuttontext={"TELL ME MORE"}
+        />
+        <Categoriessection
+          list={[
+            [
+              "Centralized Order Management",
+              "KOT & Kitchen Display Systems",
+              "Supplier, Inventory & Mise-en-Place Management",
+            ],
+            [
+              "Third-Party Delivery Integrations",
+              "Check-Weighing-based Portion Control",
+              "QR Scan-based Assembly Flows",
+            ],
+            [
+              "Order Routing Between Kitchen Stations",
+              "Work-Orders for Shift Planning",
+              "Planned/Batch Production Mode",
+            ],
+            [
+              "Standard Operating Procedures",
+              "Hardware (Label & Receipt Printers, Weighing Scales)",
+              "Product & Ingredient Label Printing",
+            ],
+          ]}
+        />
         <StartRunGrow />
         <OurPricing />
-        <PartnerWithDailyKIT />
+        <BannerSection2
+          rightimageurl="https://www.dailykit.org/hubfs/dailykit-assets/homepage/Reseller.png"
+          heading={"Partner with DailyKIT."}
+          subheading={"Are You A Reseller?"}
+          descriptiontype2={
+            "We offer very attractive incentives to anyone who wishes to Resellour platform to prospective clients anywhere in the world Click on the button below to talk to us about this opputunity."
+          }
+          blackbuttontext={"Schedule A meeting"}
+        />
 
         <ScheduleMeeting />
 

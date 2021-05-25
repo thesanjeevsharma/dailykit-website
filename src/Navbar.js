@@ -16,7 +16,7 @@ export default class Navbar extends PureComponent {
             <a
               className="navbar-brand"
               href="/"
-              style={{ marginLeft: "1.5rem", marginRight: "15rem" }}
+              style={{ marginLeft: "1.5rem" }}
             >
               <img
                 src="https://www.dailykit.org/hs-fs/hubfs/Group%2056-1.png?name=Group%2056-1.png"

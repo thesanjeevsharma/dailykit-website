@@ -3,7 +3,7 @@ import "./../../style.css";
 import $ from "jquery";
 const VideoBanner = () => {
   return (
-    <div className="image video" style={{ background: "#212529" }}>
+    <div className="image video-1">
       <video
         className="videoTag"
         autoPlay
@@ -17,23 +17,10 @@ const VideoBanner = () => {
         />
       </video>
       <div className="header">
-        <div style={{ color: "#aab6f6", fontSize: "32px" }}>
-          Time to EVOLVE with
-        </div>
+        <div class="heading-1">Time to EVOLVE with</div>
         <h2 class="nunito">DailyKIT</h2>
         <br />
-        <h5
-          style={{
-            color: "white",
-            fontWeight: "bold",
-            fontSize: "18px",
-            paddingTop: "8px",
-
-            paddingBottom: "8px",
-          }}
-        >
-          The only Trend-Responsive Food-tech solution You'll Ever Need
-        </h5>
+        <h5>The only Trend-Responsive Food-tech solution You'll Ever Need</h5>
         <br />
         <h4
           id="yourElem"

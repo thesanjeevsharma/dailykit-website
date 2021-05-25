@@ -1,6 +1,5 @@
 import React from "react";
 import "./../../style.css";
-
 import $ from "jquery";
 const VideoBanner = () => {
   return (
@@ -18,18 +17,27 @@ const VideoBanner = () => {
         />
       </video>
       <div className="header">
-        <div style={{ color: "#aab6f6",fontSize:"32px" }}>Time to EVOLVE with</div>
+        <div style={{ color: "#aab6f6", fontSize: "32px" }}>
+          Time to EVOLVE with
+        </div>
         <h2 class="nunito">DailyKIT</h2>
         <br />
-        <h5 style={{ color: "white",fontWeight: "bold",
-    fontSize: "18px",paddingTop: "8px",
-    
-    paddingBottom: "8px" }}>
+        <h5
+          style={{
+            color: "white",
+            fontWeight: "bold",
+            fontSize: "18px",
+            paddingTop: "8px",
+
+            paddingBottom: "8px",
+          }}
+        >
           The only Trend-Responsive Food-tech solution You'll Ever Need
         </h5>
         <br />
         <h4
-          id="yourElem" class="all-text"
+          id="yourElem"
+          class="all-text"
           onclick={setInterval(() => {
             var array = [
               "Increase Bottom-Line Margin",
@@ -39,28 +47,25 @@ const VideoBanner = () => {
             ];
             $("#yourElem").text(array[Math.floor(Math.random() * 4) + 0]);
           }, 2000)}
-         
         >
           Multiple Your Brand Awareness
         </h4>
         <br />
         <br />
-        <button type="button" className="btn-style-thirteen white">
-          <a href="/" >
+        <a href="/">
+          <button type="button" className="btn-style-thirteen white">
             Schedule Demo
-          </a>
-        </button>
+          </button>
+        </a>
         &ensp;
-        <button type="button" className="btn btn-primary btn-lg homebutton">
-          <a href="/" style={{color: "white" }}>
+        <a href="/">
+          <button type="button" className="btn-style-ten purple">
             Start Now With A 3-Month Trail
-          </a>
-        </button>
+          </button>
+        </a>
         <br />
         <br />
-        <h6 style={{ color: "lightblue" }}>
-          Available for a Limited time Only
-        </h6>
+        <div class="offer">Available for a Limited time Only</div>
       </div>
     </div>
   );

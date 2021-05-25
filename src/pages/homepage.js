@@ -25,7 +25,21 @@ export default class Homepage extends PureComponent {
     return (
       <div>
         <Navbar />
-        <VideoBanner />
+        <VideoBanner
+          heading1text={"Time to EVOLVE with"}
+          heading2text={"DailyKIT"}
+          subheadingtext={
+            "The Only Trend-Responsive Food-Tech Solution You'll Ever Need"
+          }
+          toggletextarr={[
+            "Increase Bottom-Line Margin",
+            "Grow Top-Line Revenue",
+            "Mitigate Risk and Achieve Sustainability",
+          ]}
+          whitebuttontext={"Schedule Demo"}
+          purplebuttontext={"Start Now With A 3-Month Trial"}
+          offertext={"Available for a Limited Time Only"}
+        />
         <Heading />
         <SubHeading />
         <ImageBox />

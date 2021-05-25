@@ -2,14 +2,8 @@ import React, { PureComponent } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer.js";
 import "../style.css";
-// import BlackHeading from "../../components/BlackHeading";
-// import BlogSection from "../../components/BlogSection";
-// import GreenHeading from "../../components/GreenHeading";
-// import Sidebar from "../../components/Sidebar";
 import VideoBanner from "../components/homepage/VideoBanners";
-import Heading from "../components/homepage/Heading";
-import SubHeading from "../components/homepage/SubHeading";
-import ImageBox from "../components/homepage/ImageBox";
+import ImageBox1 from "../components/homepage/ImageBox1";
 import SellEverythingWithEveryWARE from "../components/homepage/SellEverythingWithEveryWARE";
 import OnDemandCategories from "../components/homepage/OnDemandCategories";
 import CustomAdvancedCoupons from "../components/homepage/CustomAdvancedCoupons";
@@ -40,9 +34,21 @@ export default class Homepage extends PureComponent {
           purplebuttontext={"Start Now With A 3-Month Trial"}
           offertext={"Available for a Limited Time Only"}
         />
-        <Heading />
-        <SubHeading />
-        <ImageBox />
+
+        <ImageBox1
+          Heading1text={"Built For Food Businesses"}
+          SubHeading1text={
+            "Whether You Are A Start-Up Or An Existing Food Business, We've Got You Covered."
+          }
+          imagetext1={"Restaurants"}
+          imagetext2={"Supermarkets"}
+          image1url={
+            "https://www.dailykit.org/hubfs/dailykit-assets/Serve-restaurant@2x.png"
+          }
+          image2url={
+            "https://www.dailykit.org/hubfs/dailykit-assets/Serve-supermarket@2x.png"
+          }
+        />
         <SellEverythingWithEveryWARE />
         <OnDemandCategories />
         <GamifyYourMarketing />

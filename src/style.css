@@ -216,13 +216,8 @@ small {
   list-style: none;
 }
 
-/* homepage and we-serve-page-images(restaurant,supermarkets)*/
-.imagebox1 {
-  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/Serve-restaurant@2x.png");
-}
-.imagebox2 {
-  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/Serve-supermarket@2x.png");
-}
+/* homepage and we-serve-page-images(restaurant,image2s)*/
+
 .imagebox3 {
   background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/Serve-cloudkitchen@2x.png");
 }
@@ -516,35 +511,7 @@ small {
 }
 /* ///////////////////////// */
 
-/* imagebox (home-page)*/
-.restaurant-button {
-  margin-top: -2rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  cursor: pointer;
-}
-.supermarket-button {
-  margin-top: -2rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  cursor: pointer;
-}
-.restaurant-button:hover {
-  border-left: 4px solid #8ac03b;
-  border-right: 4px solid #8ac03b;
-}
-.supermarket-button:hover {
-  border-left: 4px solid #8ac03b;
-  border-right: 4px solid #8ac03b;
-}
 @media only screen and (max-width: 600px) {
-  .restaurant-button {
-    margin-top: -10rem;
-    margin-bottom: 4rem;
-  }
-  .supermarket-button {
-    margin-top: -10rem;
-  }
   .deliever-excellence-img {
     margin-top: -12rem;
   }
@@ -883,6 +850,7 @@ small {
   }
 }
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Video-Banner */
 .all-text {
   position: relative;
   display: flex;
@@ -980,4 +948,65 @@ small {
   .header .btn-style-ten {
     margin-top: 0.5rem;
   }
+}
+/* Heading1 and Subheading1 */
+.Heading1 {
+  text-align: center !important;
+  position: relative;
+  color: #111b2b;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.1em;
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+.SubHeading1 {
+  position: relative;
+  color: #8ac03b;
+  font-size: 16px;
+  text-align: center !important;
+  font-weight: 700;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  display: block;
+}
+@media only screen and (max-width: 479px) {
+  .Heading1 {
+    font-size: 26px;
+    line-height: 1.3em;
+  }
+}
+/* restaurant image-box and image2s image-box */
+.inner-box > img {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.card {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
+/* imagebox (home-page)*/
+.image-section-1 {
+  position: relative;
+  padding: 160px 0px 60px;
+  background-color: #fefdfc;
+}
+.image1-button,
+.image2-button {
+  font-size: 25px;
+  margin-top: -4.2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  cursor: pointer;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.image1-button:hover,
+.image2-button:hover {
+  border-left: 6px solid #8ac03b;
+  border-right: 6px solid #8ac03b;
 }

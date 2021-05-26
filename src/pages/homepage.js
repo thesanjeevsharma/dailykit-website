@@ -63,20 +63,19 @@ export default class Homepage extends PureComponent {
               "Online Subscription Store",
               "Unlimited Ghost Brands",
               "iOS & Android Apps(Upon Request)",
+              "Marketplace Integrations(Coming Soon)",
             ],
             [
-              "Marketplace Integrations(Coming Soon)",
               "Your Own Custom Domain",
               "Custom Brand Pages",
               "Easy Payment & Checkout Experiences",
-            ],
-            [
               "Combo Products",
               "Build Your Own Meal",
+            ],
+
+            [
               "Modifiers",
               "Sort, Filter & Search",
-            ],
-            [
               "Nutrition & Allergens",
               "Product Recommendations",
               "Recipe Pages",
@@ -136,18 +135,17 @@ export default class Homepage extends PureComponent {
               "Centralized Order Management",
               "KOT & Kitchen Display Systems",
               "Supplier, Inventory & Mise-en-Place Management",
+              "Third-Party Delivery Integrations",
             ],
             [
-              "Third-Party Delivery Integrations",
               "Check-Weighing-based Portion Control",
               "QR Scan-based Assembly Flows",
-            ],
-            [
               "Order Routing Between Kitchen Stations",
               "Work-Orders for Shift Planning",
-              "Planned/Batch Production Mode",
             ],
+
             [
+              "Planned/Batch Production Mode",
               "Standard Operating Procedures",
               "Hardware (Label & Receipt Printers, Weighing Scales)",
               "Product & Ingredient Label Printing",

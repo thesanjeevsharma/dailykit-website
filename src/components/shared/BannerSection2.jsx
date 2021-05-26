@@ -4,7 +4,7 @@ import "../../style.css";
 export default class BannerSection2 extends PureComponent {
   render() {
     return (
-      <div className="container-fluid">
+      <div className="container-fluid nunito">
         <div class="row justify-content-center text-center">
           {this.props.leftimageurl && (
             <div class="col-md-6 col-xs-10 leftimage1">

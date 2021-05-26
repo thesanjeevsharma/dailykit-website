@@ -4,7 +4,7 @@ import Footer from "../Footer.js";
 import "../style.css";
 import VideoBanner from "../components/homepage/VideoBanners";
 import ImageBox1 from "../components/homepage/ImageBox1";
-import OurPricing from "../components/homepage/OurPricing";
+import PricingSection1 from "../components/homepage/PricingSection1";
 import ScheduleMeeting from "../components/homepage/ScheduleMeeting";
 import BannerSection1 from "../components/homepage/BannerSection1";
 import BannerSection2 from "../components/homepage/BannerSection2";
@@ -192,7 +192,22 @@ export default class Homepage extends PureComponent {
             },
           ]}
         />
-        <OurPricing />
+        <PricingSection1
+          offers={[
+            {
+              name: "One Time Setup Fees",
+              price: "$ 999",
+              feature1: "Store Setup, Menu Building, Includes Onboarding",
+              feature2: "Staff Training, Data Upload",
+            },
+            {
+              name: "Monthly Subscription",
+              price: "$ 99",
+              feature1: "* 4.7% + 30c per transaction",
+              feature2: "Includes Every feature Listed Above",
+            },
+          ]}
+        />
         <BannerSection2
           rightimageurl="https://www.dailykit.org/hubfs/dailykit-assets/homepage/Reseller.png"
           heading={"Partner with DailyKIT."}

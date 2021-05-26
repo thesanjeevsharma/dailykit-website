@@ -29,10 +29,15 @@ export default class RealTimeOrderTracking extends PureComponent {
                   fontSize: "18px",
                 }}
               >
-                <div class="vl"></div>
-                <div style={{ display: "inline" }}>
-                  Cater to consumer habits of tracking order lifecycle from
-                  Kitchen to Delivery leading to higher retention.
+                <div class="row">
+                  <div
+                    class="col-md-2 col-xs-10 vl"
+                    style={{ marginRight: "-70px", paddingRight: "-12px" }}
+                  ></div>
+                  <div class="col-md-10 col-xs-10">
+                    Cater to consumer habits of tracking order lifecycle from
+                    Kitchen to Delivery leading to higher retention.
+                  </div>
                 </div>
                 <div
                   class="row"

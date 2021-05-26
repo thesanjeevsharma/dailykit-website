@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react";
 import "../../style.css";
-export default class ScheduleMeeting extends PureComponent {
+export default class ScheduleMeetingSection1 extends PureComponent {
   render() {
     return (
       <div className="container schedule-meeting-section1">

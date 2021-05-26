@@ -3,7 +3,7 @@ import Navbar from "../Navbar";
 import Footer from "../Footer.js";
 import "../style.css";
 import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
-import ScheduleMeeting from "../components/homepage/ScheduleMeeting";
+import ScheduleMeetingSection1 from "../components/homepage/ScheduleMeetingSection1";
 import StoreThatSells from "../components/onDemardStorePage/StoreThatSells";
 import RoutingSameBanners from "../components/orderpage/RoutingSameBanners";
 import OrderNotification from "../components/orderpage/OrderNotification";
@@ -85,7 +85,7 @@ export default class Packagingmanagementpage extends PureComponent {
           learn={1}
         />{" "}
         <EndToEndFoodBusiness />
-        <ScheduleMeeting />
+        <ScheduleMeetingSection1 />
         <Footer />
       </div>
     );

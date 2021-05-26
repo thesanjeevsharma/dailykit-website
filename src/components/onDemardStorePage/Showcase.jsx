@@ -22,11 +22,17 @@ export default class Showcase extends PureComponent {
                   fontSize: "18px",
                 }}
               >
-                <div class="vl"></div>
-                <div style={{ display: "inline" }}>
-                  Reassure your customers of their safety using DailyKIT's COVID
-                  Safety tools
+                <div class="row">
+                  <div
+                    class="col-md-2 col-xs-10 vl"
+                    style={{ marginRight: "-70px", paddingRight: "-12px" }}
+                  ></div>
+                  <div class="col-md-10 col-xs-10">
+                    Reassure your customers of their safety using DailyKIT's
+                    COVID Safety tools
+                  </div>
                 </div>
+
                 <div
                   class="row"
                   style={{ marginTop: "2rem", marginLeft: "2rem" }}

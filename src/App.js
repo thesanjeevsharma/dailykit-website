@@ -29,8 +29,8 @@ import Homepage from "./pages/homepage";
 import OnDemandStorepage from "./pages/ondemandstorepage";
 import SubscriptionStorepage from "./pages/subscriptionstorepage";
 import MenuManagementpage from "./pages/menumanagement";
-// ScheduleMeeting
-import ScheduleMeeting from "./components/homepage/ScheduleMeeting";
+// ScheduleMeetingSection1
+import ScheduleMeetingSection1 from "./components/homepage/ScheduleMeetingSection1";
 // marketpage
 import Marketpage from "./pages/marketpage";
 //servepage
@@ -53,7 +53,11 @@ class App extends Component {
         <Router>
           <Switch>
             <Route exact path="/" component={Homepage} />
-            <Route exact path="/ScheduleDemo" component={ScheduleMeeting} />
+            <Route
+              exact
+              path="/ScheduleDemo"
+              component={ScheduleMeetingSection1}
+            />
             {/* start meal kit brand */}
             <Route path="/bakerypage" component={BakeryPage} />
             <Route path="/Cloud_kitchen" component={Cloud_kitchen} />

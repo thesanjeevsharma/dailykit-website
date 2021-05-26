@@ -15,10 +15,15 @@ export default class Yourtryst extends PureComponent {
                   fontSize: "18px",
                 }}
               >
-                <div class="vl"></div>
-                <div style={{ display: "inline" }}>
-                  Experience accelerated growth using customer referrals as your
-                  trusted marketing strategy
+                <div class="row">
+                  <div
+                    class="col-md-2 col-xs-10 vl"
+                    style={{ marginRight: "-70px", paddingRight: "-12px" }}
+                  ></div>
+                  <div class="col-md-10 col-xs-10">
+                    Experience accelerated growth using customer referrals as
+                    your trusted marketing strategy
+                  </div>
                 </div>
                 <div
                   class="row"

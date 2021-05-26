@@ -2,7 +2,7 @@ import React, { PureComponent } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer.js";
 import "../style.css";
-import ScheduleMeeting from "../components/homepage/ScheduleMeeting";
+import ScheduleMeetingSection1 from "../components/homepage/ScheduleMeetingSection1";
 import StoreThatSells from "../components/onDemardStorePage/StoreThatSells";
 import PopularOrderingExperiences from "../components/onDemardStorePage/PopularOrderingExperiences";
 import OwnYourOnline from "../components/onDemardStorePage/OwnYourOnline";
@@ -38,7 +38,7 @@ export default class SubscriptionStorepage extends PureComponent {
         <TakingYourStore />
         <OwnYourOnline />
         <WhyChoose />
-        <ScheduleMeeting />
+        <ScheduleMeetingSection1 />
         <Footer />
       </div>
     );

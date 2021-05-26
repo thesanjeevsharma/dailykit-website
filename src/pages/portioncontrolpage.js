@@ -4,7 +4,7 @@ import Footer from "../Footer.js";
 import "../style.css";
 import MarketingMadeEasy from "../components/marketpage/MarketingMadeEasy";
 import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
-import ScheduleMeeting from "../components/homepage/ScheduleMeeting";
+import ScheduleMeetingSection1 from "../components/homepage/ScheduleMeetingSection1";
 import Heading from "../components/homepage/Heading";
 import RoutingSameBanners from "../components/orderpage/RoutingSameBanners";
 import OrderNotification from "../components/orderpage/OrderNotification";
@@ -89,7 +89,7 @@ export default class Portioncontrolpage extends PureComponent {
         <Heading text={"Supported Weighing Scale"} />
         <Weighingimage />
         <EndToEndFoodBusiness />
-        <ScheduleMeeting />
+        <ScheduleMeetingSection1 />
         <Footer />
       </div>
     );

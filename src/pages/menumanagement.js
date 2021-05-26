@@ -2,7 +2,7 @@ import React, { PureComponent } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer.js";
 import "../style.css";
-import ScheduleMeeting from "../components/homepage/ScheduleMeeting";
+import ScheduleMeetingSection1 from "../components/homepage/ScheduleMeetingSection1";
 import StoreThatSells from "../components/onDemardStorePage/StoreThatSells";
 import PersonalizationDoneRight from "../components/menumanagepage/menusecondComponent";
 import Bluebox from "../components/menumanagepage/Bluebox";
@@ -73,7 +73,7 @@ export default class MenuManagementpage extends PureComponent {
           }
           buttontext={"Schedule A Meeting"}
         />
-        <ScheduleMeeting />
+        <ScheduleMeetingSection1 />
         <Footer />
       </div>
     );

@@ -41,10 +41,15 @@ export default class OwnYourOnline extends PureComponent {
                   fontSize: "18px",
                 }}
               >
-                <div class="vl"></div>
-                <div style={{ display: "inline" }}>
-                  In the modern digital world, owning your web presence is a
-                  MUST.
+                <div class="row">
+                  <div
+                    class="col-md-2 col-xs-10 vl"
+                    style={{ marginRight: "-70px", paddingRight: "-12px" }}
+                  ></div>
+                  <div class="col-md-10 col-xs-10">
+                    In the modern digital world, owning your web presence is a
+                    MUST.
+                  </div>
                 </div>
                 <div
                   class="row"

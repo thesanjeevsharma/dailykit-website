@@ -27,18 +27,20 @@ export default class BannerSection2 extends PureComponent {
                 {this.props.descriptiontype2}
               </p>
             )}{" "}
-            <a href="/enterprise/meal-kit-startups">
-              {this.props.greenbuttontext && (
-                <button type="button" className="btn-style-thirteen white">
-                  {this.props.greenbuttontext}
-                </button>
-              )}
-              {this.props.blackbuttontext && (
-                <button type="button" className="btn-style-thirteen black">
-                  {this.props.blackbuttontext}
-                </button>
-              )}
-            </a>
+            {this.props.buttonlink && (
+              <a href={this.props.buttonlink}>
+                {this.props.greenbuttontext && (
+                  <button type="button" className="btn-style-thirteen white">
+                    {this.props.greenbuttontext}
+                  </button>
+                )}
+                {this.props.blackbuttontext && (
+                  <button type="button" className="btn-style-thirteen black">
+                    {this.props.blackbuttontext}
+                  </button>
+                )}
+              </a>
+            )}
             {this.props.descriptionpoints && (
               <ul className="onDemandCategories">
                 {this.props.descriptionpoints.map((point) => {

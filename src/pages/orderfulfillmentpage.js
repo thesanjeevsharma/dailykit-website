@@ -4,7 +4,7 @@ import Footer from "../Footer.js";
 import "../style.css";
 import MarketingMadeEasy from "../components/marketpage/MarketingMadeEasy";
 import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
-import ScheduleMeeting from "../components/homepage/ScheduleMeeting";
+import ScheduleMeetingSection1 from "../components/homepage/ScheduleMeetingSection1";
 import Redhover from "../components/orderpage/Redhover";
 import ImageBox from "../components/orderpage/ImageBox";
 import BelowImageBox from "../components/orderpage/BelowImageBox";
@@ -58,7 +58,7 @@ export default class Orderfulfillmentpage extends PureComponent {
           image={["imagebox8", "imagebox9", "imagebox10"]}
         />
         <EndToEndFoodBusiness />
-        <ScheduleMeeting />
+        <ScheduleMeetingSection1 />
         <Footer />
       </div>
     );

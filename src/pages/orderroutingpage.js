@@ -3,7 +3,7 @@ import Navbar from "../Navbar";
 import Footer from "../Footer.js";
 import "../style.css";
 import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
-import ScheduleMeeting from "../components/homepage/ScheduleMeeting";
+import ScheduleMeetingSection1 from "../components/homepage/ScheduleMeetingSection1";
 import StoreThatSells from "../components/onDemardStorePage/StoreThatSells";
 import Bluebox1 from "../components/orderpage/Bluebox1";
 import Digitalise from "../components/orderpage/Digitalise";
@@ -90,7 +90,7 @@ export default class Orderroutingpage extends PureComponent {
           ]}
         />
         <EndToEndFoodBusiness />
-        <ScheduleMeeting />
+        <ScheduleMeetingSection1 />
         <Footer />
       </div>
     );

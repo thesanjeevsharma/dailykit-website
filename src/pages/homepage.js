@@ -5,7 +5,7 @@ import "../style.css";
 import VideoBanner from "../components/homepage/VideoBanners";
 import ImageBox1 from "../components/homepage/ImageBox1";
 import PricingSection1 from "../components/homepage/PricingSection1";
-import ScheduleMeeting from "../components/homepage/ScheduleMeeting";
+import ScheduleMeetingSection1 from "../components/homepage/ScheduleMeetingSection1";
 import BannerSection1 from "../components/homepage/BannerSection1";
 import BannerSection2 from "../components/homepage/BannerSection2";
 import Categoriessection from "../components/homepage/Categoriessection";
@@ -91,6 +91,9 @@ export default class Homepage extends PureComponent {
             "https://www.dailykit.org/hubfs/dailykit-assets/homepage/Points.png",
           ]}
           heading={"Gamify Your Marketing"}
+          buttonlink={
+            "/meal-kit-guides/meal-kit-guides/how-to-promote-your-meal-kits"
+          }
           bluesubheading={"DailyKIT Marketing Hub"}
           greenbuttontext={"TELL ME MORE"}
           description="Let Your Imaginations Run Wild. Convert More with Advanced, Multi-Conditional Discounting Tools ."
@@ -125,6 +128,7 @@ export default class Homepage extends PureComponent {
           heading={"Deliver Excellence With DailyOS"}
           subheading={"Trend-Agnostic Supply Platform"}
           greenbuttontext={"TELL ME MORE"}
+          buttonlink={"/start-meal-kit-brands/how-to-start-a-Meal-Kit-Service"}
         />
         <Categoriessection
           list={[
@@ -216,9 +220,10 @@ export default class Homepage extends PureComponent {
             "We offer very attractive incentives to anyone who wishes to Resellour platform to prospective clients anywhere in the world Click on the button below to talk to us about this opputunity."
           }
           blackbuttontext={"Schedule A meeting"}
+          buttonlink={"/"}
         />
 
-        <ScheduleMeeting
+        <ScheduleMeetingSection1
           heading={"Schedule an E-Meeting"}
           image={
             "https://static.hsappstatic.net/ui-images/static-2.377/optimized/errors/map.svg"

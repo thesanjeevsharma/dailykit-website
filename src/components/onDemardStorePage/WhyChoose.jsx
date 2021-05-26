@@ -10,14 +10,7 @@ export default class WhyChoose extends PureComponent {
           marginBottom: "1.2rem",
         }}
       >
-        <h1
-          style={{
-            fontWeight: "bolder",
-            fontSize: "2.8rem",
-            fontFamily: "'Nunito', sans-serif",
-            letterSpacing: "1.5px",
-          }}
-        >
+        <h1 className="nunito blueboxHeading" style={{ color: "#111b2b" }}>
           Why Choose DailyKIT
         </h1>
         <p class="why_choose">
@@ -125,9 +118,11 @@ export default class WhyChoose extends PureComponent {
             </div>
           </div>
         </div>
-        <button type="button" class="btn btn-outline-success">
-          Schedule A Demo
-        </button>
+        <a href="/">
+          <button type="button" class="btn-style-thirteen white">
+            Schedule A Demo
+          </button>
+        </a>
 
         {/* second_categories */}
 

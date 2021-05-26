@@ -217,8 +217,8 @@ export default class IdealProduct extends PureComponent {
         </div>
         <button
           type="button"
-          class="btn btn-primary btn-lg"
-          style={{ margin: "2rem 30% 2rem 30%" }}
+          class="btn-style-thirteen white"
+          style={{ margin: "2rem 0rem 2rem 40%" }}
         >
           Get Started Now
         </button>

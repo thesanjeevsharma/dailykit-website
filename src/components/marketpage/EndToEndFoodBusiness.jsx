@@ -22,13 +22,8 @@ export default class EndToEndFoodBusiness extends PureComponent {
           An End-To-End Food Business Software Solution Provider
         </p>
         <h2
-          style={{
-            fontWeight: "bold",
-            fontSize: "50px",
-            margin: "2rem 0rem 2rem 0rem",
-            textAlign: "center",
-          }}
-          className="nunito text-center"
+          className="nunito text-center blueboxHeading"
+          style={{ padding: "10px 0 20px" }}
         >
           You've Never Managed Your Food Business
           <br /> Like This Before

@@ -20,14 +20,7 @@ export default class Digitalise extends PureComponent {
           >
             Define As You Go
           </small>
-          <h2
-            style={{
-              fontWeight: "bolder",
-              fontSize: "50px",
-              margin: "1rem 0rem 2rem 0rem",
-            }}
-            className="nunito"
-          >
+          <h2 class="bluebox-heading nunito" style={{ color: "#111B2B" }}>
             Digitalize Your Kitchen Operations
           </h2>
           <div class="row justify-content-between">

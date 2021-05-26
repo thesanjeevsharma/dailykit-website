@@ -9,7 +9,7 @@ import CreateRewardingExperiences from "../components/marketpage/CreateRewarding
 import Yourtryst from "../components/marketpage/Yourtryst";
 import KeepthemLoyal from "../components/marketpage/KeepthemLoyal";
 import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
-import ScheduleMeetingSection1 from "../components/homepage/ScheduleMeetingSection1";
+import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection1";
 export default class Marketpage extends PureComponent {
   render() {
     return (

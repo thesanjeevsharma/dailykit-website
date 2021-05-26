@@ -3,13 +3,13 @@ import Navbar from "../Navbar";
 import Footer from "../Footer.js";
 import "../style.css";
 import VideoBanner from "../components/homepage/VideoBanners";
-import ImageBox1 from "../components/homepage/ImageBox1";
+import ImageBox1 from "../components/shared/ImageBox1";
 import PricingSection1 from "../components/homepage/PricingSection1";
-import ScheduleMeetingSection1 from "../components/homepage/ScheduleMeetingSection1";
-import BannerSection1 from "../components/homepage/BannerSection1";
-import BannerSection2 from "../components/homepage/BannerSection2";
-import CategoriesSection from "../components/homepage/CategoriesSection";
-import BlueBoxSection1 from "../components/homepage/BlueBoxSection1";
+import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection1";
+import BannerSection1 from "../components/shared/BannerSection1";
+import BannerSection2 from "../components/shared/BannerSection2";
+import CategoriesSection from "../components/shared/CategoriesSection";
+import BlueBoxSection1 from "../components/shared/BlueBoxSection1";
 export default class Homepage extends PureComponent {
   render() {
     return (

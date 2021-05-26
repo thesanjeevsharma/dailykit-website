@@ -30,7 +30,7 @@ import OnDemandStorepage from "./pages/ondemandstorepage";
 import SubscriptionStorepage from "./pages/subscriptionstorepage";
 import MenuManagementpage from "./pages/menumanagement";
 // ScheduleMeetingSection1
-import ScheduleMeetingSection1 from "./components/homepage/ScheduleMeetingSection1";
+import ScheduleMeetingSection1 from "./components/shared/ScheduleMeetingSection1";
 // marketpage
 import Marketpage from "./pages/marketpage";
 //servepage

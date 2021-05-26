@@ -3,7 +3,7 @@ import Navbar from "../Navbar";
 import Footer from "../Footer.js";
 import "../style.css";
 import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
-import ScheduleMeetingSection1 from "../components/homepage/ScheduleMeetingSection1";
+import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection1";
 import StoreThatSells from "../components/onDemardStorePage/StoreThatSells";
 import RoutingSameBanners from "../components/orderpage/RoutingSameBanners";
 import OrderNotification from "../components/orderpage/OrderNotification";

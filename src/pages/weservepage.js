@@ -2,7 +2,7 @@ import React, { PureComponent } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer.js";
 import "../style.css";
-import ScheduleMeetingSection1 from "../components/homepage/ScheduleMeetingSection1";
+import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection1";
 import Makethejuice from "../components/weservepage/Makethejuice";
 import Weserve from "../components/weservepage/Weserve";
 import OptimizeKitchen from "../components/weservepage/OptimizeKitchen";

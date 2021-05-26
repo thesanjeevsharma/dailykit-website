@@ -4,16 +4,16 @@ import Footer from "../Footer.js";
 import "../style.css";
 import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
 import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection1";
-import StoreThatSells from "../components/onDemardStorePage/StoreThatSells";
 import Bluebox1 from "../components/orderpage/Bluebox1";
 import Digitalise from "../components/orderpage/Digitalise";
-import RoutingSameBanners from "../components/orderpage/RoutingSameBanners";
+import BannerSection3 from "../components/shared/BannerSection3";
+import BannerSection8 from "../components/shared/BannerSection8";
 export default class Orderroutingpage extends PureComponent {
   render() {
     return (
       <div style={{ marginTop: "12rem" }}>
         <Navbar />
-        <StoreThatSells
+        <BannerSection3
           subheading={
             "Operate a Kitchen Where Everyone Knows Their Roles & Responsibilites."
           }
@@ -21,6 +21,7 @@ export default class Orderroutingpage extends PureComponent {
           image={
             "https://www.dailykit.org/hubfs/dailykit-assets/order-routing/Idiot%20Proof.....png"
           }
+          blackbuttontext={"Start Now"}
         />
         <Bluebox1
           heading={"Large or Small, We're Built for Every Scale of Operations"}
@@ -53,7 +54,7 @@ export default class Orderroutingpage extends PureComponent {
           }
           learn={"one"}
         />
-        <RoutingSameBanners
+        <BannerSection8
           heading={"How It Works for Meal Kits"}
           subheading={"Routing Meal Kit Ingredients"}
           image={
@@ -65,7 +66,7 @@ export default class Orderroutingpage extends PureComponent {
             "Step 3 - Post ingredients packing, the assembly station is notified. Staff then assemble meal kits using a hand-scanner or mobile app.",
           ]}
         />
-        <RoutingSameBanners
+        <BannerSection8
           heading={"How It Works for Ready-to-Eat"}
           subheading={"Routing Menu Items"}
           image={
@@ -77,7 +78,7 @@ export default class Orderroutingpage extends PureComponent {
             "Step 3 - Once all of the items are packed, it's sent to the designated assembly station, where label is scanned or marked manually.",
           ]}
         />
-        <RoutingSameBanners
+        <BannerSection8
           heading={"How It Works for Grocery"}
           subheading={"Routing Grocery Items"}
           image={

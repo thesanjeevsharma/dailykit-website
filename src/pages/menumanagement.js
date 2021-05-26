@@ -3,15 +3,15 @@ import Navbar from "../Navbar";
 import Footer from "../Footer.js";
 import "../style.css";
 import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection1";
-import StoreThatSells from "../components/onDemardStorePage/StoreThatSells";
-import PersonalizationDoneRight from "../components/menumanagepage/menusecondComponent";
+import BannerSection6 from "../components/shared/BannerSection6";
 import Bluebox from "../components/menumanagepage/Bluebox";
+import BannerSection3 from "../components/shared/BannerSection3";
 export default class MenuManagementpage extends PureComponent {
   render() {
     return (
       <div style={{ marginTop: "12rem" }}>
         <Navbar />
-        <StoreThatSells
+        <BannerSection3
           text={
             "With our powerful tools at your disposal, menu innovations are just a few clicks away, so be creative and stand-out from the rest."
           }
@@ -19,8 +19,11 @@ export default class MenuManagementpage extends PureComponent {
           image={
             "https://www.dailykit.org/hubfs/dailykit-assets/menu/menu-banner.jpg"
           }
+          blackbuttontext={"Start Now"}
         />
-        <PersonalizationDoneRight
+        <BannerSection6
+          greenbuttontext={"Learn More"}
+          buttonlink={"/do-more/Recipe-Provider"}
           heading={"Personalization Done Right"}
           para={[
             "To Eat or To Cook? With DailyKIT you win either way, by offering your customers the choice of Ready-to-Eat or Ready-to-Cook",
@@ -32,7 +35,9 @@ export default class MenuManagementpage extends PureComponent {
             "https://www.dailykit.org/hubfs/dailykit-assets/menu/personalization.gif"
           }
         />{" "}
-        <PersonalizationDoneRight
+        <BannerSection6
+          greenbuttontext={"Learn More"}
+          buttonlink={"/meal-kit-guides/how-to-decide-your-meal-kits"}
           heading={"Give Life To Your Menu"}
           para={[
             "Gone are the days of The Static Menu",
@@ -43,7 +48,9 @@ export default class MenuManagementpage extends PureComponent {
           }
         />
         <Bluebox />
-        <PersonalizationDoneRight
+        <BannerSection6
+          greenbuttontext={"Learn More"}
+          buttonlink={"/"}
           heading={"How Intimately Do You Know Your Food Costs?"}
           para={[
             "It’s impossible to optimize business profitablity without having a detailed handle on your Food Costs.",
@@ -53,7 +60,9 @@ export default class MenuManagementpage extends PureComponent {
             "https://www.dailykit.org/hubfs/dailykit-assets/menu/Food-cost.png"
           }
         />
-        <PersonalizationDoneRight
+        <BannerSection6
+          greenbuttontext={"Learn More"}
+          buttonlink={"/"}
           heading={"Zero In On Product Pricing."}
           para={[
             "No more back-of-the-envelope math. No more calculators and excel sheets. With DailyKIT’s Intelligent Product Pricing, you can easily set target food cost %'s and get a suggested price range that falls within your targeted food cost. With minimal effort and easy decision making, set your menu prices like the experts.",
@@ -62,7 +71,9 @@ export default class MenuManagementpage extends PureComponent {
             "https://www.dailykit.org/hubfs/dailykit-assets/menu/product-pricing.png"
           }
         />
-        <PersonalizationDoneRight
+        <BannerSection6
+          greenbuttontext={"Schedule A Meeting"}
+          buttonlink={"/"}
           heading={"Automation is the New Mantra."}
           para={[
             "Today Nutritional & Allergen data are one of the most important factors in the consumer’s decision making process.",

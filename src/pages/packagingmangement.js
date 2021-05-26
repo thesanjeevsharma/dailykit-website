@@ -4,15 +4,15 @@ import Footer from "../Footer.js";
 import "../style.css";
 import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
 import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection1";
-import StoreThatSells from "../components/onDemardStorePage/StoreThatSells";
-import RoutingSameBanners from "../components/orderpage/RoutingSameBanners";
-import OrderNotification from "../components/orderpage/OrderNotification";
+import BannerSection3 from "../components/shared/BannerSection3";
+import BannerSection9 from "../components/shared/BannerSection9";
+import BannerSection8 from "../components/shared/BannerSection8";
 export default class Packagingmanagementpage extends PureComponent {
   render() {
     return (
       <div style={{ marginTop: "12rem" }}>
         <Navbar />
-        <StoreThatSells
+        <BannerSection3
           subheading={
             "With Integrated Packaging Management Platform,Eliminate Low-Quality & Improper Packaging"
           }
@@ -20,8 +20,9 @@ export default class Packagingmanagementpage extends PureComponent {
           image={
             "https://www.dailykit.org/hubfs/dailykit-assets/packaging/packaging-banner.png"
           }
+          blackbuttontext={"Start Now"}
         />
-        <OrderNotification
+        <BannerSection9
           heading={"Packaging Matters"}
           subheading={
             "Packaging not only ties your product together for final product presentation but it is also your Brand's Identity."
@@ -48,7 +49,7 @@ export default class Packagingmanagementpage extends PureComponent {
             "Choose packaging that educates consumers about your brand. They rely on the print to learn more about your product."
           }
         />
-        <RoutingSameBanners
+        <BannerSection8
           heading={"The Proper Packaging for The Product"}
           subheading={"Integrated Packaging Module"}
           image={
@@ -59,7 +60,7 @@ export default class Packagingmanagementpage extends PureComponent {
           ]}
           learn={1}
         />{" "}
-        <RoutingSameBanners
+        <BannerSection8
           heading={"Explore & Purchase Packaging"}
           subheading={"Integrated Packaging Store"}
           image={
@@ -72,7 +73,7 @@ export default class Packagingmanagementpage extends PureComponent {
           ]}
           learn={1}
         />
-        <RoutingSameBanners
+        <BannerSection8
           heading={"Ensure Each Order is Properly Packed"}
           subheading={"Leave Nothing To Chance"}
           image={

@@ -5,9 +5,9 @@ import "../style.css";
 import MarketingMadeEasy from "../components/marketpage/MarketingMadeEasy";
 import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
 import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection1";
-import PopularOrderingExperiences from "../components/onDemardStorePage/PopularOrderingExperiences";
-import Redhover from "../components/orderpage/Redhover";
-import OrderNotification from "../components/orderpage/OrderNotification";
+import BannerSection2 from "../components/shared/BannerSection2";
+import BannerSection7 from "../components/shared/BannerSection7";
+import BannerSection9 from "../components/shared/BannerSection9";
 export default class Orderdashboardpage extends PureComponent {
   render() {
     return (
@@ -20,22 +20,22 @@ export default class Orderdashboardpage extends PureComponent {
             "https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/order-dashboard-hero2@2x.png"
           }
         />
-        <PopularOrderingExperiences
-          subheading={"Easy & Intuitive"}
-          heading={"One Dashboard For Every Product Line"}
-          text={
-            "Be it Meal Kits, Ready-To-Eat, Private-Label Artisanal Grocery or Any Other Trending Product Line, DailyKIT Offers One Comprehensive Dashboard to Manage Them All."
+
+        <BannerSection2
+          rightimageurl={
+            "https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/all-orders-2@2x.png"
           }
-          point={[
+          heading={"One Dashboard For Every Product Line"}
+          bluesubheading={"Easy & Intuitive"}
+          description="Be it Meal Kits, Ready-To-Eat, Private-Label Artisanal Grocery or Any Other Trending Product Line, DailyKIT Offers One Comprehensive Dashboard to Manage Them All."
+          descriptionpoints={[
             "Accept Orders from Everywhere e.g.On-Demand/Subscription Store, Multiple Ghost Brands/Third-Party Marketplaces",
             "Cloud-Based Access allowing you to manage orders from anywhere",
             "Apply Filters & Sorting using multiple parameters to help with Order Expediting",
           ]}
-          image={
-            "https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/all-orders-2@2x.png"
-          }
         />
-        <OrderNotification
+
+        <BannerSection9
           image1={
             "https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/DailyOS-Notifications@2x.png"
           }
@@ -47,7 +47,7 @@ export default class Orderdashboardpage extends PureComponent {
           }
         />
         <div style={{ background: "#111B2B", height: "40rem" }} />
-        <Redhover
+        <BannerSection7
           heading={"Daily Order Reporting & Analytics"}
           list={[
             "Order Fulfillment",

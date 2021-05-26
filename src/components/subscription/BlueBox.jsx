@@ -17,21 +17,14 @@ export default class BlueBox extends PureComponent {
           }}
         >
           <div style={{ color: "#111B2B" }}>.</div>
-          <div
-            style={{
-              fontWeight: "bolder",
-              fontSize: "55px",
-              margin: "5rem 0rem 2rem 0rem",
-            }}
-            className="nunito text-center"
-          >
+          <div className="nunito text-center blueboxHeading">
             Don't Just Manage, Own it.
           </div>
           <div
             class="container"
             style={{
               textAlign: "left",
-              marginTop: "6rem",
+              marginTop: "1.5rem",
               padding: "2rem 0rem 6rem 0rem",
             }}
           >

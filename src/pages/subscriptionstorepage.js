@@ -3,40 +3,63 @@ import Navbar from "../Navbar";
 import Footer from "../Footer.js";
 import "../style.css";
 import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection1";
-import StoreThatSells from "../components/onDemardStorePage/StoreThatSells";
-import PopularOrderingExperiences from "../components/onDemardStorePage/PopularOrderingExperiences";
-import OwnYourOnline from "../components/onDemardStorePage/OwnYourOnline";
 import WhyChoose from "../components/onDemardStorePage/WhyChoose";
-import TakingYourStore from "../components/subscription/TakingYourStore";
 import BlueBox from "../components/subscription/BlueBox";
+import BannerSection2 from "../components/shared/BannerSection2";
+import BannerSection3 from "../components/shared/BannerSection3";
+import BannerSection5 from "../components/shared/BannerSection5";
 export default class SubscriptionStorepage extends PureComponent {
   render() {
     return (
       <div style={{ marginTop: "12rem" }}>
         <Navbar />
-        <StoreThatSells
-          subheading="Why should they have all the fun?"
-          heading="Get your share of subscription Revenue"
-          image="https://www.dailykit.org/hubfs/dailykit-assets/subscription-logos/subscription-banner-2.png"
-        />
-        <PopularOrderingExperiences
-          subheading={"Familiar & Intuitive Signup Process"}
-          heading={"Market Standard Subsription Flows"}
-          text={
-            "Customer Experience shouldn't be an expense. DailyKIT offers turnkey solutions for higher conversions."
+        <BannerSection3
+          subheading={"Why should they have all the fun?"}
+          heading={"Get your share of subscription Revenue"}
+          image={
+            "https://www.dailykit.org/hubfs/dailykit-assets/subscription-logos/subscription-banner-2.png"
           }
-          point={[
+          blackbuttontext={"Start Now"}
+        />
+
+        <BannerSection2
+          rightimageurl={
+            "https://www.dailykit.org/hubfs/dailykit-assets/marketStandardSubscriptionFlows@2x-1.png"
+          }
+          heading={"Market Standard Subsription Flows"}
+          bluesubheading={"Familiar & Intuitive Signup Process"}
+          description="Customer Experience shouldn't be an expense. DailyKIT offers turnkey solutions for higher conversions."
+          descriptionpoints={[
             "Showcase Subscription Plans in elegant cards",
             "Give your customers option to choose between Item Count, Servings & Delivery Week-Day.",
             "Increase Conversions by funneling Customers to preview menus prior to signing up.",
           ]}
+        />
+
+        <BlueBox />
+        <BannerSection5
+          heading={"Taking Your Store Beyond & Above"}
+          description={
+            "Incorporate Multiple Instructional or about us pages along with any other information suiting your brand."
+          }
           image={
-            "https://www.dailykit.org/hubfs/dailykit-assets/marketStandardSubscriptionFlows@2x-1.png"
+            "https://www.dailykit.org/hubfs/dailykit-assets/takingyourStoreAbove%26Beyond@2x.png"
+          }
+          box1icon={
+            "https://www.dailykit.org/hubfs/dailykit-assets/subscription-logos/About%20Pages.svg"
+          }
+          box2icon={
+            "https://www.dailykit.org/hubfs/dailykit-assets/subscription-logos/FAQ%20Pages.svg"
+          }
+          box1title={"About Pages"}
+          box2title={"FAQ Pages"}
+          box1description={
+            "Showcase as much Information you want eg: Chef, Sourcing, etc."
+          }
+          box2description={
+            "Easily Highlight FAQs and How it Work Pages to Your Customers."
           }
         />
-        <BlueBox />
-        <TakingYourStore />
-        <OwnYourOnline />
         <WhyChoose />
         <ScheduleMeetingSection1
           heading={"Schedule an E-Meeting"}

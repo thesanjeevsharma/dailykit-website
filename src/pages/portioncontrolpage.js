@@ -6,9 +6,9 @@ import MarketingMadeEasy from "../components/marketpage/MarketingMadeEasy";
 import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
 import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection1";
 import Heading from "../components/shared/Heading";
-import RoutingSameBanners from "../components/orderpage/RoutingSameBanners";
-import OrderNotification from "../components/orderpage/OrderNotification";
+import BannerSection8 from "../components/shared/BannerSection8";
 import Weighingimage from "../components/orderpage/weighingimage";
+import BannerSection9 from "../components/shared/BannerSection9";
 
 export default class Portioncontrolpage extends PureComponent {
   render() {
@@ -22,7 +22,7 @@ export default class Portioncontrolpage extends PureComponent {
             "https://www.dailykit.org/hubfs/dailykit-assets/portion-control/idiotproof-banner.png"
           }
         />
-        <OrderNotification
+        <BannerSection9
           heading={"Portion Control"}
           subheading={`Is the operational tactic of making sure that the quantities used
             in production are in accordance with your standard operating procedures`}
@@ -48,7 +48,7 @@ export default class Portioncontrolpage extends PureComponent {
             "Make sure your staff is using the required quantities every time."
           }
         />
-        <RoutingSameBanners
+        <BannerSection8
           heading={`How It Works:
           Meal Kits`}
           subheading={"Meal Kit Ingredient Packaging"}
@@ -61,7 +61,7 @@ export default class Portioncontrolpage extends PureComponent {
             "Step 3 - As soon as correct weight is achieved, the ingredient sachet gets marked completed and the label is printed out automatically.",
           ]}
         />{" "}
-        <RoutingSameBanners
+        <BannerSection8
           heading={`How It Works:
           Meal Prep`}
           subheading={"Meal Prep Tray Packaging"}
@@ -74,7 +74,7 @@ export default class Portioncontrolpage extends PureComponent {
             "Step 3 - Once all of the components for the Meal Prep product are portioned and packed, the label is automatically printed, and marked as complete.",
           ]}
         />
-        <RoutingSameBanners
+        <BannerSection8
           heading={"How It Works:Grocery"}
           subheading={"White-Label Artisanal Grocery Packaging"}
           image={

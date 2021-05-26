@@ -6,8 +6,8 @@ import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection
 import Makethejuice from "../components/weservepage/Makethejuice";
 import Weserve from "../components/weservepage/Weserve";
 import OptimizeKitchen from "../components/weservepage/OptimizeKitchen";
-import SuperMarkets from "../components/weservepage/SuperMarkets";
 import AnERP from "../components/weservepage/AnERP";
+import BannerSection10 from "../components/shared/BannerSection10";
 export default class Weservepage extends PureComponent {
   render() {
     return (
@@ -16,7 +16,7 @@ export default class Weservepage extends PureComponent {
         <Makethejuice />
         <Weserve />
         <OptimizeKitchen />
-        <SuperMarkets
+        <BannerSection10
           subheading={"For Supermarkets"}
           heading={"Meet Rapidly Evolving Consumer Needs With Ease"}
           leftImage={
@@ -32,7 +32,7 @@ export default class Weservepage extends PureComponent {
             "Mitigate Risk & Achieve Sustainability",
           ]}
         />
-        <SuperMarkets
+        <BannerSection10
           subheading={"For Cloud Kitchens"}
           heading={"Built For Cloud Kitchen Operations"}
           rightImage={

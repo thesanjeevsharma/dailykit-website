@@ -5,11 +5,11 @@ import "../style.css";
 import MarketingMadeEasy from "../components/marketpage/MarketingMadeEasy";
 import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
 import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection1";
-import Redhover from "../components/orderpage/Redhover";
 import ImageBox from "../components/orderpage/ImageBox";
 import BelowImageBox from "../components/orderpage/BelowImageBox";
 import CustomerorOperator from "../components/orderpage/CustomerorOperator";
-import RoutingSameBanners from "../components/orderpage/RoutingSameBanners";
+import BannerSection7 from "../components/shared/BannerSection7";
+import BannerSection8 from "../components/shared/BannerSection8";
 export default class Orderfulfillmentpage extends PureComponent {
   render() {
     return (
@@ -26,7 +26,7 @@ export default class Orderfulfillmentpage extends PureComponent {
         <ImageBox />
         <BelowImageBox />
         <CustomerorOperator />
-        <RoutingSameBanners
+        <BannerSection8
           heading={"Seamless Order Fulfillment"}
           subheading={""}
           image={
@@ -38,7 +38,7 @@ export default class Orderfulfillmentpage extends PureComponent {
           ]}
         />
 
-        <RoutingSameBanners
+        <BannerSection8
           heading={"Schedule Weekly Shipments with Ease"}
           subheading={"Subscription Delivery"}
           rightImage={
@@ -48,7 +48,7 @@ export default class Orderfulfillmentpage extends PureComponent {
             "Operate subscription deliveries from your fingertips. Select delivery days & zip codes, along with with custom delivery prices.DailyKIT takes care of your scheduled & recurring deliveries by assigning the right delivery partner beforehand, ensuring on-time delivery every time.",
           ]}
         />
-        <Redhover
+        <BannerSection7
           heading={"Delivery and Pickup Insights"}
           list={[
             "Pickup Insights",

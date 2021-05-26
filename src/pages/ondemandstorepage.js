@@ -3,44 +3,81 @@ import Navbar from "../Navbar";
 import Footer from "../Footer.js";
 import "../style.css";
 import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection1";
-import StoreThatSells from "../components/onDemardStorePage/StoreThatSells";
-import PopularOrderingExperiences from "../components/onDemardStorePage/PopularOrderingExperiences";
 import IdealProduct from "../components/onDemardStorePage/IdealProduct";
-import RealTimeOrderTracking from "../components/onDemardStorePage/RealTimeOrderTracking";
-import OwnYourOnline from "../components/onDemardStorePage/OwnYourOnline";
-import Showcase from "../components/onDemardStorePage/Showcase";
+import BannerSection4 from "../components/shared/BannerSection4";
+import BannerSection2 from "../components/shared/BannerSection2";
+import BannerSection3 from "../components/shared/BannerSection3";
 import WhyChoose from "../components/onDemardStorePage/WhyChoose";
 export default class OnDemandStorepage extends PureComponent {
   render() {
     return (
       <div style={{ marginTop: "12rem" }}>
         <Navbar />
-        <StoreThatSells
+        <BannerSection3
           subheading={"DailyKIT for Online Ordering"}
           heading={"A Store That Sells"}
           image={
             "https://www.dailykit.org/hubfs/dailykit-assets/ondemand-hero1.gif"
           }
+          blackbuttontext={"Start Now"}
         />
-        <PopularOrderingExperiences
-          subheading={"Familiar & Intuitive"}
-          heading={"Popular Ordering Experiences"}
-          text={
-            "Customer Experience shouldn't be an expense. DailyKIT offers turnkey solutions for higher conversions."
+        <BannerSection2
+          rightimageurl={
+            "https://www.dailykit.org/hubfs/dailykit-assets/popularOrderingExperiences.gif"
           }
-          point={[
+          heading={"Popular Ordering Experiences"}
+          bluesubheading={"Familiar & Intuitive"}
+          description="Customer Experience shouldn't be an expense. DailyKIT offers turnkey solutions for higher conversions."
+          descriptionpoints={[
             "Showcase Multiple Product Types in elegant cards & drawers.",
             "Give your customers option to choose between Now/Later & Pickup/Delivery.",
             "Increase conversions by showcasing categories as Digital Aisle for Smooth Browsing.",
           ]}
-          image={
-            "https://www.dailykit.org/hubfs/dailykit-assets/popularOrderingExperiences.gif"
+        />
+
+        <IdealProduct />
+        <BannerSection4
+          heading={"Real-Time Order Tracking"}
+          description={
+            "Cater to consumer habits of tracking order lifecycle from Kitchen to Delivery leading to higher retention."
+          }
+          points={[
+            ["Kitchen Order Status", "Delivery Personnel Info"],
+            ["ETA & Map Tracking", "Review & Rating"],
+          ]}
+          leftimage={
+            "https://www.dailykit.org/hubfs/dailykit-assets/Real-TimeOrderTracking@2x.png"
           }
         />
-        <IdealProduct />
-        <RealTimeOrderTracking />
-        <Showcase />
-        <OwnYourOnline />
+        <BannerSection4
+          heading={"Showcase your COVID Safety Measures"}
+          description={
+            "Reassure your customers of their safety using DailyKIT's COVID Safety tools"
+          }
+          points={[
+            ["Body-Temp Reports", "Safety report on Invoice"],
+            ["Use of PPE Checklist", "Cleaning Protocols"],
+          ]}
+          rightimage={
+            "https://www.dailykit.org/hubfs/dailykit-assets/ShowcaseYourCOVIDSafetyMeasures@2x.png"
+          }
+        />
+        <BannerSection4
+          heading={"Own Your Online Store Completely"}
+          bluesubheading={"Don't Compromise"}
+          description={
+            "In the modern digital world, owning your web presence is a MUST."
+          }
+          points={[
+            ["Your Own Domain", "Themes & Brand Colors"],
+            ["iOS & Android Apps", "Custom Brand Pages"],
+          ]}
+          leftimage={
+            "https://www.dailykit.org/hubfs/dailykit-assets/own-store/Themes%20and%20brand%20colors.png"
+          }
+          blackbuttontext={"TELL ME MORE"}
+          buttonlink={"/"}
+        />
         <WhyChoose />
         <ScheduleMeetingSection1
           heading={"Schedule an E-Meeting"}

@@ -4,7 +4,7 @@ export default class Categoriessection extends PureComponent {
   render() {
     return (
       <div class="container" class="categoriesSection">
-        <div class="row justify-content-evenly categories">
+        <div class="row justify-content-around categories">
           {this.props.list.map((item) => {
             return (
               <div class="col-md-3 col-xs-10">

@@ -8,7 +8,7 @@ import PricingSection1 from "../components/homepage/PricingSection1";
 import ScheduleMeetingSection1 from "../components/homepage/ScheduleMeetingSection1";
 import BannerSection1 from "../components/homepage/BannerSection1";
 import BannerSection2 from "../components/homepage/BannerSection2";
-import Categoriessection from "../components/homepage/Categoriessection";
+import CategoriesSection from "../components/homepage/CategoriesSection";
 import BlueBoxSection1 from "../components/homepage/BlueBoxSection1";
 export default class Homepage extends PureComponent {
   render() {
@@ -56,7 +56,7 @@ export default class Homepage extends PureComponent {
           subheading={"Trend-Responsive Demand Platform"}
           buttontext={"TELL ME MORE"}
         />
-        <Categoriessection
+        <CategoriesSection
           list={[
             [
               "On-Demand Online Store",
@@ -103,7 +103,7 @@ export default class Homepage extends PureComponent {
           ]}
         />
 
-        <Categoriessection
+        <CategoriesSection
           list={[
             [
               "Custom Advanced Coupons",
@@ -129,7 +129,7 @@ export default class Homepage extends PureComponent {
           greenbuttontext={"TELL ME MORE"}
           buttonlink={"/start-meal-kit-brands/how-to-start-a-Meal-Kit-Service"}
         />
-        <Categoriessection
+        <CategoriesSection
           list={[
             [
               "Centralized Order Management",

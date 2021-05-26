@@ -36,7 +36,7 @@ export default class Weighingimage extends PureComponent {
         </div>{" "}
         <button
           type="button"
-          className="learMore_button2 mt-4 pb-3 pt-3"
+          className="btn-style-thirteen white"
           style={{ margin: "1rem 30% 1rem 30%" }}
         >
           TELL ME MORE

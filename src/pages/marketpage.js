@@ -2,33 +2,83 @@ import React, { PureComponent } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer.js";
 import "../style.css";
-import MarketingMadeEasy from "../components/marketpage/MarketingMadeEasy";
 import BuildSmarterCampaigns from "../components/marketpage/BuildSmarterCampaigns";
-import InspireCustomers from "../components/marketpage/InspireCustomers";
-import CreateRewardingExperiences from "../components/marketpage/CreateRewardingExperiences";
-import Yourtryst from "../components/marketpage/Yourtryst";
-import KeepthemLoyal from "../components/marketpage/KeepthemLoyal";
+import paperplane from "../paperplane.PNG";
 import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
 import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection1";
+import BannerSection3 from "../components/shared/BannerSection3";
+import BannerSection5 from "../components/shared/BannerSection5";
+import BannerSection4 from "../components/shared/BannerSection4";
 export default class Marketpage extends PureComponent {
   render() {
     return (
       <div style={{ marginTop: "12rem" }}>
         <Navbar />
-        <MarketingMadeEasy
+        <BannerSection3
           heading={"Marketing Made Easy."}
           subheading={
             "Must have Innovative Marketing tools to help you connect your brand with your customers."
           }
-          imageurl={
+          image={
             "https://www.dailykit.org/hubfs/dailykit-assets/marketing-overview/Marketing%20made%20easy.png"
           }
+          button2={["Get Started Now", "Get Demo"]}
         />
+
         <BuildSmarterCampaigns />
-        <InspireCustomers />
-        <CreateRewardingExperiences />
-        <Yourtryst />
-        <KeepthemLoyal />
+
+        <BannerSection5
+          icon={paperplane}
+          heading={"Inspire customers to take action."}
+          para={[
+            "Customers are always looking for fresh new deals. With DailyKIT's Custom Coupons become a lead magnet with exclusive offers and motivate customers to take action.",
+            "Use DailyKIT's Smart Coupon Generation to experiment with various actions that you think your customers will perform.",
+          ]}
+          image={
+            "https://www.dailykit.org/hubfs/dailykit-assets/marketing-overview/Inspire%20customer%20to%20take%20action.png"
+          }
+        />
+        <BannerSection5
+          icon={paperplane}
+          heading={"Create Rewarding Experiences."}
+          description={
+            "Keep your customers coming back by rewarding them when they take a certain action. With Loyalty Points, retain and keep your customers engaged."
+          }
+          image={
+            "https://www.dailykit.org/hubfs/dailykit-assets/marketing-overview/Creat%20rewarding%20experiances.png"
+          }
+          box1title={"Simple. Powerful. Fast"}
+          box2title={"ROI-Focused"}
+          box1description={""}
+          box2description={""}
+        />
+        <BannerSection4
+          heading={"Your tryst with virality"}
+          description={
+            "Experience accelerated growth using customer referrals as your trusted marketing strategy"
+          }
+          points={[
+            ["Supercharge Word of Mouth", "Drive repeated growth"],
+            ["Get more customers from your customers", "Keep them coming back"],
+          ]}
+          rightimage={
+            "https://www.dailykit.org/hubfs/dailykit-assets/marketing-overview/Your%20tryst%20with%20virality.png"
+          }
+        />
+        <BannerSection5
+          icon={paperplane}
+          heading={"Keep them Loyal."}
+          description={
+            "With our cashbacks, maintain customer loyalty by rewarding them for their action. With DailyKIT Wallets, provide more than one way to shop for your customer."
+          }
+          image={
+            "https://www.dailykit.org/hubfs/dailykit-assets/marketing-overview/keep%20them%20loyal.png"
+          }
+          box1title={"Consumer B2C App"}
+          box2title={"Partner Restaurant Integration"}
+          box1description={""}
+          box2description={""}
+        />
         <EndToEndFoodBusiness />
         <ScheduleMeetingSection1
           heading={"Schedule an E-Meeting"}

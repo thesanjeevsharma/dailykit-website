@@ -217,7 +217,12 @@ small {
 }
 
 /* homepage and we-serve-page-images(restaurant,image2s)*/
-
+.imagebox1 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/Serve-restaurant@2x.png");
+}
+.imagebox2 {
+  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/Serve-supermarket@2x.png");
+}
 .imagebox3 {
   background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/Serve-cloudkitchen@2x.png");
 }
@@ -782,7 +787,7 @@ small {
   .bluebox-col1para {
     font-weight: 10px !important;
     text-align: left;
-    width: 120vw;
+    width: 100vw;
     margin-left: -2rem;
   }
   .bluebox-image,
@@ -791,6 +796,10 @@ small {
   }
   .bluebox-learnMore {
     margin-right: 5rem;
+  }
+  .bluebox-right,
+  .bluebox-left {
+    padding: 0px 20px 0px 20px;
   }
 }
 /* orderfulfillment heading */
@@ -1008,7 +1017,7 @@ small {
   border-right: 6px solid #8ac03b;
 }
 
-/* BannerSection1  and 2*/
+/* BannerSection1  and 2 and3 */
 .box-image3 > img {
   border: 0;
   max-width: 100%;
@@ -1160,6 +1169,25 @@ banner-section1-description > ul,
   color: #111b2b;
   line-height: 1.9em;
 }
+
+.BannerSection-3 {
+  padding: 0px 0px;
+}
+.descriptiontype3 {
+  position: relative;
+  color: #111b2b;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6em;
+}
+.blueboxHeading {
+  position: relative;
+  font-weight: 700;
+  line-height: 1.1em;
+  padding: 110px 0px 20px;
+  font-size: 60px;
+  color: #fefdfc;
+}
 @media only screen and (max-width: 479px) {
   .banner-section1-description > h2 {
     font-size: 30px;
@@ -1168,7 +1196,9 @@ banner-section1-description > ul,
   .banner-section1-description > .descriptiontype1 {
     font-size: 18px;
   }
-
+  .descriptiontype3 {
+    font-size: 16px;
+  }
   .banner-section1-description > ul,
   .banner-section1-description > .descriptiontype2 {
     font-size: 16px;
@@ -1186,5 +1216,10 @@ banner-section1-description > ul,
   }
   .schedule-meeting-box1 div h2 {
     font-size: 28px;
+  }
+  /* subscriptionstore */
+  .blueboxHeading {
+    font-size: 26px;
+    line-height: 1.3em;
   }
 }

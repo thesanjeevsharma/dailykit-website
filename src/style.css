@@ -337,9 +337,7 @@ small {
 .nunito {
   font-family: "Nunito", sans-serif;
 }
-.margin {
-  margin: 0px 0px 0px 60px !important;
-}
+
 /* videoheader */
 .image {
   display: flex;
@@ -544,18 +542,7 @@ small {
     margin-left: 0.5rem;
   }
 }
-/* start-grow-run  */
-.heading-start-grow-run {
-  font-weight: "bolder";
-  font-size: "60px";
-  width: "90%";
-  text-align: "center";
-}
-@media only screen and (max-width: 600px) {
-  .heading-start-grow-run {
-    margin-left: 4rem;
-  }
-}
+
 /* ourupricing */
 @media only screen and (max-width: 600px) {
   .ourpricing {
@@ -1070,7 +1057,40 @@ banner-section1-description > ul,
   font-size: 18px;
   margin-top: 2rem;
 }
-
+.bluebox-section1 {
+  padding: 110px 0px 70px;
+  background: #111b2b;
+  text-align: center;
+  font-size: 14px;
+  color: #fefdfc;
+  line-height: 1.7em;
+  font-weight: 400;
+}
+.bluebox-section1 > h1:first-of-type {
+  color: #fefdfc;
+  font-size: 60px;
+  font-weight: 700;
+  padding: 15px 0 20px;
+  position: relative;
+  line-height: 1.1em;
+  text-align: center;
+  margin: 0;
+}
+.bluebox-section1 > h6:first-of-type {
+  position: relative;
+  color: #8ac03b;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+.bluebox-section1 .box {
+  text-align: left;
+}
+.bluebox-section1 .box-container {
+  margin-bottom: 30px;
+}
 @media only screen and (max-width: 479px) {
   .banner-section1-description > h2 {
     font-size: 30px;
@@ -1083,5 +1103,9 @@ banner-section1-description > ul,
   .banner-section1-description > ul,
   .banner-section1-description > .descriptiontype2 {
     font-size: 16px;
+  }
+  .bluebox-section1 > h1:first-of-type {
+    font-size: 26px;
+    line-height: 1.3em;
   }
 }

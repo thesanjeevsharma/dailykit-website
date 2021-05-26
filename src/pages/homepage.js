@@ -4,12 +4,12 @@ import Footer from "../Footer.js";
 import "../style.css";
 import VideoBanner from "../components/homepage/VideoBanners";
 import ImageBox1 from "../components/homepage/ImageBox1";
-import StartRunGrow from "../components/homepage/StartRunGrow";
 import OurPricing from "../components/homepage/OurPricing";
 import ScheduleMeeting from "../components/homepage/ScheduleMeeting";
 import BannerSection1 from "../components/homepage/BannerSection1";
 import BannerSection2 from "../components/homepage/BannerSection2";
 import Categoriessection from "../components/homepage/Categoriessection";
+import BlueBoxSection1 from "../components/homepage/BlueBoxSection1";
 export default class Homepage extends PureComponent {
   render() {
     return (
@@ -150,7 +150,48 @@ export default class Homepage extends PureComponent {
             ],
           ]}
         />
-        <StartRunGrow />
+        <BlueBoxSection1
+          mainheading={"Start, Run & Grow Your Food Business with Ease"}
+          subheading={"We’re There For You Every Step Of The Way"}
+          boxes={[
+            {
+              image:
+                "https://www.dailykit.org/hubfs/dailykit-assets/homepage/Technical%20Support.png",
+              heading: "Technical Support",
+              para: "Tech Glitches Happen.Our support team will be there.",
+            },
+            {
+              image:
+                "https://www.dailykit.org/hubfs/dailykit-assets/homepage/Emp.%20Training.png",
+              heading: "Employee Training",
+              para: "We Make Sure Your Staff Knows The System Like We Do.",
+            },
+            {
+              image:
+                "https://www.dailykit.org/hubfs/dailykit-assets/homepage/Menu%20%26%20Recipe%20Ideas.png",
+              heading: "Menu & Recipe Ideas",
+              para: "Need Inspiration? No Sweat! We Can Help.",
+            },
+            {
+              image:
+                "https://www.dailykit.org/hubfs/dailykit-assets/homepage/Migrate.png",
+              heading: "Migrate",
+              para: "Running Outdated Tech? Don't Worry, We'll Handle It.",
+            },
+            {
+              image:
+                "https://www.dailykit.org/hubfs/dailykit-assets/homepage/Data%20Onboarding.png",
+              heading: "Data Onboarding",
+              para: "Got Tons of Recipes to Upload? Our Team Can Get You There in a Snap!",
+            },
+            {
+              image:
+                "https://www.dailykit.org/hubfs/dailykit-assets/homepage/Packaging%20Ass..png",
+              heading: "Packaging Assistance",
+              para: "We Know Finding Right Packaging is Tough. Let Our Partners Help You.",
+            },
+          ]}
+        />
         <OurPricing />
         <BannerSection2
           rightimageurl="https://www.dailykit.org/hubfs/dailykit-assets/homepage/Reseller.png"

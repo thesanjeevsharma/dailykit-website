@@ -324,9 +324,7 @@ small {
   height: 90vh;
 }
 /* used in page-'order-fulfillment' */
-.imagebox19 {
-  background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-fulfilment/pickup@2x.png");
-}
+
 .imagebox20 {
   background-image: url("https://www.dailykit.org/hubfs/dailykit-assets/order-fulfilment/delivery@2x.png");
 }
@@ -809,18 +807,16 @@ small {
   margin-bottom: 2rem;
   margin-left: 4rem;
 }
-.pickup-button {
-  font-size: 25px;
-  margin-top: -5rem;
-  width: 30rem;
-  margin-left: 2rem;
-}
+
 /* market-heading */
 .market-heading,
 .we-serve-heading {
   font-weight: bolder;
   font-size: 60px;
   margin: 2rem 0rem 2rem 0rem;
+}
+.specialbanner1image{
+  margin-bottom: -212px;
 }
 @media only screen and (max-width: 600px) {
   .order-fulfillment-heading {
@@ -829,12 +825,7 @@ small {
     margin-bottom: 2rem;
     margin-left: 0.5rem;
   }
-  .pickup-button {
-    margin-top: -12rem;
-    width: 20.5rem;
-    margin-left: 0.1rem;
-    margin-bottom: 5rem;
-  }
+ 
   .market-heading,
   .we-serve-heading {
     font-weight: bolder;

@@ -2,30 +2,72 @@ import React, { PureComponent } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer.js";
 import "../style.css";
-import MarketingMadeEasy from "../components/marketpage/MarketingMadeEasy";
 import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
 import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection1";
-import ImageBox from "../components/orderpage/ImageBox";
-import BelowImageBox from "../components/orderpage/BelowImageBox";
-import CustomerorOperator from "../components/orderpage/CustomerorOperator";
 import BannerSection7 from "../components/shared/BannerSection7";
 import BannerSection8 from "../components/shared/BannerSection8";
+import SpecialBanner1 from "../components/shared/SpecialBanner1";
+import ImageBox1 from "../components/shared/ImageBox1";
+import SpecialBanner2 from "../components/orderpage/SpecialBanner2";
+import SpecialBanner3 from "../components/orderpage/SpecialBanner3";
 export default class Orderfulfillmentpage extends PureComponent {
   render() {
     return (
       <div style={{ marginTop: "12rem" }}>
         <Navbar />
-        <MarketingMadeEasy
+        <SpecialBanner1
           heading={"Set Your Own Delivery Terms"}
           subheading={"Flexible Order Fulfillment"}
           imageurl={
             "https://www.dailykit.org/hubfs/dailykit-assets/order-fulfilment/order-fulfilment-hero@2x.png"
           }
+          button1text={"Get Started Now"}
+          button2text={"Free Demo"}
         />
-
-        <ImageBox />
-        <BelowImageBox />
-        <CustomerorOperator />
+        <ImageBox1
+          Heading1text={"What Do You Need? Pick-Up? Delivery? Both?"}
+          SubHeading2text={"Order Fulfillment"}
+          imagepara={[
+            {
+              heading: "PICK-UP",
+              para: "Set Pickup Time Range Daily, Weekly, Monthly, etc.Ensure Contactless Pickup",
+            },
+            {
+              heading: "DELIVERY",
+              para: "Opt for Self-Delivery or Partner with a 3rd-Party Set Multiple Delivery Choices Based on: Day, Delivery Range, Cost, etc..",
+            },
+          ]}
+          image1url={
+            "https://www.dailykit.org/hubfs/dailykit-assets/order-fulfilment/pickup@2x.png"
+          }
+          image2url={
+            "https://www.dailykit.org/hubfs/dailykit-assets/order-fulfilment/delivery@2x.png"
+          }
+        />
+        <SpecialBanner2
+          SubHeading2text={"Delivery Integrations"}
+          Heading1text={"Explore & Partner with Delivery Providers Around You."}
+          lists={[
+            {
+              heading1: "Delivery Hub",
+              heading2: "Explore Partners",
+              para: "DailyKIT provides you the platform to find & connect with Delivery Partners, know their terms & conditions & partner with them with 100% transparency.",
+            },
+            {
+              heading1: "Delivery Hub",
+              heading2: "Setup & Assign Delivery Partners on Your Terms",
+              para: "Assign Deliveries to your Partners based on: delivery day, radius, price, and time, then let DailyKIT take care of notifying them.",
+            },
+            {
+              heading1: "Delivery Hub",
+              heading2: "Settle Your Payments Post-Cycle with DailyKIT",
+              para: "Settle your payments with your Delivery Partners at the end of each cycle, and Let us worry about the charge sheet & invoices.",
+            },
+          ]}
+        />
+        <SpecialBanner3  SubHeading2text={"Order Tracking"}
+          Heading1text={"Customer or Operator? Track Orders the Same Way!"}
+          />
         <BannerSection8
           heading={"Seamless Order Fulfillment"}
           subheading={""}

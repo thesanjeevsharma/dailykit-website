@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react";
 
-export default class Weighingimage extends PureComponent {
+export default class SpecialBanner4  extends PureComponent {
   render() {
     return (
       <>

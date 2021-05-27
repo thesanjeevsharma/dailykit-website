@@ -1184,6 +1184,11 @@ banner-section1-description > ul,
   font-size: 60px;
   color: #fefdfc;
 }
+/* ondemand> idealproduct >button */
+.responsive-button {
+  margin: 2rem 0rem 2rem 40%;
+}
+
 @media only screen and (max-width: 479px) {
   .banner-section1-description > h2 {
     font-size: 30px;
@@ -1217,5 +1222,9 @@ banner-section1-description > ul,
   .blueboxHeading {
     font-size: 26px;
     line-height: 1.3em;
+  }
+  /* ondemand> idealproduct >button */
+  .responsive-button {
+    margin: 2rem 0rem 2rem 22%;
   }
 }

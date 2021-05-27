@@ -119,7 +119,7 @@ export default class WhyChoose extends PureComponent {
           </div>
         </div>
         <a href="/">
-          <button type="button" class="btn-style-thirteen white">
+          <button type="button" class="btn-style-thirteen green">
             Schedule A Demo
           </button>
         </a>

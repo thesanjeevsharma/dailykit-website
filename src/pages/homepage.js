@@ -127,7 +127,7 @@ export default class Homepage extends PureComponent {
           heading={"Deliver Excellence With DailyOS"}
           subheading={"Trend-Agnostic Supply Platform"}
           greenbuttontext={"TELL ME MORE"}
-          buttonlink={"/start-meal-kit-brands/how-to-start-a-Meal-Kit-Service"}
+          buttonlink={"/operate/order-fulfillment"}
         />
         <CategoriesSection
           list={[

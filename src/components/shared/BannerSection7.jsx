@@ -9,7 +9,10 @@ export default class BannerSection7 extends PureComponent {
           {this.props.heading}
 
           <a href="/">
-            <button type="button" className="btn-style-thirteen white learn">
+            <button
+              type="button"
+              className="btn-style-thirteen white learn responsive-button2"
+            >
               Learn More
             </button>
           </a>

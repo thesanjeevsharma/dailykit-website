@@ -695,7 +695,8 @@ small {
     margin-left: 1rem;
   }
   .learn {
-    margin-left: 8rem;
+    margin-left: 4.5rem;
+    margin-right: 4rem;
   }
   .redhover {
     margin-bottom: 4rem;
@@ -1234,6 +1235,9 @@ banner-section1-description > ul,
     line-height: 1.3em;
   }
   /* ondemand> idealproduct >button */
+  .responsive-button {
+    margin: 2rem 0rem 2rem 22%;
+  }
   .responsive-button {
     margin: 2rem 0rem 2rem 22%;
   }

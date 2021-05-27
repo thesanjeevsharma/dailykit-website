@@ -19,7 +19,7 @@ export default class Orderdashboardpage extends PureComponent {
           image={
             "https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/order-dashboard-hero2@2x.png"
           }
-          button1text={"Get Started Now" }
+          button1text={"Get Started Now"}
           button2text={"Free Demo"}
         />
 
@@ -48,7 +48,7 @@ export default class Orderdashboardpage extends PureComponent {
             "https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/Email-%26-SMS-Notifications@2x.png"
           }
         />
-        <div style={{ background: "#111B2B", height: "40rem" }} />
+
         <BannerSection7
           heading={"Daily Order Reporting & Analytics"}
           list={[

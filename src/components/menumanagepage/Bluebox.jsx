@@ -18,14 +18,15 @@ export default class Bluebox extends PureComponent {
           vs <br />
           Menu Engineering
         </div>
+        <a href="/">
+          <button
+            type="button"
+            class="btn-style-thirteen green p-3 pl-4 pr-4 mb-4"
+          >
+            Schedule A Meeting
+          </button>
+        </a>
 
-        <button
-          type="button"
-          style={{ fontSize: "14px" }}
-          class="btn btn-success btn-lg p-3 pl-4 pr-4 mb-4"
-        >
-          Schedule A Meeting
-        </button>
         <div class="row justify-content-center mb-4 mt-4">
           <p class="col-md-5 col-xs-10 bluebox-right">
             Menu management is a general menu building excercise done

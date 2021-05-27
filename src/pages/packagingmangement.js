@@ -59,6 +59,7 @@ export default class Packagingmanagementpage extends PureComponent {
             "Get recommendations for packaging for your unique products be they meal kits, desserts, beverages, hot or cold food, etc., based on different parameters such as if they are solid, liquid or require refrigration.",
           ]}
           learn={1}
+          buttonlink={"/meal-kit-guides/meal-kit-packaging"}
         />{" "}
         <BannerSection8
           heading={"Explore & Purchase Packaging"}
@@ -72,6 +73,7 @@ export default class Packagingmanagementpage extends PureComponent {
             "Manage Inventory & Create Purchase Orders using forecasting making sure your staff always has enough proper packaging on hand at their assigned workstations.",
           ]}
           learn={1}
+          buttonlink={"/meal-kit-guides/meal-kit-packaging"}
         />
         <BannerSection8
           heading={"Ensure Each Order is Properly Packed"}
@@ -84,6 +86,7 @@ export default class Packagingmanagementpage extends PureComponent {
             "Packaging Inventory is tracked as well, so you're notified if you're running short and need to immediately order additional packaging.",
           ]}
           learn={1}
+          buttonlink={"/meal-kit-guides/meal-kit-packaging"}
         />{" "}
         <EndToEndFoodBusiness />
         <ScheduleMeetingSection1

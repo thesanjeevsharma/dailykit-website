@@ -27,8 +27,8 @@ export default class WhyChoose extends PureComponent {
                 alt="icon"
                 src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/unlimited-categories.png"
                 style={{ width: "30px" }}
-              />{" "}
-              <h5>Unlimited Categories</h5>
+              />
+              <h5> Unlimited Categories</h5>
               <br />
               <small>Manage multiple categories for easy browsing.</small>
             </div>
@@ -66,55 +66,55 @@ export default class WhyChoose extends PureComponent {
                 Display Amazing Product Pictures for Higher Conversion.
               </small>
             </div>
-            <div class="row justify-content-center">
-              <div class="col-md-3 col-xs-10 p-4 column">
-                <img
-                  alt="icon"
-                  src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/product-description.png"
-                  style={{ width: "30px" }}
-                />{" "}
-                <h5>Product Description</h5>
-                <br />
-                <small>Convert more via enticing product descriptions.</small>
-              </div>
-              <div class="col-md-3 col-xs-10 p-4 column">
-                <img
-                  alt="icon"
-                  src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/social-media-share.png"
-                  style={{ width: "30px" }}
-                />{" "}
-                <h5>Social Media Sharimg</h5>
-                <br />
-                <small>
-                  Integrated Social Media sharing functionality on every product
-                  page.
-                </small>
-              </div>
-              <div class="col-md-3 col-xs-10 p-4 column">
-                <img
-                  alt="icon"
-                  src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/desktop-friendly.png"
-                  style={{ width: "30px" }}
-                />
-                <h5>Desktop Friendly</h5>
-                <br />
-                <small>
-                  Don't miss out on the 20% of consumers ordering food through
-                  their laptops/desktops.
-                </small>
-              </div>
-              <div class="col-md-3 col-xs-10 p-4 column">
-                <img
-                  alt="icon"
-                  src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/mobile-friendly.png"
-                  style={{ width: "30px" }}
-                />
-                <h5>Mobile & Tab Friendly</h5>
-                <br />
-                <small>
-                  Perfect experience through any browser app or in-app browsers.
-                </small>
-              </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-3 col-xs-10 p-4 column">
+              <img
+                alt="icon"
+                src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/product-description.png"
+                style={{ width: "30px" }}
+              />
+              <h5>Product Description</h5>
+              <br />
+              <small>Convert more via enticing product descriptions.</small>
+            </div>
+            <div class="col-md-3 col-xs-10 p-4 column">
+              <img
+                alt="icon"
+                src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/social-media-share.png"
+                style={{ width: "30px" }}
+              />
+              <h5>Social Media Sharimg</h5>
+              <br />
+              <small>
+                Integrated Social Media sharing functionality on every product
+                page.
+              </small>
+            </div>
+            <div class="col-md-3 col-xs-10 p-4 column">
+              <img
+                alt="icon"
+                src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/desktop-friendly.png"
+                style={{ width: "30px" }}
+              />
+              <h5>Desktop Friendly</h5>
+              <br />
+              <small>
+                Don't miss out on the 20% of consumers ordering food through
+                their laptops/desktops.
+              </small>
+            </div>
+            <div class="col-md-3 col-xs-10 p-4 column">
+              <img
+                alt="icon"
+                src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/mobile-friendly.png"
+                style={{ width: "30px" }}
+              />
+              <h5>Mobile & Tab Friendly</h5>
+              <br />
+              <small>
+                Perfect experience through any browser app or in-app browsers.
+              </small>
             </div>
           </div>
         </div>

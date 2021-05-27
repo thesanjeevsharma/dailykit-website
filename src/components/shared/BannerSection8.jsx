@@ -47,18 +47,21 @@ export default class BannerSection8 extends PureComponent {
                     <div style={{ display: "inline" }}>
                       {para1}
                       <br />
+                      <br />
                     </div>
                   );
                 })}
               </p>
               {this.props.learn && (
-                <button
-                  type="button"
-                  className="learMore_button2 m-4 pt-2 pb-2"
-                  style={{ marginRight: "120px" }}
-                >
-                  Learn More
-                </button>
+                <a href={this.props.buttonlink}>
+                  <button
+                    type="button"
+                    className="btn-style-thirteen green learMore_button2 m-4 pt-2 pb-2"
+                    style={{ marginRight: "120px" }}
+                  >
+                    Learn More
+                  </button>
+                </a>
               )}
             </div>
             {this.props.rightImage && (

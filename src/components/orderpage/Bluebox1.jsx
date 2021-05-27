@@ -23,7 +23,7 @@ export default class Bluebox1 extends PureComponent {
         </small>
         <div class="container">
           <div class="row justify-content-center mb-4 mt-4">
-            <p
+            <div
               class="col-md-5 col-xs-10"
               style={{
                 fontSize: "19px",
@@ -70,17 +70,20 @@ export default class Bluebox1 extends PureComponent {
                 </div>
               )}
               {!this.props.learn && (
-                <button
-                  type="button"
-                  className="learMore_button2 mt-4 mb-4"
-                  style={{ marginRight: "120px" }}
-                >
-                  Learn More
-                </button>
+                <a href="/">
+                  {" "}
+                  <button
+                    type="button"
+                    className="learMore_button2 btn-style-thirteen green mt-4 mb-4"
+                    style={{ marginRight: "120px" }}
+                  >
+                    Learn More
+                  </button>
+                </a>
               )}
-            </p>
-            <p class="col-1 blackline2"></p>
-            <p
+            </div>
+            <div class="col-1 blackline2"></div>
+            <div
               class="col-md-5 col-xs-10"
               style={{
                 fontSize: "19px",
@@ -137,19 +140,28 @@ export default class Bluebox1 extends PureComponent {
                 )}
               </div>{" "}
               {!this.props.learn && (
-                <button
-                  type="button"
-                  className="learMore_button2 mt-4 learn bluebox-learnMore"
-                >
-                  Learn More
-                </button>
+                <a href="/">
+                  {" "}
+                  <button
+                    type="button"
+                    className="btn-style-thirteen green mt-4 learn bluebox-learnMore"
+                  >
+                    Learn More
+                  </button>
+                </a>
               )}
-            </p>{" "}
+            </div>{" "}
           </div>{" "}
           {this.props.learn && (
-            <button type="button" className="learMore_button2 mt-4 mb-4">
-              Learn More
-            </button>
+            <a href="/">
+              {" "}
+              <button
+                type="button"
+                className="btn-style-thirteen green mt-4 mb-4"
+              >
+                Learn More
+              </button>
+            </a>
           )}
         </div>
       </div>

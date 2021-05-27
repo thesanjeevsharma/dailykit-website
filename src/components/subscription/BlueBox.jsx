@@ -1,10 +1,9 @@
 import React, { PureComponent } from "react";
-import Delievery from "../../assets/Delievery.PNG";
-import plans from "../../assets/custom_plans.PNG";
-import map from "../../assets/map.PNG";
-import planner from "../../assets/planner.PNG";
-import autocard from "../../assets/autocard.PNG";
-import dynamic from "../../assets/dynamicdelivery.PNG";
+import calendarTruck from "../../assets/calendarTruck.svg";
+import edit from "../../assets/edit.svg";
+import location from "../../assets/location.svg";
+import ccTimer from "../../assets/cc-timer.svg";
+import dollarTruck from "../../assets/dollarTruck.svg";
 export default class BlueBox extends PureComponent {
   render() {
     return (
@@ -53,7 +52,7 @@ export default class BlueBox extends PureComponent {
                 </p>
                 <img
                   alt="icon"
-                  src={plans}
+                  src={edit}
                   style={{
                     width: "90px",
                     display: "block",
@@ -83,7 +82,7 @@ export default class BlueBox extends PureComponent {
                 </p>
                 <img
                   alt="icon"
-                  src={planner}
+                  src={ccTimer}
                   style={{
                     width: "90px",
                     display: "block",
@@ -115,7 +114,7 @@ export default class BlueBox extends PureComponent {
                 </p>
                 <img
                   alt="icon"
-                  src={autocard}
+                  src={ccTimer}
                   style={{
                     width: "90px",
                     display: "block",
@@ -149,7 +148,7 @@ export default class BlueBox extends PureComponent {
                   </p>
                   <img
                     alt="icon"
-                    src={map}
+                    src={location}
                     style={{
                       width: "90px",
                       display: "block",
@@ -180,7 +179,7 @@ export default class BlueBox extends PureComponent {
                   </p>
                   <img
                     alt="icon"
-                    src={dynamic}
+                    src={dollarTruck}
                     style={{
                       width: "120px",
                       display: "block",
@@ -212,7 +211,7 @@ export default class BlueBox extends PureComponent {
                   </p>
                   <img
                     alt="icon"
-                    src={Delievery}
+                    src={calendarTruck}
                     style={{
                       width: "90px",
                       display: "block",

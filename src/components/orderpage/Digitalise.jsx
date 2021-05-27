@@ -1,8 +1,8 @@
 import React, { PureComponent } from "react";
 import "../../style.css";
 import map2 from "../../assets/map2.PNG";
-import assign from "../../assets/assign.PNG";
-import Control from "../../assets/Control.PNG";
+import reward from "../../assets/rewards.svg";
+import people from "../../assets/people.svg";
 export default class Digitalise extends PureComponent {
   render() {
     return (
@@ -54,7 +54,7 @@ export default class Digitalise extends PureComponent {
                   class="col-12 p-4"
                   style={{ boxShadow: "0px 10px 20px rgb(19 116 246 / 10%);" }}
                 >
-                  <img src={assign} alt="icon" width="50px" />
+                  <img src={reward} alt="icon" width="50px" />
                   <h4 style={{ fontWeight: "bolder", display: "inline" }}>
                     Assign Operators to Your Stations
                   </h4>
@@ -75,7 +75,7 @@ export default class Digitalise extends PureComponent {
                   class="col-12 p-4"
                   style={{ boxShadow: "0px 10px 20px rgb(19 116 246 / 10%);" }}
                 >
-                  <img src={Control} alt="icon" width="50px" />
+                  <img src={people} alt="icon" width="50px" />
                   <h4 style={{ fontWeight: "bolder", display: "inline" }}>
                     Grant & Control Permissions
                   </h4>

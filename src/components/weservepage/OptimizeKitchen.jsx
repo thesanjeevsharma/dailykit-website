@@ -2,7 +2,7 @@ import React, { PureComponent } from "react";
 import mitigate from "../../assets/mitigate.PNG";
 import standarised from "../../assets/standarised.PNG";
 import trending from "../../assets/trending.PNG";
-import Built from "../../assets/Built.PNG";
+import photos from "../../assets/photos.svg";
 import "../../style.css";
 export default class OptimizeKitchen extends PureComponent {
   render() {
@@ -131,7 +131,7 @@ export default class OptimizeKitchen extends PureComponent {
                     </p>
                     <img
                       alt="icon"
-                      src={Built}
+                      src={photos}
                       style={{
                         width: "90px",
                         display: "block",

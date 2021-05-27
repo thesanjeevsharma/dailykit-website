@@ -1,8 +1,7 @@
 import React, { PureComponent } from "react";
 import "../../style.css";
-import display from "../../assets/display.PNG";
-
-import kitchen from "../../assets/kitchen.PNG";
+import phone from "../../assets/phone.svg";
+import corrugatedBox from "../../assets/corrugatedBox.svg";
 export default class Bluebox1 extends PureComponent {
   render() {
     return (
@@ -34,7 +33,7 @@ export default class Bluebox1 extends PureComponent {
               </div>
               <div class="col-md-2 col-xs-10">
                 <img
-                  src={display}
+                  src={phone}
                   alt=".."
                   width="80px"
                   class="bluebox-imageicon"
@@ -84,7 +83,7 @@ export default class Bluebox1 extends PureComponent {
             <div class="row justify-content-start mb-4 mt-4">
               <div class="col-md-2 col-xs-10 ml-2">
                 <img
-                  src={kitchen}
+                  src={corrugatedBox}
                   alt=".."
                   width="90px"
                   class="bluebox-imageicon"

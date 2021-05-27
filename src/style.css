@@ -815,7 +815,7 @@ small {
   font-size: 60px;
   margin: 2rem 0rem 2rem 0rem;
 }
-.specialbanner1image{
+.specialbanner1image {
   margin-bottom: -212px;
 }
 @media only screen and (max-width: 600px) {
@@ -825,7 +825,7 @@ small {
     margin-bottom: 2rem;
     margin-left: 0.5rem;
   }
- 
+
   .market-heading,
   .we-serve-heading {
     font-weight: bolder;
@@ -1159,10 +1159,6 @@ banner-section1-description > ul,
   margin: 5px 0px 0px;
   color: #111b2b;
   line-height: 1.9em;
-}
-
-.BannerSection-3 {
-  padding: 0px 0px;
 }
 .descriptiontype3 {
   position: relative;

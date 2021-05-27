@@ -4,7 +4,7 @@ export default class BannerSection3 extends PureComponent {
   render() {
     return (
       <>
-        <div class="container BannerSection-3">
+        <div class="container">
           <div class="row justify-content-center">
             <div class="col-md-6 col-xs-10 trend-responsive">
               {this.props.subheading && (

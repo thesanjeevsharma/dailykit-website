@@ -26,7 +26,9 @@ export default class Marketpage extends PureComponent {
         <BannerSection5
           icon={paperplane}
           heading={"Build Smarter Campaigns."}
-          description={"Create and deliver engaging experiences, improve customer engagement and boost ROI in the process."}
+          description={
+            "Create and deliver engaging experiences, improve customer engagement and boost ROI in the process."
+          }
           rightimage={
             "https://www.dailykit.org/hubfs/dailykit-assets/marketing-overview/Build%20smarter%20campaigns.png"
           }

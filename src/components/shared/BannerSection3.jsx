@@ -67,7 +67,7 @@ export default class BannerSection3 extends PureComponent {
                       {this.props.button2[0]}
                     </button>
                     &nbsp;&nbsp;&nbsp;
-                    <button type="button" class="btn-style-thirteen green">
+                    <button type="button" class="btn-style-thirteen white">
                       {this.props.button2[1]}
                     </button>
                   </div>

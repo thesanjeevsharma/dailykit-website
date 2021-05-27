@@ -4,6 +4,8 @@ import map from "../../assets/map.svg";
 import link from "../../assets/link.svg";
 import photos from "../../assets/photos.svg";
 import "../../style.css";
+import SubHeading1 from "../shared/SubHeading";
+import Heading1 from "../shared/Heading";
 export default class OptimizeKitchen extends PureComponent {
   render() {
     return (
@@ -11,9 +13,13 @@ export default class OptimizeKitchen extends PureComponent {
         <div className="container container_weserve">
           <div className="sideBar_left">
             <h6>For Restaurants</h6>
-            <h1 class="nunito">
+            <h2
+              className="nunito blueboxHeading"
+              style={{ color: "#fefdfc", marginTop: "-112px" }}
+            >
               Optimize Kitchen Workflows <br /> &amp; Juice New Sales Channels.
-            </h1>
+            </h2>
+
             <h5>
               An Innovative Omni-Channel Solution That
               <br /> Monetizes Food Trends with End-To-End Kitchen
@@ -41,7 +47,7 @@ export default class OptimizeKitchen extends PureComponent {
                 textAlign: "center",
               }}
             >
-              <div class="row justify-content-center mb-4">
+              <div class="row justify-content-evenly mb-4">
                 <div class="col-md-4 col-xs-8 p-4 column3 justify-content-center">
                   <h5
                     style={{
@@ -106,7 +112,7 @@ export default class OptimizeKitchen extends PureComponent {
                   />
                 </div>
 
-                <div class="row justify-content-evenly mt-4">
+                <div class="row justify-content-evenly mt-8">
                   <div class="col-md-4 col-xs-8 p-4 column3 justify-content-center">
                     {" "}
                     <h5

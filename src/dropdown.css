@@ -62,8 +62,9 @@
     clear: both;
   }
 }
-.close-button {
-  display: none;
+
+.navbar-nav {
+  margin-left: 18rem;
 }
 /* .navbar-toggler>.close {
   display:inline;
@@ -81,6 +82,9 @@
     margin: 0;
     background: #f8f9fa;
     font-size: 18px;
+  }
+  .navbar-nav {
+    margin-left: 0rem;
   }
   .special-styling li {
     display: block;

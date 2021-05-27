@@ -2,7 +2,6 @@ import React, { PureComponent } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer.js";
 import "../style.css";
-import BuildSmarterCampaigns from "../components/marketpage/BuildSmarterCampaigns";
 import paperplane from "../paperplane.PNG";
 import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
 import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection1";
@@ -24,9 +23,14 @@ export default class Marketpage extends PureComponent {
           }
           button2={["Get Started Now", "Get Demo"]}
         />
-
-        <BuildSmarterCampaigns />
-
+        <BannerSection5
+          icon={paperplane}
+          heading={"Build Smarter Campaigns."}
+          description={"Create and deliver engaging experiences, improve customer engagement and boost ROI in the process."}
+          rightimage={
+            "https://www.dailykit.org/hubfs/dailykit-assets/marketing-overview/Build%20smarter%20campaigns.png"
+          }
+        />
         <BannerSection5
           icon={paperplane}
           heading={"Inspire customers to take action."}
@@ -34,7 +38,7 @@ export default class Marketpage extends PureComponent {
             "Customers are always looking for fresh new deals. With DailyKIT's Custom Coupons become a lead magnet with exclusive offers and motivate customers to take action.",
             "Use DailyKIT's Smart Coupon Generation to experiment with various actions that you think your customers will perform.",
           ]}
-          image={
+          leftimage={
             "https://www.dailykit.org/hubfs/dailykit-assets/marketing-overview/Inspire%20customer%20to%20take%20action.png"
           }
         />
@@ -44,7 +48,7 @@ export default class Marketpage extends PureComponent {
           description={
             "Keep your customers coming back by rewarding them when they take a certain action. With Loyalty Points, retain and keep your customers engaged."
           }
-          image={
+          leftimage={
             "https://www.dailykit.org/hubfs/dailykit-assets/marketing-overview/Creat%20rewarding%20experiances.png"
           }
           box1title={"Simple. Powerful. Fast"}
@@ -71,7 +75,7 @@ export default class Marketpage extends PureComponent {
           description={
             "With our cashbacks, maintain customer loyalty by rewarding them for their action. With DailyKIT Wallets, provide more than one way to shop for your customer."
           }
-          image={
+          leftimage={
             "https://www.dailykit.org/hubfs/dailykit-assets/marketing-overview/keep%20them%20loyal.png"
           }
           box1title={"Consumer B2C App"}

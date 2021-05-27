@@ -2,25 +2,28 @@ import React, { PureComponent } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer.js";
 import "../style.css";
-import MarketingMadeEasy from "../components/marketpage/MarketingMadeEasy";
 import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
 import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection1";
 import Heading from "../components/shared/Heading";
 import BannerSection8 from "../components/shared/BannerSection8";
-import Weighingimage from "../components/orderpage/weighingimage";
+import Weighingimage from "../components/orderpage/SpecialBanner4";
 import BannerSection9 from "../components/shared/BannerSection9";
+import SpecialBanner1 from "../components/shared/SpecialBanner1";
+import SpecialBanner4 from "../components/orderpage/SpecialBanner4";
 
 export default class Portioncontrolpage extends PureComponent {
   render() {
     return (
       <div style={{ marginTop: "7rem" }}>
         <Navbar />
-        <MarketingMadeEasy
+        <SpecialBanner1
           heading={"Ensuring Portion Consistency"}
           subheading={""}
           imageurl={
             "https://www.dailykit.org/hubfs/dailykit-assets/portion-control/idiotproof-banner.png"
           }
+          button1text={"Get Started Now" }
+          button2text={"Free Demo"}
         />
         <BannerSection9
           heading={"Portion Control"}
@@ -87,7 +90,7 @@ export default class Portioncontrolpage extends PureComponent {
           ]}
         />
         <Heading text={"Supported Weighing Scale"} />
-        <Weighingimage />
+        <SpecialBanner4 />
         <EndToEndFoodBusiness />
         <ScheduleMeetingSection1
           heading={"Schedule an E-Meeting"}

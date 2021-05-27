@@ -2,23 +2,25 @@ import React, { PureComponent } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer.js";
 import "../style.css";
-import MarketingMadeEasy from "../components/marketpage/MarketingMadeEasy";
 import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness";
 import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection1";
 import BannerSection2 from "../components/shared/BannerSection2";
 import BannerSection7 from "../components/shared/BannerSection7";
 import BannerSection9 from "../components/shared/BannerSection9";
+import SpecialBanner1 from "../components/shared/SpecialBanner1";
 export default class Orderdashboardpage extends PureComponent {
   render() {
     return (
       <div style={{ marginTop: "12rem" }}>
         <Navbar />
-        <MarketingMadeEasy
+        <SpecialBanner1
           heading={"Centralized Order Management"}
           subheading={"Make Your Life Easier"}
           image={
             "https://www.dailykit.org/hubfs/dailykit-assets/order-dashboard/order-dashboard-hero2@2x.png"
           }
+          button1text={"Get Started Now" }
+          button2text={"Free Demo"}
         />
 
         <BannerSection2

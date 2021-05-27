@@ -42,7 +42,7 @@ export default class SubscriptionStorepage extends PureComponent {
           description={
             "Incorporate Multiple Instructional or about us pages along with any other information suiting your brand."
           }
-          image={
+          rightimage={
             "https://www.dailykit.org/hubfs/dailykit-assets/takingyourStoreAbove%26Beyond@2x.png"
           }
           box1icon={

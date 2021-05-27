@@ -4,7 +4,7 @@ import "../../style.css";
 export default class BannerSection1 extends PureComponent {
   render() {
     return (
-      <div className="container-fluid nunito" style={{ marginTop: "12rem" }}>
+      <div className="container nunito" style={{ marginTop: "12rem" }}>
         <div class="row justify-content-center text-center">
           <div class="col-md-5 col-xs-10">
             <div class="row justify-content-around">

@@ -8,7 +8,7 @@ export default class OptimizeKitchen extends PureComponent {
   render() {
     return (
       <div>
-        <div className="container_weserve">
+        <div className="container container_weserve">
           <div className="sideBar_left">
             <h6>For Restaurants</h6>
             <h1 class="nunito">

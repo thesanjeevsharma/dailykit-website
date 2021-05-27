@@ -3,6 +3,7 @@ import calendarTruck from "../../assets/calendarTruck.svg";
 import edit from "../../assets/edit.svg";
 import location from "../../assets/location.svg";
 import ccTimer from "../../assets/cc-timer.svg";
+import calenderTimer from "../../assets/calendar-timer.svg";
 import dollarTruck from "../../assets/dollarTruck.svg";
 export default class BlueBox extends PureComponent {
   render() {
@@ -82,7 +83,7 @@ export default class BlueBox extends PureComponent {
                 </p>
                 <img
                   alt="icon"
-                  src={ccTimer}
+                  src={calenderTimer}
                   style={{
                     width: "90px",
                     display: "block",

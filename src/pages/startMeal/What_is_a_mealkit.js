@@ -68,6 +68,7 @@ export class MealkitComponent extends PureComponent {
               ],
             },
           ]}
+          videourl={"https://www.youtube.com/embed/9BNn7n8zjfY"}
         />
 
         <BlogSection

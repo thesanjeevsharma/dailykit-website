@@ -38,6 +38,19 @@ const Sidebar = (props) => {
                 </>
               );
             })}
+            {props.videourl && (
+              <iframe
+                width="100%"
+                src={props.videourl}
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            )}
+            {props.imageurl && (
+              <img src={props.imageurl} style={{ width: "100%" }} alt="..." />
+            )}
             {/* <--first Para--> */}
             {props.rest[0].para2.map((para) => {
               return (

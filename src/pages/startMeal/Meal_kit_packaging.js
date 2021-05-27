@@ -155,6 +155,7 @@ export class MealKitPackaging extends PureComponent {
               ],
             },
           ]}
+          videourl="https://www.youtube.com/embed/pmtxnL0Y_n0"
         />
 
         <BlogSection

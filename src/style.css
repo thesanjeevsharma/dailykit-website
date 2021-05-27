@@ -1197,7 +1197,7 @@ banner-section1-description > ul,
 }
 /* /for extra spacing in optimize kitchen */
 .mt-8 {
-  margin-top: 4rem;
+  margin-top: 8rem;
 }
 @media only screen and (max-width: 479px) {
   .banner-section1-description > h2 {

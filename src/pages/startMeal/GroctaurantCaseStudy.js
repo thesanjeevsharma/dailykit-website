@@ -106,6 +106,9 @@ export class GroctaurantCaseStudyComponent extends PureComponent {
               ],
             },
           ]}
+          imageurl={
+            "https://www.dailykit.org/hs-fs/hubfs/groc3.jpg?width=800&name=groc3.jpg"
+          }
         />
 
         <BlogSection

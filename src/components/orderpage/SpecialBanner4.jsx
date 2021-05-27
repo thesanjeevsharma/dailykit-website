@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react";
 
-export default class SpecialBanner4  extends PureComponent {
+export default class SpecialBanner4 extends PureComponent {
   render() {
     return (
       <>
@@ -36,7 +36,7 @@ export default class SpecialBanner4  extends PureComponent {
         </div>{" "}
         <button
           type="button"
-          className="btn-style-thirteen white"
+          className="btn-style-thirteen green"
           style={{ margin: "1rem 30% 1rem 30%" }}
         >
           TELL ME MORE

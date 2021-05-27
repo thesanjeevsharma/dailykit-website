@@ -62,7 +62,7 @@ export default class BannerSection4 extends PureComponent {
                         {this.props.greenbuttontext && (
                           <button
                             type="button"
-                            className="btn-style-thirteen white"
+                            className="btn-style-thirteen green"
                           >
                             {this.props.greenbuttontext}
                           </button>

@@ -908,6 +908,11 @@ small {
   background-color: #fefdfc;
   transition: all 0.3s ease 0s;
 }
+.green {
+  color: white;
+  background-color: #8ac03b;
+  transition: all 0.3s ease 0s;
+}
 .black {
   background-color: #111b2b;
   color: white;
@@ -921,6 +926,10 @@ small {
 .purple:hover {
   background-color: #8ac03b;
   color: white;
+}
+.green:hover {
+  background-color: white;
+  color: #111b2b;
 }
 .header > .offer {
   padding-bottom: 12px;

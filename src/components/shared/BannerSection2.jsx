@@ -27,10 +27,17 @@ export default class BannerSection2 extends PureComponent {
                 {this.props.descriptiontype2}
               </p>
             )}{" "}
+            {this.props.descriptionpoints && (
+              <ul className="onDemandCategories">
+                {this.props.descriptionpoints.map((point) => {
+                  return <li>{point}</li>;
+                })}
+              </ul>
+            )}
             {this.props.buttonlink && (
               <a href={this.props.buttonlink}>
                 {this.props.greenbuttontext && (
-                  <button type="button" className="btn-style-thirteen white">
+                  <button type="button" className="btn-style-thirteen green">
                     {this.props.greenbuttontext}
                   </button>
                 )}
@@ -40,13 +47,6 @@ export default class BannerSection2 extends PureComponent {
                   </button>
                 )}
               </a>
-            )}
-            {this.props.descriptionpoints && (
-              <ul className="onDemandCategories">
-                {this.props.descriptionpoints.map((point) => {
-                  return <li>{point}</li>;
-                })}
-              </ul>
             )}
           </div>
           {this.props.rightimageurl && (

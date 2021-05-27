@@ -63,7 +63,7 @@ export default class BannerSection1 extends PureComponent {
             <h2>{this.props.heading && this.props.heading}</h2>
             <br />
             <a href="/enterprise/meal-kit-startups">
-              <button type="button" className="btn-style-thirteen white">
+              <button type="button" className="btn-style-thirteen green">
                 {this.props.buttontext && this.props.buttontext}
               </button>
             </a>

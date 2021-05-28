@@ -4,7 +4,7 @@ import Footer from "../Footer.js";
 import "../style.css";
 import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection1";
 import BannerSection6 from "../components/shared/BannerSection6";
-import Bluebox from "../components/menumanagepage/Bluebox";
+import Bluebox3 from "../components/menumanagepage/Bluebox3";
 import BannerSection3 from "../components/shared/BannerSection3";
 export default class MenuManagementpage extends PureComponent {
   render() {
@@ -47,7 +47,17 @@ export default class MenuManagementpage extends PureComponent {
             "https://www.dailykit.org/hubfs/dailykit-assets/menu/give-life-to-your-menu2.gif"
           }
         />
-        <Bluebox />
+        <Bluebox3
+          heading={"Menu Management vs Menu Engineering"}
+          buttonlink={"/"}
+          buttontext={"Schedule A Meeting"}
+          leftpara={
+            "Menu management is a general menu building excercise done periodically and ideally before the start of business each day, where you simply build & discuss your menu, as well as specials and substitutions, rather than getting into the weeds of your customer's demands and desires. Novice businesses often miss out on the importance of menu engineering."
+          }
+          rightpara={
+            "Menu Engineering is Active & Modern Menu Management. Ask yourself: When was the last time you paid detailed attention to your menu and revamped it according to your customer's expectations? With increased competition, providing newer experiences to your customers is necessary to help you stand out and ultimately drive the success you wish for."
+          }
+        />
         <BannerSection6
           greenbuttontext={"Learn More"}
           buttonlink={"/"}

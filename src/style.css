@@ -1213,6 +1213,11 @@ banner-section1-description > ul,
   margin-top: 6rem;
   padding: 8rem 0rem 6rem;
 }
+.bannerSection9-container {
+  text-align: center;
+  margin-top: 1rem;
+  padding: 2rem 0rem 0rem 0rem;
+}
 .bluebox2-container {
   text-align: left;
   margin-top: 1.5rem;
@@ -1222,6 +1227,9 @@ banner-section1-description > ul,
   .image-section-1,
   .whychoose-container2 {
     padding: 160px 12px 60px 12px;
+  }
+  .bannerSection9-container {
+    padding: 2rem 12px 0rem 12px;
   }
   .bluebox2-container {
     padding: 2rem 12px 6rem 12px;

@@ -21,14 +21,7 @@ export default class BannerSection9 extends PureComponent {
             : `It is vital that no order slips through the cracks.
          Get Notifications where you want.`}
         </h6>
-        <div
-          class="container"
-          style={{
-            textAlign: "center",
-            marginTop: "1rem",
-            padding: "2rem 0rem 0rem 0rem",
-          }}
-        >
+        <div class="container bannerSection9-container">
           <div class="row justify-content-evenly">
             <div class="col-md-3 col-xs-10 p-4  justify-content-center">
               <img

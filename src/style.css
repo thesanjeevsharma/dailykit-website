@@ -731,13 +731,13 @@ small {
     width: 40vh;
   }
   .black_heading {
-    width: 40vh;
+    width: 100%;
     font-size: 3vh;
     line-height: 1.7rem;
     margin: 0rem 0rem 5rem -3rem !important;
   }
   .green_heading {
-    width: 35vh;
+    width: 100%;
     font-size: 3vh;
     line-height: 1.7rem;
     margin: 10rem 0rem 1rem -3rem !important;

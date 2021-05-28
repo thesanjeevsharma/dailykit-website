@@ -4,8 +4,6 @@ import map from "../../assets/map.svg";
 import link from "../../assets/link.svg";
 import photos from "../../assets/photos.svg";
 import "../../style.css";
-import SubHeading1 from "../shared/SubHeading";
-import Heading1 from "../shared/Heading";
 export default class OptimizeKitchen extends PureComponent {
   render() {
     return (

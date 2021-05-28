@@ -30,7 +30,7 @@ export default class BannerSection7 extends PureComponent {
                     backgroundSize: "cover",
                   }}
                 >
-                  <a href="#" class="btn pl-4 pr-4 list-styling">
+                  <a href="/" class="btn pl-4 pr-4 list-styling">
                     {this.props.list[0]}
                   </a>
                 </div>
@@ -46,7 +46,7 @@ export default class BannerSection7 extends PureComponent {
                     backgroundSize: "cover",
                   }}
                 >
-                  <a href="#" class="btn  pl-4 pr-4 list-styling">
+                  <a href="/" class="btn  pl-4 pr-4 list-styling">
                     {this.props.list[1]}
                   </a>
                 </div>
@@ -62,7 +62,7 @@ export default class BannerSection7 extends PureComponent {
                     backgroundSize: "cover",
                   }}
                 >
-                  <a href="#" class="btn pl-4 pr-4 list-styling">
+                  <a href="/" class="btn pl-4 pr-4 list-styling">
                     {this.props.list[2]}
                   </a>
                 </div>

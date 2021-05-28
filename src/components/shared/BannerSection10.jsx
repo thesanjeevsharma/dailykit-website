@@ -4,7 +4,7 @@ export default class BannerSection10 extends PureComponent {
   render() {
     return (
       <>
-        <div class="container" style={{ marginTop: "8rem" }}>
+        <div class="container" style={{ marginTop: "8rem" }} id={this.props.id}>
           <div class="row justify-content-between">
             {this.props.leftImage && (
               <div class="col-md-6 col-xs-10">

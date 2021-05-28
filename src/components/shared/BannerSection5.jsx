@@ -16,7 +16,9 @@ export default class BannerSection5 extends PureComponent {
               </div>
             )}
             <div class="col-md-6 col-xs-10 trend-responsive">
-              {this.props.icon && <img src={this.props.icon} width="120px" />}
+              {this.props.icon && (
+                <img src={this.props.icon} width="120px" alt=".." />
+              )}
               <h2
                 className="nunito blueboxHeading"
                 style={{ color: "#111b2b", marginTop: "-112px" }}

@@ -51,7 +51,7 @@ export default class BannerSection2 extends PureComponent {
           </div>
           {this.props.rightimageurl && (
             <div class="col-md-6 col-xs-10 leftimage1">
-              <img src={this.props.rightimageurl} alt="image" />
+              <img src={this.props.rightimageurl} alt="right-picture" />
             </div>
           )}
           {this.props.rightimagecarousel && (

@@ -6,14 +6,7 @@ export default class SpecialBanner2 extends PureComponent {
   render() {
     return (
       <div style={{ marginTop: "8rem" }}>
-        <div
-          class="container"
-          style={{
-            textAlign: "left",
-            marginTop: "4rem",
-            padding: "2rem 0rem 6rem 0rem",
-          }}
-        >
+        <div class="container bluebox2-container">
           {this.props.SubHeading2text && (
             <SubHeading1 text={this.props.SubHeading2text} />
           )}

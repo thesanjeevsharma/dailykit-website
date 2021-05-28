@@ -65,9 +65,16 @@ export default class Orderfulfillmentpage extends PureComponent {
             },
           ]}
         />
-        <SpecialBanner3  SubHeading2text={"Order Tracking"}
+        <SpecialBanner3
+          SubHeading2text={"Order Tracking"}
           Heading1text={"Customer or Operator? Track Orders the Same Way!"}
-          />
+          imageurl1={
+            "https://www.dailykit.org/hubfs/dailykit-assets/order-fulfilment/consumer@2x.png"
+          }
+          imageurl2={
+            "https://www.dailykit.org/hubfs/dailykit-assets/order-fulfilment/operator@2x-1.png"
+          }
+        />
         <BannerSection8
           heading={"Seamless Order Fulfillment"}
           subheading={""}

@@ -516,8 +516,16 @@ small {
 .gamify {
   text-align: left;
 }
-
+.marginleft-2 {
+  margin-left: 0rem;
+}
 @media only screen and (max-width: 600px) {
+  .blackline2 {
+    display: none;
+  }
+  .marginleft-2 {
+    margin-left: 2rem;
+  }
   .trend-responsive,
   .gamify {
     text-align: center;
@@ -787,7 +795,7 @@ small {
     font-weight: 10px !important;
     text-align: left;
     width: 100vw;
-    margin-left: -2rem;
+    margin-left: -0.5rem;
   }
   .bluebox-image,
   .bluebox-imagecontainer {

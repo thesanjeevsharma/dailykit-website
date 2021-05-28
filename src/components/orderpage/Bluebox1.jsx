@@ -31,7 +31,6 @@ export default class Bluebox1 extends PureComponent {
                 textAlign: "right",
               }}
             >
-              {" "}
               <div class="row justify-content-end mb-4 mt-4">
                 <div class="col-md-10 col-xs-10 bluebox-col1heading">
                   {this.props.col1heading}
@@ -93,10 +92,10 @@ export default class Bluebox1 extends PureComponent {
             >
               {" "}
               <div class="row justify-content-start mb-4 mt-4">
-                <div class="col-md-2 col-xs-10 ml-2">
+                <div class="col-md-2 col-xs-10">
                   <img
                     src={corrugatedBox}
-                    alt=".."
+                    alt="..."
                     width="90px"
                     class="bluebox-imageicon"
                   />

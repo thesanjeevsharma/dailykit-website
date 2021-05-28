@@ -716,7 +716,7 @@ small {
 /* ////////meal-kit-brand-sidebar-heading */
 @media only screen and (max-width: 600px) {
   .sidebar_heading {
-    margin-left: -0.5rem;
+    margin-left: 1rem;
     width: 40vh;
     margin-top: -7rem;
     font-size: 19px;
@@ -734,13 +734,13 @@ small {
     width: 40vh;
     font-size: 3vh;
     line-height: 1.7rem;
-    margin: 0rem 0rem 5rem -4rem !important;
+    margin: 0rem 0rem 5rem -3rem !important;
   }
   .green_heading {
     width: 35vh;
     font-size: 3vh;
     line-height: 1.7rem;
-    margin: 10rem 0rem 4rem -4rem !important;
+    margin: 10rem 0rem 1rem -3rem !important;
   }
   .imagebox-start-mealkit-brand {
     width: 20rem;

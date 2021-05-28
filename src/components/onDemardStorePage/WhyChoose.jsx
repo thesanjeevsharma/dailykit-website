@@ -133,14 +133,7 @@ export default class WhyChoose extends PureComponent {
             marginTop: "6rem",
           }}
         >
-          <div
-            class="container"
-            style={{
-              textAlign: "left",
-              marginTop: "6rem",
-              padding: "8rem 0rem 6rem 0rem",
-            }}
-          >
+          <div class="container whychoose-container2">
             <div class="row justify-content-evenly">
               <div class="col-md-3 col-xs-10 p-4 column2">
                 <img
@@ -179,43 +172,39 @@ export default class WhyChoose extends PureComponent {
                   Configure Inventory, Packaging and Product Labels.
                 </small>
               </div>
-              <div class="row justify-content-evenly">
-                <div class="col-md-3 col-xs-10 p-4 column2">
-                  <img
-                    alt="icon"
-                    src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/Smart%20Insights.svg"
-                    style={{ width: "30px" }}
-                  />{" "}
-                  <h5 style={{ display: "inline" }}>Smart Insights</h5>
-                  <br />
-                  <small>
-                    Automated Sales Reports with conversion details.
-                  </small>
-                </div>
-                <div class="col-md-3 col-xs-10 p-4 column2">
-                  <img
-                    alt="icon"
-                    src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/Discounts%20%26%20Coupons.svg"
-                    style={{ width: "30px" }}
-                  />
-                  <h5 style={{ display: "inline" }}>Discounts & Coupons</h5>
-                  <br />
-                  <small>
-                    Create Smart Rewards, Vouchers and more from CRM
-                  </small>
-                </div>
-                <div class="col-md-3 col-xs-10 p-4 column2">
-                  <img
-                    alt="icon"
-                    src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/Delivery%20Integrations.svg"
-                    style={{ width: "30px" }}
-                  />
-                  <h5 style={{ display: "inline" }}> Delivery Integrations</h5>
-                  <br />
-                  <small>
-                    Supporting Selected Delivery Partners in your Area.
-                  </small>
-                </div>
+            </div>
+            <div class="row justify-content-evenly">
+              <div class="col-md-3 col-xs-10 p-4 column2">
+                <img
+                  alt="icon"
+                  src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/Smart%20Insights.svg"
+                  style={{ width: "30px" }}
+                />{" "}
+                <h5 style={{ display: "inline" }}>Smart Insights</h5>
+                <br />
+                <small>Automated Sales Reports with conversion details.</small>
+              </div>
+              <div class="col-md-3 col-xs-10 p-4 column2">
+                <img
+                  alt="icon"
+                  src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/Discounts%20%26%20Coupons.svg"
+                  style={{ width: "30px" }}
+                />
+                <h5 style={{ display: "inline" }}>Discounts & Coupons</h5>
+                <br />
+                <small>Create Smart Rewards, Vouchers and more from CRM</small>
+              </div>
+              <div class="col-md-3 col-xs-10 p-4 column2">
+                <img
+                  alt="icon"
+                  src="https://www.dailykit.org/hubfs/dailykit-assets/sell-why%20choose%20us/Delivery%20Integrations.svg"
+                  style={{ width: "30px" }}
+                />
+                <h5 style={{ display: "inline" }}> Delivery Integrations</h5>
+                <br />
+                <small>
+                  Supporting Selected Delivery Partners in your Area.
+                </small>
               </div>
             </div>
           </div>

@@ -6,7 +6,6 @@ import EndToEndFoodBusiness from "../components/marketpage/EndToEndFoodBusiness"
 import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection1";
 import Heading from "../components/shared/Heading";
 import BannerSection8 from "../components/shared/BannerSection8";
-import Weighingimage from "../components/orderpage/SpecialBanner4";
 import BannerSection9 from "../components/shared/BannerSection9";
 import SpecialBanner1 from "../components/shared/SpecialBanner1";
 import SpecialBanner4 from "../components/orderpage/SpecialBanner4";
@@ -22,7 +21,7 @@ export default class Portioncontrolpage extends PureComponent {
           imageurl={
             "https://www.dailykit.org/hubfs/dailykit-assets/portion-control/idiotproof-banner.png"
           }
-          button1text={"Get Started Now" }
+          button1text={"Get Started Now"}
           button2text={"Free Demo"}
         />
         <BannerSection9

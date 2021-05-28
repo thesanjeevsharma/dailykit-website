@@ -31,6 +31,7 @@ export default class Weservepage extends PureComponent {
 
             "Mitigate Risk & Achieve Sustainability",
           ]}
+          id="supermarkets"
         />
         <BannerSection10
           subheading={"For Cloud Kitchens"}
@@ -43,6 +44,7 @@ export default class Weservepage extends PureComponent {
           }
           list1={["Incorporate Trending Sales Channels", "Optimize Operations"]}
           list2={["Multiple Brands - One Solution", "Built for The Future"]}
+          id="restaurants"
         />
         <AnERP />
 

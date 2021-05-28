@@ -3,7 +3,7 @@ import "../../style.css";
 export default class ScheduleMeetingSection1 extends PureComponent {
   render() {
     return (
-      <div className="container schedule-meeting-section1">
+      <div className="container schedule-meeting-section1" id="scheduleDemo">
         <div class="row justify-content-between schedule-meeting-box1">
           <div class="col-md-5 col-xs-10 ">
             <h2 className="nunito">{this.props.heading}</h2>

@@ -43,7 +43,6 @@ export default class Navbar extends PureComponent {
                     marginLeft: "0.7rem",
                     fontSize: "14px",
                   }}
-                  href="#"
                   id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -105,7 +104,6 @@ export default class Navbar extends PureComponent {
                     marginLeft: "0.7rem",
                     fontSize: "14px",
                   }}
-                  href="#"
                   id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -221,7 +219,6 @@ export default class Navbar extends PureComponent {
                     marginLeft: "0.7rem",
                     fontSize: "14px",
                   }}
-                  href="#"
                   id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -241,7 +238,6 @@ export default class Navbar extends PureComponent {
                         fontSize: "14px",
                       }}
                       className="dropdown-item"
-                      href="#"
                     >
                       For Restaurants ▼
                     </a>
@@ -265,7 +261,6 @@ export default class Navbar extends PureComponent {
                         fontSize: "14px",
                       }}
                       className="dropdown-item"
-                      href="#"
                     >
                       For Enterprise ▼
                     </a>
@@ -320,7 +315,6 @@ export default class Navbar extends PureComponent {
                         fontSize: "14px",
                       }}
                       className="dropdown-item"
-                      href="#"
                     >
                       Meal Kit Guides ▼
                     </a>
@@ -331,7 +325,7 @@ export default class Navbar extends PureComponent {
                         </a>
                       </li>
                       <li>
-                        <a href="#">The Meal Kit Marketing Guide ▼</a>
+                        <a>The Meal Kit Marketing Guide ▼</a>
                         <ul className="special-styling">
                           <li>
                             <a href="/meal-kit-guides/meal-kit-guides/how-to-decide-your-meal-kits">
@@ -366,7 +360,6 @@ export default class Navbar extends PureComponent {
                         fontSize: "14px",
                       }}
                       className="dropdown-item"
-                      href="#"
                     >
                       Start Meal Kit Brand ▼
                     </a>
@@ -391,7 +384,6 @@ export default class Navbar extends PureComponent {
                         fontSize: "14px",
                       }}
                       className="dropdown-item"
-                      href="#"
                     >
                       Case study ▼
                     </a>
@@ -411,7 +403,6 @@ export default class Navbar extends PureComponent {
                         fontSize: "14px",
                       }}
                       className="dropdown-item"
-                      href="#"
                     >
                       Do more ▼
                     </a>
@@ -441,7 +432,6 @@ export default class Navbar extends PureComponent {
                     marginLeft: "0.7rem",
                     fontSize: "14px",
                   }}
-                  href="#"
                   id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -496,7 +486,7 @@ export default class Navbar extends PureComponent {
                     marginLeft: "0.7rem",
                     fontSize: "14px",
                   }}
-                  href="/ScheduleDemo"
+                  href="/#scheduleDemo"
                 >
                   Schedule Demo
                 </a>

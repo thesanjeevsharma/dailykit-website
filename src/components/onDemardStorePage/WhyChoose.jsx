@@ -10,15 +10,12 @@ export default class WhyChoose extends PureComponent {
           marginBottom: "1.2rem",
         }}
       >
-        <h1 className="nunito blueboxHeading" style={{ color: "#111b2b" }}>
-          Why Choose DailyKIT
-        </h1>
-        <p class="why_choose">
-          Are You Using A Plain Old Micro-Site For Online Ordering Or Worse, Do
-          You Not Have An Online Store?
-          <br /> It’s Vital To The Success Of Your Business To Have A
-          Professional Looking Onine Store.
-        </p>
+        {this.props.heading && (
+          <h1 className="nunito blueboxHeading" style={{ color: "#111b2b" }}>
+            {this.props.heading}
+          </h1>
+        )}
+        {this.props.subpara && <p class="why_choose">{this.props.subpara}</p>}
         {/* categories */}
         <div class="container" style={{ textAlign: "left" }}>
           <div class="row justify-content-center">
@@ -118,9 +115,9 @@ export default class WhyChoose extends PureComponent {
             </div>
           </div>
         </div>
-        <a href="/">
+        <a href={this.props.buttonlink}>
           <button type="button" class="btn-style-thirteen green">
-            Schedule A Demo
+            {this.props.buttontext}
           </button>
         </a>
 

@@ -78,7 +78,14 @@ export default class OnDemandStorepage extends PureComponent {
           blackbuttontext={"TELL ME MORE"}
           buttonlink={"/"}
         />
-        <WhyChoose />
+        <WhyChoose
+          heading={"Why Choose DailyKIT"}
+          subpara={
+            "Are You Using A Plain Old Micro-Site For Online Ordering Or Worse, Do You Not Have An Online Store? It’s Vital To The Success Of Your Business To Have A Professional Looking Onine Store."
+          }
+          buttontext={"Schedule A Demo"}
+          buttonlink={"/"}
+        />
         <ScheduleMeetingSection1
           heading={"Schedule an E-Meeting"}
           image={

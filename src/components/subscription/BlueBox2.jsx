@@ -5,7 +5,7 @@ import location from "../../assets/location.svg";
 import ccTimer from "../../assets/cc-timer.svg";
 import calenderTimer from "../../assets/calendar-timer.svg";
 import dollarTruck from "../../assets/dollarTruck.svg";
-export default class BlueBox extends PureComponent {
+export default class BlueBox2 extends PureComponent {
   render() {
     return (
       <div>
@@ -18,16 +18,9 @@ export default class BlueBox extends PureComponent {
         >
           <div style={{ color: "#111B2B" }}>.</div>
           <div className="nunito text-center blueboxHeading">
-            Don't Just Manage, Own it.
+            {this.props.heading}
           </div>
-          <div
-            class="container"
-            style={{
-              textAlign: "left",
-              marginTop: "1.5rem",
-              padding: "2rem 0rem 6rem 0rem",
-            }}
-          >
+          <div class="container bluebox2-container">
             <div class="row justify-content-evenly mb-4">
               <div class="col-md-3 col-xs-10 column3 justify-content-center">
                 <h5
@@ -230,13 +223,7 @@ export default class BlueBox extends PureComponent {
               color: "white",
             }}
           >
-            <div
-              class="container"
-              style={{
-                textAlign: "left",
-                padding: "1rem 0rem 6rem 0rem",
-              }}
-            >
+            <div class="container bluebox2-container">
               <div class="row justify-content-evenly">
                 <div class="col-md-5 col-xs-10 column3">
                   <img

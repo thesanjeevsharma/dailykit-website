@@ -1213,10 +1213,18 @@ banner-section1-description > ul,
   margin-top: 6rem;
   padding: 8rem 0rem 6rem;
 }
+.bluebox2-container {
+  text-align: left;
+  margin-top: 1.5rem;
+  padding: 2rem 0rem 6rem 0rem;
+}
 @media only screen and (max-width: 479px) {
   .image-section-1,
   .whychoose-container2 {
     padding: 160px 12px 60px 12px;
+  }
+  .bluebox2-container {
+    padding: 2rem 12px 6rem 12px;
   }
   .banner-section1-description > h2 {
     font-size: 30px;

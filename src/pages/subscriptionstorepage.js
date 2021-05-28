@@ -4,7 +4,7 @@ import Footer from "../Footer.js";
 import "../style.css";
 import ScheduleMeetingSection1 from "../components/shared/ScheduleMeetingSection1";
 import WhyChoose from "../components/onDemardStorePage/WhyChoose";
-import BlueBox from "../components/subscription/BlueBox";
+import BlueBox2 from "../components/subscription/BlueBox2";
 import BannerSection2 from "../components/shared/BannerSection2";
 import BannerSection3 from "../components/shared/BannerSection3";
 import BannerSection5 from "../components/shared/BannerSection5";
@@ -36,7 +36,7 @@ export default class SubscriptionStorepage extends PureComponent {
           ]}
         />
 
-        <BlueBox />
+        <BlueBox2 heading={"Don't Just Manage, Own it."} />
         <BannerSection5
           heading={"Taking Your Store Beyond & Above"}
           description={

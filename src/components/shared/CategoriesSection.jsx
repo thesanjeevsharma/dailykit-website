@@ -3,7 +3,7 @@ import "../../style.css";
 export default class Categoriessection extends PureComponent {
   render() {
     return (
-      <div class="container" class="categoriesSection">
+      <div class="container categoriesSection">
         <div class="row justify-content-around categories">
           {this.props.list.map((item) => {
             return (
